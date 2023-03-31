@@ -1,2 +1,27 @@
 * annex.backend=MD5E
 **/.git* annex.largefiles=nothing
+metadata/aggregate* annex.largefiles=nothing
+metadata/objects/** annex.largefile=(anything)
+
+# Include in git-annex
+#----------------------
+
+# All binary files
+* annex.largefiles=((mimeencoding=binary)and(largerthan=0))
+
+# Office files
+*.docx annex.largefiles=((largerthan=0))
+*.doc annex.largefiles=((largerthan=0))
+*.xlsx annex.largefiles=((largerthan=0))
+*.xlsm annex.largefiles=((largerthan=0))
+*.xls annex.largefiles=((largerthan=0))
+*.pptx annex.largefiles=((largerthan=0))
+*.ppt annex.largefiles=((largerthan=0))
+
+# Leave the following file types out of git-annex
+#-------------------------------------------------
+*.md annex.largefiles=nothing
+*.jpg annex.largefiles=nothing
+*.jpeg annex.largefiles=nothing
+*.png annex.largefiles=nothing
+*.heic annex.largefiles=nothing
