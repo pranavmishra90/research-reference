@@ -2,6 +2,7 @@
 
 - [Phosphate Buffered Saline (PBS)](#phosphate-buffered-saline-pbs)
 	- [Overview](#overview)
+		- [Uses](#uses)
 	- [Components](#components)
 	- [Preparation for 1L of 1x PBS](#preparation-for-1l-of-1x-pbs)
 	- [Preparation for 1L of 10x PBS](#preparation-for-1l-of-10x-pbs)
@@ -9,11 +10,13 @@
 
 
 ## Overview
-Uses: washing tissues, cells, common base solvent in many solutions. Similar pH, electrolytes, and osmolarity to the human body.
+Similar pH, electrolytes, and osmolarity to the human body.
 
 - Concentration: 1x
 - pH 7.4
-
+### Uses
+- Washing tissues, cells
+- Common base solvent in many solutions.
 ## Components
 1. $NaCl$
 2. $KCl$
