@@ -1,3 +1,13 @@
+---
+title: 4% Paraformaldehyde (10% Formalin)
+description: Protocol to make 4% Paraformaldehyde (10% Formalin) in Phosphate Buffered saline (PBS)
+tags:
+  - solvent
+  - recipe
+categories:
+  - solvent
+  - wet-lab
+---
 # 4% Paraformaldehyde (10% Formalin)
 
 ## Overview
@@ -8,7 +18,7 @@ The term "Formalin" specifically refers to a saturated solution of Formaldehyde,
 Fixing tissue
 
 ## Components
-1. $diH_20$
+1. $diH_2O$
 2. $HCl$ (Dilute)
 3. $NaOH$  (1 N)
 4. Paraformaldehyde powder (Sigma Aldrich Cat 158127-500G)
