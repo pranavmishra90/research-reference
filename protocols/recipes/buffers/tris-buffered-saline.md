@@ -1,14 +1,12 @@
----
-title: Protocol to make Tris-Buffered Saline (TBS)
-description: Protocol to make Tris-Buffered Saline (TBS)
-tags:
-  - solvent
-  - recipe
-categories:
-  - solvent
-  - wet-lab
-draft: true
----
+# Protocol to make Tris-Buffered Saline (TBS)
+
+- [Protocol to make Tris-Buffered Saline (TBS)](#protocol-to-make-tris-buffered-saline-tbs)
+  - [Overview](#overview)
+    - [Uses](#uses)
+  - [Components](#components)
+  - [Protocol](#protocol)
+    - [10x stock solution](#10x-stock-solution)
+    - [1x TBS solution with 20% methanol](#1x-tbs-solution-with-20-methanol)
 
 ## Overview
 Tris (trishydroxymethylaminomethane) $(HOCH_2)_3CNH_2$ has an effective buffer range between 7.1 and 9.1 (pKa 8.07 at $25 ^\circ C$)

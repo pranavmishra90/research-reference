@@ -1,14 +1,12 @@
----
-title: 4% Paraformaldehyde (10% Formalin)
-description: Protocol to make 4% Paraformaldehyde (10% Formalin) in Phosphate Buffered saline (PBS)
-tags:
-  - solvent
-  - recipe
-categories:
-  - solvent
-  - wet-lab
----
 # 4% Paraformaldehyde (10% Formalin)
+- [4% Paraformaldehyde (10% Formalin)](#4-paraformaldehyde-10-formalin)
+  - [Overview](#overview)
+    - [Uses](#uses)
+  - [Components](#components)
+  - [Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)](#protocol-preparation-of-1-liter-of-4-pfa-10-formalin)
+  - [Storage](#storage)
+  - [References](#references)
+
 
 ## Overview
 
