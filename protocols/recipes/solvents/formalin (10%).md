@@ -1,5 +1,5 @@
-# 4% Paraformaldehyde (10% Formalin)
-- [4% Paraformaldehyde (10% Formalin)](#4-paraformaldehyde-10-formalin)
+# 10% Formalin (4% Paraformaldehyde)
+- [10% Formalin (4% Paraformaldehyde)](#10-formalin-4-paraformaldehyde)
   - [Overview](#overview)
     - [Uses](#uses)
   - [Components](#components)
