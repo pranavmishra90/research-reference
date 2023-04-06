@@ -49,7 +49,7 @@ Running buffer for Western Blot
 ### Key resources table
 
 <table>
-  <tbody>
+  <thead> 
     <tr>
       <td width="350">
         <p><strong>REAGENT or RESOURCE</strong></p>
@@ -60,6 +60,8 @@ Running buffer for Western Blot
       <td width="150">
         <p><strong>IDENTIFIER</strong></p>
       </td>
+  </thead>    
+  <tbody>
     <tr>
       <td colspan="3" width="650">
         <p><i>Chemicals<i></p>

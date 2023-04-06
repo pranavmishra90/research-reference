@@ -5,8 +5,9 @@
     - [Uses](#uses)
   - [Components](#components)
   - [Protocol](#protocol)
+    - [Comparison of TBS concentrations at 1x](#comparison-of-tbs-concentrations-at-1x)
     - [10x stock solution](#10x-stock-solution)
-    - [1x TBS solution with 20% methanol](#1x-tbs-solution-with-20-methanol)
+    - [1x TBS solution](#1x-tbs-solution)
   - [Notes](#notes)
   - [References](#references)
   - [Supplemental](#supplemental)
@@ -22,76 +23,111 @@ Wash buffer in Western Blots
 - $diH_2O$
 - *Tris Base* (Ficher BP154-1)
   - Alternate Trizma HCl 24.23g
-- $NaCl$
+- $12 N\space HCl$
 - $HCl$
-- $Methanol$
 
 ## Protocol
+
+### Comparison of TBS concentrations at 1x
+
+| Component      | Abcam (mM) | Abcam (g) | Thermo (mM)| Thermo (g)|
+| ----------- |  :----:  |  :----: |  :----:  |  :----: |
+| Tris base|20|2.4|20|2.4|
+| NaCl|150|8.8|150|8.8|
+
 
 ### 10x stock solution
 We will be preparing 1L of 10x TBS for a stock solution.
 
 1. Add 800 mL of $diH_2O$ to orange top container
-2. Dissolve 18.62 g of *Tris Base* and 80.06 g $NaCl$ into the container
-3. Titrate the pH with $HCl$ to 7.6
+2. Dissolve 24 g of *Tris Base* and 88 g $NaCl$ into the container
+3. Titrate the pH with $12 N\space HCl$ to 7.6
 4. Add $diH_2O$ to bring the total volume to 1 L
 
 
 **10x concentrations:**
-- Tris 153.7 mM
-- $NaCl$ 1369.9 mM
+- Tris 200 mM
+- $NaCl$ 1500 mM
   
 
-### 1x TBS solution with 20% methanol
+### 1x TBS solution
 using the 10x solution described above
 
 1. Add 100 mL of *10x TBS solution* to an orange top container
-2. Add 700 mL of $diH_2O$
-3. Add 200 mL of $Methanol$
+2. Add 900 mL of $diH_2O$
+3. Adjust pH to 7.6 using $12 N\space HCl$
 
 **1x concentrations:**
-- Tris 15.4 mM
-- $NaCl$ 137 mM
+- Tris 20 mM
+- $NaCl$ 150 mM
   
 ## Notes
-We are substituting Tris Base for *Trizma HCl* from the original Abcam protocol <sup>1</sup>. 157.6 g of *Trizma HCl* in 1L yields a 153.7 mM concentration. We substitute 18.62 g of *Tris Base* to obtain the same 153.7 mM concentration.
+Abcam and Thermo have protocols in agreement. Phosphosolutions proposes 2mM Tris, 14 mM NaCl, 0.1% Tween-20, pH 7.6. 
 
 ## References
-1. Abcam. Transfer and staining of proteins in western blot. Abcam. https://www.abcam.com/protocols/transfer-and-staining-of-proteins-in-western-blot
+1. Western blot buffers and stock solutions. Abcam. https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot#TBS-10x
+2. Western Blot Protocols and Recipes. ThermoFicher Scientific. https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-gel-electrophoresis-information/western-blot-protocols.html
+
+
 
 ---
 
 ## Supplemental
 
 ### Key resources table
+
 <table>
-  <tbody>
-    <tr>
-      <td width="350">
-        <p><strong>REAGENT or RESOURCE</strong></p>
-      </td>
-      <td width="150">
-        <p><strong>SOURCE</strong></p>
-      </td>
-      <td width="150">
-        <p><strong>IDENTIFIER</strong></p>
-      </td>
-    <tr>
-      <td colspan="3" width="650">
-        <p>Chemicals</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Tris Base</p>
-      </td>
-      <td>
-        <p>Ficher</p>
-      </td>
-      <td>
-        <p>Cat# BP154-1</p>
-      </td>
-    </tr>
-	<tr>
-  </tbody>
+<tbody>
+<tr>
+<td width="350">
+  <p><strong>REAGENT or RESOURCE</strong></p>
+</td>
+<td width="150">
+  <p><strong>SOURCE</strong></p>
+</td>
+<td width="150">
+  <p><strong>IDENTIFIER</strong></p>
+</td>
+</tr>
+
+<tr>
+<td colspan="3" width="650">
+  <p>Chemicals</p>
+</td>
+</tr>
+<tr>
+<td>
+  <p>Tris Base</p>
+</td>
+<td>
+  <p>Ficher</p>
+</td>
+<td>
+  <p>Cat# BP154-1</p>
+</td>
+</tr>
+<tr>
+<td>
+  <p>NaCl</p>
+</td>
+<td>
+  <p>Ficher</p>
+</td>
+<td>
+  <p>Cat# S640-10</p>
+</td>
+</tr>
+<tr>
+<td>
+  <p>HCl</p>
+</td>
+<td>
+  <p></p>
+</td>
+<td>
+  <p></p>
+</td>
+</tr>
+</tbody>
 </table>
+
