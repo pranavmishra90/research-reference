@@ -55,7 +55,7 @@ using the 10x solution described above
 
 1. Add 100 mL of *10x TBS solution* to an orange top container
 2. Add 900 mL of $diH_2O$
-3. Adjust pH to 7.6 using $12 N\space HCl$
+3. Adjust pH to 7.6 using $12 N\space HCl$ (currently have 2N stock in the lab, will require more acid being used to neutralize)
 
 **1x concentrations:**
 - Tris 20 mM
@@ -63,6 +63,8 @@ using the 10x solution described above
   
 ## Notes
 Abcam and Thermo have protocols in agreement. Phosphosolutions proposes 2mM Tris, 14 mM NaCl, 0.1% Tween-20, pH 7.6. 
+
+We currently have 2N HCl stock in the lab, so it requires significantly more HCl added to neutralize the Tris Base.
 
 ## References
 1. Western blot buffers and stock solutions. Abcam. https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot#TBS-10x
@@ -122,10 +124,10 @@ Abcam and Thermo have protocols in agreement. Phosphosolutions proposes 2mM Tris
   <p>HCl</p>
 </td>
 <td>
-  <p></p>
+  <p>Lab stock</p>
 </td>
 <td>
-  <p></p>
+  <p>Lab Stock</p>
 </td>
 </tr>
 </tbody>
