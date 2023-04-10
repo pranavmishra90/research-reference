@@ -50,7 +50,7 @@ Concentrations of Tris and Glycine differ from ThermoFicher's protocols<sup>2</s
 | Component| Abcam (mM) | Thermo (mM)|
 | ----------- |  :----:  | :----:  |
 | Tris base|25|12.5|
-| NaCl|190|96|
+| Glycine|190|96|
 
 ## References
 1. Transfer and staining of proteins in western blot. Abcam. https://www.abcam.com/protocols/transfer-and-staining-of-proteins-in-western-blot
