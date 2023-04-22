@@ -1,6 +1,9 @@
 ---
 title: "Listing Example"
 listing:
-  contents: molecular-biology
-  type: grid
+  contents: recipes
+  type: table
+  categories: true
+  sort:
+  - "title desc"
 ---
