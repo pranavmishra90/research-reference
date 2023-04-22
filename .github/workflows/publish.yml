@@ -1,9 +1,13 @@
 on:
   workflow_dispatch:
   push:
-    branches: main
+    branches: 
+      - main
+      - 'releases/**'
   pull_request:
-    types: [opened, review_requested]
+    types: [opened, ready_for_review, review_requested]
+  pull_request_review_comment:
+    types: [created, deleted]
 name: Quarto Publish
 
 jobs:
