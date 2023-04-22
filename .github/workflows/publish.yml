@@ -3,9 +3,10 @@ on:
   push:
     branches: 
       - main
+      - develop
       - 'releases/**'
   pull_request:
-    types: [opened, ready_for_review, review_requested]
+    types: [opened, assigned, ready_for_review, review_requested]
   pull_request_review_comment:
     types: [created, deleted]
 name: Quarto Publish
