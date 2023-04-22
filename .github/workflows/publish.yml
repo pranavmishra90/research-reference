@@ -2,7 +2,8 @@ on:
   workflow_dispatch:
   push:
     branches: main
-
+  pull_request:
+    types: [opened, review_requested]
 name: Quarto Publish
 
 jobs:
@@ -12,14 +13,17 @@ jobs:
       contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # To install LaTeX to build PDF book 
+          tinytex: true 
 
-      - name: Render and Publish
+      - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
