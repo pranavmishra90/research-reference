@@ -1,5 +1,16 @@
-# 10% Formalin (4% Paraformaldehyde)
-
+---
+title: "10% Formalin (4% Paraformaldehyde)"
+date: last-modified
+date-format: full
+author:
+  - name: Pranav Mishra
+    url: https://drpranavmishra.com
+    orcid: 0000-0001-5219-6269 
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu 
+citation: true
+google-scholar: true
+---
 ## Overview
 
 The term "Formalin" specifically refers to a saturated solution of Formaldehyde, which is 37% w/v or about 40% v/v. This is a rather high concentration of formaldehyde. A common dilution is a 1:10, which is referred to as *10% Formalin* or *4% Formaldehyde (aka 4% Paraformaldehyde)*. "Paraformaldehyde" technically refers to a polymerized form of formaldehyde which is stable at room temperature without the addition of methanol. Upon addition to an aqueous solution, it dissolves into formaldehyde by breaking the polymer chain.

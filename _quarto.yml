@@ -6,8 +6,6 @@ project:
     browser: true
     watch-inputs: true
     timeout: 600
-  render:
-    - "templates/"
 
 
 website:
@@ -22,7 +20,6 @@ website:
   sidebar:
     style: "docked"
     contents: auto
-    pinned: true
   page-footer: "Pranav Mishra || License CC-BY-SA" 
   reader-mode: true
   repo-url: https://github.com/pranavmishra90/research-reference

@@ -1,4 +1,17 @@
-# Recipe: Tris-Glycine Transfer Buffer
+---
+title: "Tris-Glycine Transfer Buffer"
+date: last-modified
+date-format: full
+author:
+  - name: Pranav Mishra
+    url: https://drpranavmishra.com
+    orcid: 0000-0001-5219-6269 
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu 
+citation: true
+google-scholar: true
+---
+
 
 ## Overview
 Tris-Gycine Transfer Buffer has a pH of 8.3. Protocol adapted from Abcam<sup>1</sup>
@@ -12,6 +25,7 @@ Transfer buffer used in Western Blots
 - $HCl$
 - 100% *Methanol*
 - $diH_2O$
+
 ## Protocol
 
 ### 10x Stock of Transfer Buffer
@@ -36,10 +50,10 @@ Transfer buffer used in Western Blots
 Concentrations of Tris and Glycine differ from ThermoFicher's protocols<sup>2</sup>, which recommend a 12.5 mM of Tris and 96 mM Glycine.
 
 
-| Component| Abcam (mM) | Thermo (mM)|
-| ----------- |  :----:  | :----:  |
-| Tris base|25|12.5|
-| Glycine|190|96|
+| Component 	| Abcam (mM) 	| Thermo (mM) 	|
+|-----------	|------------	|-------------	|
+| Tris base 	| 25         	| 12.5        	|
+| Glycine   	| 190        	| 96          	|
 
 ## References
 1. Transfer and staining of proteins in western blot. Abcam. https://www.abcam.com/protocols/transfer-and-staining-of-proteins-in-western-blot
@@ -53,70 +67,10 @@ Concentrations of Tris and Glycine differ from ThermoFicher's protocols<sup>2</s
 
 ### Key resources table
 
-<table>
-  <thead> 
-    <tr>
-      <td width="350">
-        <p><strong>REAGENT or RESOURCE</strong></p>
-      </td>
-      <td width="150">
-        <p><strong>SOURCE</strong></p>
-      </td>
-      <td width="150">
-        <p><strong>IDENTIFIER</strong></p>
-      </td>
-  </thead>    
-  <tbody>
-    <tr>
-      <td colspan="3" width="650">
-        <p><i>Chemicals<i></p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Tris Base</p>
-      </td>
-      <td>
-        <p>Ficher</p>
-      </td>
-      <td>
-        <p>Cat# BP154-1</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Glycine</p>
-      </td>
-      <td>
-        <p>Sigma</p>
-      </td>
-      <td>
-        <p>Cat# G-7126</p>
-      </td>
-    </tr>
-	    <tr>
-      <td>
-        <p>100% Methanol</p>
-      </td>
-      <td>
-        <p>Ficher</p>
-      </td>
-      <td>
-        <p>Cat# A412-4</p>
-      </td>
-    </tr>
-    </tr>
-	    <tr>
-      <td>
-        <p>HCl</p>
-      </td>
-      <td>
-        <p></p>
-      </td>
-      <td>
-        <p></p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+| REAGENT OR RESOURCE | SOURCE    | IDENTIFIER   |
+|---------------------|-----------|--------------|
+| Chemicals           |           |              |
+| Tris Base           | Ficher    | Cat# BP154-1 |
+| Glycine             | Sigma     | Cat# G-7126  |
+| 100% Methanol       | Ficher    | Cat# A412-4  |
+| HCl                 | Lab Stock | N/A          |

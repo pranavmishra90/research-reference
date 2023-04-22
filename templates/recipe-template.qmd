@@ -1,4 +1,15 @@
-# Recipe: Name
+---
+title: "Recipe: Template" # Change this
+date: last-modified
+date-format: full
+author:
+  - name: Pranav Mishra
+    url: https://drpranavmishra.com
+    orcid: 0000-0001-5219-6269 
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu 
+citation: true
+---
 
 ## Overview
 Description of chemical here
