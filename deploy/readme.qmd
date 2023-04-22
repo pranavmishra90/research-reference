@@ -1,5 +1,5 @@
 ---
-title: "Steps to creating a remotes on GitHub and GIN, using GIN as the common data source"
+title: "Datalad with GitHub and GIN siblings"
 date: last-modified
 date-format: full
 author:
