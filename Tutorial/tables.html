@@ -8,7 +8,7 @@
 
 <meta name="author" content="Pranav Mishra">
 
-<title>Research Reference - Datalad with GitHub and GIN siblings</title>
+<title>Research Reference - Adding tables easily to this site</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -125,16 +125,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Research Reference - Datalad with GitHub and GIN siblings">
+<meta property="og:title" content="Research Reference - Adding tables easily to this site">
+<meta property="og:description" content="To easily interchange between the formats, paste your table into https://tablesgenerator.com/markdown_tables">
 <meta property="og:site-name" content="Research Reference">
-<meta name="citation_title" content="Datalad with GitHub and GIN siblings">
-<meta name="citation_author" content="Pranav Mishra">
-<meta name="citation_publication_date" content="2023-04-22">
-<meta name="citation_cover_date" content="2023-04-22">
-<meta name="citation_year" content="2023">
-<meta name="citation_online_date" content="2023-04-22">
-<meta name="citation_fulltext_html_url" content="https://github.com/pranavmishra90/research-reference/readme.html">
-<meta name="citation_language" content="en-US">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -176,7 +169,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Datalad with GitHub and GIN siblings</h1>
+      <h1 class="quarto-secondary-nav-title">Adding tables easily to this site</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -204,7 +197,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../deploy/readme.html" class="sidebar-item-text sidebar-link active">Datalad with GitHub and GIN siblings</a>
+  <a href="../deploy/readme.html" class="sidebar-item-text sidebar-link">Datalad with GitHub and GIN siblings</a>
   </div>
 </li>
       </ul>
@@ -339,7 +332,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Tutorial/tables.html" class="sidebar-item-text sidebar-link">Adding tables easily to this site</a>
+  <a href="../Tutorial/tables.html" class="sidebar-item-text sidebar-link active">Adding tables easily to this site</a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
@@ -364,14 +357,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#markdown" id="toc-markdown" class="nav-link active" data-scroll-target="#markdown">Markdown</a>
+  <ul class="collapse">
+  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output">Output</a></li>
+  </ul></li>
+  <li><a href="#html-with-css" id="toc-html-with-css" class="nav-link" data-scroll-target="#html-with-css">HTML with CSS</a>
+  <ul class="collapse">
+  <li><a href="#output-1" id="toc-output-1" class="nav-link" data-scroll-target="#output-1">Output</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pranavmishra90/research-reference/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/pranavmishra90/research-reference/edit/main/Tutorial/tables.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Datalad with GitHub and GIN siblings</h1>
+<h1 class="title d-none d-lg-block">Adding tables easily to this site</h1>
 </div>
 
 
@@ -407,36 +413,109 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">datalad</span> create-sibling-gin <span class="at">--access-protocol</span> https-ssh <span class="dt">\</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">--credential</span> gin@g-node.org <span class="dt">\</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">-r</span> research-reference <span class="dt">\</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">--dry-run</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">datalad</span> create-sibling-github <span class="at">-s</span> github <span class="at">--credential</span> github_pm90_sibling <span class="at">-r</span> research-reference <span class="at">--dry-run</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">dd</span> if=/dev/zero of=binary.dat bs=1c count=1</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--unset-all</span> remote.gin.annex-ignore</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ex">datalad</span> push <span class="at">--to</span> gin</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ex">datalad</span> siblings configure <span class="at">--name</span> gin <span class="at">--as-common-datasrc</span> gin-src</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ex">datalad</span> push <span class="at">--to</span> gin</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>To easily interchange between the formats, paste your table into <a href="https://tablesgenerator.com/markdown_tables" class="uri">https://tablesgenerator.com/markdown_tables</a></p>
+<section id="markdown" class="level2">
+<h2 class="anchored" data-anchor-id="markdown">Markdown</h2>
+<p>The easiest way to add tables into a <code>.qmd</code> file is to add it as a markdown formatted table. Here is an example from w3schools:</p>
+<pre><code>|Header1 |Header2  | Header3|
+--- | --- | ---|
+|data1|data2|data3|
+|data11|data12|data13|</code></pre>
+<section id="output" class="level3">
+<h3 class="anchored" data-anchor-id="output">Output</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Header1</th>
+<th>Header2</th>
+<th>Header3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>data1</td>
+<td>data2</td>
+<td>data3</td>
+</tr>
+<tr class="even">
+<td>data11</td>
+<td>data12</td>
+<td>data13</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="html-with-css" class="level2">
+<h2 class="anchored" data-anchor-id="html-with-css">HTML with CSS</h2>
+<p>You can also place the same table using HTML</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;style</span> <span class="er">type</span><span class="ot">=</span><span class="st">"text/css"</span><span class="kw">&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">.tg</span>  {<span class="kw">border-collapse</span>:<span class="dv">collapse</span><span class="op">;</span><span class="kw">border-spacing</span>:<span class="dv">0</span><span class="op">;</span>}</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">.tg</span> td{<span class="kw">border-color</span>:<span class="cn">black</span><span class="op">;</span><span class="kw">border-style</span>:<span class="dv">solid</span><span class="op">;</span><span class="kw">border-width</span>:<span class="dv">1</span><span class="dt">px</span><span class="op">;</span><span class="kw">font-family</span>:Arial<span class="op">,</span> <span class="dv">sans-serif</span><span class="op">;</span><span class="kw">font-size</span>:<span class="dv">14</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">overflow</span>:<span class="dv">hidden</span><span class="op">;</span><span class="kw">padding</span>:<span class="dv">10</span><span class="dt">px</span> <span class="dv">5</span><span class="dt">px</span><span class="op">;</span><span class="kw">word-break</span>:<span class="dv">normal</span><span class="op">;</span>}</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">.tg</span> th{<span class="kw">border-color</span>:<span class="cn">black</span><span class="op">;</span><span class="kw">border-style</span>:<span class="dv">solid</span><span class="op">;</span><span class="kw">border-width</span>:<span class="dv">1</span><span class="dt">px</span><span class="op">;</span><span class="kw">font-family</span>:Arial<span class="op">,</span> <span class="dv">sans-serif</span><span class="op">;</span><span class="kw">font-size</span>:<span class="dv">14</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-weight</span>:<span class="dv">normal</span><span class="op">;</span><span class="kw">overflow</span>:<span class="dv">hidden</span><span class="op">;</span><span class="kw">padding</span>:<span class="dv">10</span><span class="dt">px</span> <span class="dv">5</span><span class="dt">px</span><span class="op">;</span><span class="kw">word-break</span>:<span class="dv">normal</span><span class="op">;</span>}</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">.tg</span> <span class="fu">.tg-0pky</span>{<span class="kw">border-color</span>:<span class="bu">inherit</span><span class="op">;</span><span class="kw">text-align</span>:<span class="dv">left</span><span class="op">;</span><span class="kw">vertical-align</span>:<span class="dv">top</span>}</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/style&gt;</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;table</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg"</span><span class="kw">&gt;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;thead&gt;</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;tr&gt;</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;th</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>Header1<span class="kw">&lt;/th&gt;</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;th</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>Header2<span class="kw">&lt;/th&gt;</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;th</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>Header3<span class="kw">&lt;/th&gt;</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/tr&gt;</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/thead&gt;</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;tbody&gt;</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;tr&gt;</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;td</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>data1<span class="kw">&lt;/td&gt;</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;td</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>data2<span class="kw">&lt;/td&gt;</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;td</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>data3<span class="kw">&lt;/td&gt;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/tr&gt;</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;tr&gt;</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;td</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>data11<span class="kw">&lt;/td&gt;</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;td</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>data12<span class="kw">&lt;/td&gt;</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;td</span> <span class="er">class</span><span class="ot">=</span><span class="st">"tg-0pky"</span><span class="kw">&gt;</span>data13<span class="kw">&lt;/td&gt;</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/tr&gt;</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/tbody&gt;</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/table&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="output-1" class="level3">
+<h3 class="anchored" data-anchor-id="output-1">Output</h3>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Header1</th>
+    <th class="tg-0pky">Header2</th>
+    <th class="tg-0pky">Header3</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">data1</td>
+    <td class="tg-0pky">data2</td>
+    <td class="tg-0pky">data3</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">data11</td>
+    <td class="tg-0pky">data12</td>
+    <td class="tg-0pky">data13</td>
+  </tr>
+</tbody>
+</table>
 
 
+</section>
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{mishra2023,
-  author = {Pranav Mishra},
-  title = {Datalad with {GitHub} and {GIN} Siblings},
-  date = {2023-04-22},
-  url = {https://github.com/pranavmishra90/research-reference/readme.html},
-  langid = {en-US}
-}
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-mishra2023" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Pranav Mishra. 2023. <span>“Datalad with GitHub and GIN
-Siblings.”</span> April 22, 2023. <a href="https://github.com/pranavmishra90/research-reference/readme.html">https://github.com/pranavmishra90/research-reference/readme.html</a>.
-</div></div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

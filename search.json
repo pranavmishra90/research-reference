@@ -16,62 +16,83 @@
   {
     "objectID": "lab-materials/key-resources-table/readme.html",
     "href": "lab-materials/key-resources-table/readme.html",
-    "title": "Research Reference",
+    "title": "Key Resources Table in Markdown",
     "section": "",
-    "text": "Key Resources Table\nAdapted from the Cell Press STAR Methods to help produce Structured, Transparent, Accessible Reporting in research."
+    "text": "Adapted from the Cell Press STAR Methods to help produce Structured, Transparent, Accessible Reporting in research."
   },
   {
-    "objectID": "deploy/tables.html",
-    "href": "deploy/tables.html",
-    "title": "Research Reference",
-    "section": "",
-    "text": "https://tablesgenerator.com/markdown_tables"
+    "objectID": "lab-materials/key-resources-table/readme.html#markdown-code-to-copy-and-paste",
+    "href": "lab-materials/key-resources-table/readme.html#markdown-code-to-copy-and-paste",
+    "title": "Key Resources Table in Markdown",
+    "section": "Markdown Code to Copy and Paste",
+    "text": "Markdown Code to Copy and Paste\n| REAGENT or RESOURCE                               | SOURCE | IDENTIFIER |\n|---------------------------------------------------|--------|------------|\n| **Antibodies**                                    |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Bacterial and virus strains**                   |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Biological samples**                            |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Chemicals, peptides, and recombinant proteins** |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Critical commercial assays**                    |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Deposited data**                                |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Experimental models: Cell lines**               |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Experimental models: Organisms/strains**        |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Oligonucleotides**                              |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Recombinant DNA**                               |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Software and algorithms**                       |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Other**                                         |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |"
   },
   {
     "objectID": "deploy/readme.html",
     "href": "deploy/readme.html",
-    "title": "Steps to creating a remotes on GitHub and GIN, using GIN as the common data source",
+    "title": "Datalad with GitHub and GIN siblings",
     "section": "",
-    "text": "datalad create-sibling-gin --access-protocol https-ssh \\\n  --credential gin@g-node.org \\\n  -r research-reference \\\n  --dry-run\n\ndatalad create-sibling-github -s github --credential github_pm90_sibling -r research-reference --dry-run\n\ndd if=/dev/zero of=binary.dat bs=1c count=1\n\ngit config --unset-all remote.gin.annex-ignore\n\ndatalad push --to gin\n\ndatalad siblings configure --name gin --as-common-datasrc gin-src\n\ndatalad push --to gin\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Pranav Mishra},\n  title = {Steps to Creating a Remotes on {GitHub} and {GIN,} Using\n    {GIN} as the Common Data Source},\n  date = {2023-04-22},\n  url = {https://github.com/pranavmishra90/research-reference/readme.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nPranav Mishra. 2023. “Steps to Creating a Remotes on GitHub and\nGIN, Using GIN as the Common Data Source.” April 22, 2023. https://github.com/pranavmishra90/research-reference/readme.html."
+    "text": "datalad create-sibling-gin --access-protocol https-ssh \\\n  --credential gin@g-node.org \\\n  -r research-reference \\\n  --dry-run\n\ndatalad create-sibling-github -s github --credential github_pm90_sibling -r research-reference --dry-run\n\ndd if=/dev/zero of=binary.dat bs=1c count=1\n\ngit config --unset-all remote.gin.annex-ignore\n\ndatalad push --to gin\n\ndatalad siblings configure --name gin --as-common-datasrc gin-src\n\ndatalad push --to gin\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Pranav Mishra},\n  title = {Datalad with {GitHub} and {GIN} Siblings},\n  date = {2023-04-22},\n  url = {https://github.com/pranavmishra90/research-reference/readme.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nPranav Mishra. 2023. “Datalad with GitHub and GIN\nSiblings.” April 22, 2023. https://github.com/pranavmishra90/research-reference/readme.html."
   },
   {
-    "objectID": "templates/recipe-template.html",
-    "href": "templates/recipe-template.html",
+    "objectID": "Tutorial/tables.html",
+    "href": "Tutorial/tables.html",
+    "title": "Adding tables easily to this site",
+    "section": "",
+    "text": "To easily interchange between the formats, paste your table into https://tablesgenerator.com/markdown_tables"
+  },
+  {
+    "objectID": "Tutorial/tables.html#markdown",
+    "href": "Tutorial/tables.html#markdown",
+    "title": "Adding tables easily to this site",
+    "section": "Markdown",
+    "text": "Markdown\nThe easiest way to add tables into a .qmd file is to add it as a markdown formatted table. Here is an example from w3schools:\n|Header1 |Header2  | Header3|\n--- | --- | ---|\n|data1|data2|data3|\n|data11|data12|data13|\n\nOutput\n\n\n\nHeader1\nHeader2\nHeader3\n\n\n\n\ndata1\ndata2\ndata3\n\n\ndata11\ndata12\ndata13"
+  },
+  {
+    "objectID": "Tutorial/tables.html#html-with-css",
+    "href": "Tutorial/tables.html#html-with-css",
+    "title": "Adding tables easily to this site",
+    "section": "HTML with CSS",
+    "text": "HTML with CSS\nYou can also place the same table using HTML\n<style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-0pky\">Header1</th>\n    <th class=\"tg-0pky\">Header2</th>\n    <th class=\"tg-0pky\">Header3</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-0pky\">data1</td>\n    <td class=\"tg-0pky\">data2</td>\n    <td class=\"tg-0pky\">data3</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\">data11</td>\n    <td class=\"tg-0pky\">data12</td>\n    <td class=\"tg-0pky\">data13</td>\n  </tr>\n</tbody>\n</table>\n\nOutput\n\n\n\n\n  \n    Header1\n    Header2\n    Header3\n  \n\n\n  \n    data1\n    data2\n    data3\n  \n  \n    data11\n    data12\n    data13"
+  },
+  {
+    "objectID": "Tutorial/templates/recipe-template.html",
+    "href": "Tutorial/templates/recipe-template.html",
     "title": "Recipe: Template",
     "section": "",
     "text": "Description of chemical here\n\n\nSome uses"
   },
   {
-    "objectID": "templates/recipe-template.html#components",
-    "href": "templates/recipe-template.html#components",
+    "objectID": "Tutorial/templates/recipe-template.html#components",
+    "href": "Tutorial/templates/recipe-template.html#components",
     "title": "Recipe: Template",
     "section": "Components",
     "text": "Components\n\nitem 1\nitem 2\nitem 3"
   },
   {
-    "objectID": "templates/recipe-template.html#protocol",
-    "href": "templates/recipe-template.html#protocol",
+    "objectID": "Tutorial/templates/recipe-template.html#protocol",
+    "href": "Tutorial/templates/recipe-template.html#protocol",
     "title": "Recipe: Template",
     "section": "Protocol",
     "text": "Protocol\n\nstep one\nstep two\nstep 3"
   },
   {
-    "objectID": "templates/recipe-template.html#notes",
-    "href": "templates/recipe-template.html#notes",
+    "objectID": "Tutorial/templates/recipe-template.html#notes",
+    "href": "Tutorial/templates/recipe-template.html#notes",
     "title": "Recipe: Template",
     "section": "Notes",
     "text": "Notes\nSome specific observations or modifications made"
   },
   {
-    "objectID": "templates/recipe-template.html#references",
-    "href": "templates/recipe-template.html#references",
+    "objectID": "Tutorial/templates/recipe-template.html#references",
+    "href": "Tutorial/templates/recipe-template.html#references",
     "title": "Recipe: Template",
     "section": "References",
     "text": "References\nList of references to create this protocol"
   },
   {
-    "objectID": "templates/recipe-template.html#supplemental",
-    "href": "templates/recipe-template.html#supplemental",
+    "objectID": "Tutorial/templates/recipe-template.html#supplemental",
+    "href": "Tutorial/templates/recipe-template.html#supplemental",
     "title": "Recipe: Template",
     "section": "Supplemental",
     "text": "Supplemental\n\nKey resources table\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\n\nSOURCE\n\n\n\n\nIDENTIFIER\n\n\n\n\n\nAntibodies\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nBacterial and virus strains\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nBiological samples\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nChemicals, peptides, and recombinant proteins\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\n\nDeposited data\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nExperimental models: Cell lines\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nExperimental models: Organisms/strains\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nOligonucleotides\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nRecombinant DNA\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nSoftware and algorithms\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nOther\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-"
@@ -88,7 +109,7 @@
     "href": "protocols/molecular-biology.html",
     "title": "Listing Example",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nApr 22, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 22, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 22, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nApr 22, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nApr 22, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nApr 22, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html",
