@@ -1,16 +1,5 @@
 # Recipe: Tris-Glycine SDS Running Buffer
 
-- [Recipe: Tris-Glycine SDS Running Buffer](#recipe-tris-glycine-sds-running-buffer)
-  - [Overview](#overview)
-    - [Uses](#uses)
-  - [Components](#components)
-  - [Protocol](#protocol)
-    - [10x Stock](#10x-stock)
-  - [Notes](#notes)
-  - [References](#references)
-  - [Supplemental](#supplemental)
-    - [Key resources table](#key-resources-table)
-
 
 ## Overview
 Tris-Gycine Transfer Buffer has a pH of 8.3. Protocol adapted from Abcam and ThermoFicher<sup>1, 2</sup>

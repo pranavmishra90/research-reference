@@ -1,15 +1,5 @@
 # Recipe: Tris-Buffered Saline with Tween 20 (TBST)
 
-* [Recipe: Tris-Buffered Saline with Tween 20 (TBST)](#recipe-tris-buffered-saline-with-tween-20-tbst)
-    * [Overview](#overview)
-        * [Uses](#uses)
-    * [Components](#components)
-    * [Protocol](#protocol)
-    * [Notes](#notes)
-    * [References](#references)
-    * [Supplemental](#supplemental)
-        * [Key resources table](#key-resources-table)
-
 ## Overview
 
 <!-- Description of chemical here -->

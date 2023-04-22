@@ -1,20 +1,10 @@
 # Recipe: Name
-- [Recipe: Name](#recipe-name)
-	- [Overview](#overview)
-		- [Uses](#uses)
-	- [Components](#components)
-	- [Protocol](#protocol)
-	- [Notes](#notes)
-	- [References](#references)
-	- [Supplemental](#supplemental)
-		- [Key resources table](#key-resources-table)
-
 
 ## Overview
-<!-- Description of chemical here -->
+Description of chemical here
 
 ### Uses
-<!-- Some uses -->
+Some uses
 
 ## Components
 - *item 1*
@@ -28,10 +18,10 @@
 
 
 ## Notes
-<!-- Some specific observations or modifications made -->
+Some specific observations or modifications made
 
 ## References
-<!-- List of references to create this protocol -->
+List of references to create this protocol
 
 ---
 

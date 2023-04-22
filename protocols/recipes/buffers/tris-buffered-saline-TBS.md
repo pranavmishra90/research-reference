@@ -1,17 +1,5 @@
 # Recipe: Tris-Buffered Saline (TBS)
 
-- [Recipe: Tris-Buffered Saline (TBS)](#recipe-tris-buffered-saline-tbs)
-  - [Overview](#overview)
-    - [Uses](#uses)
-  - [Components](#components)
-  - [Protocol](#protocol)
-    - [Comparison of TBS concentrations at 1x](#comparison-of-tbs-concentrations-at-1x)
-    - [10x stock solution](#10x-stock-solution)
-    - [1x TBS solution](#1x-tbs-solution)
-  - [Notes](#notes)
-  - [References](#references)
-  - [Supplemental](#supplemental)
-    - [Key resources table](#key-resources-table)
 
 ## Overview
 Tris (trishydroxymethylaminomethane) $(HOCH_2)_3CNH_2$ has an effective buffer range between 7.1 and 9.1 (pKa 8.07 at $25 ^\circ C$)

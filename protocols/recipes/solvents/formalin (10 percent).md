@@ -1,12 +1,4 @@
 # 10% Formalin (4% Paraformaldehyde)
-- [10% Formalin (4% Paraformaldehyde)](#10-formalin-4-paraformaldehyde)
-  - [Overview](#overview)
-    - [Uses](#uses)
-  - [Components](#components)
-  - [Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)](#protocol-preparation-of-1-liter-of-4-pfa-10-formalin)
-  - [Storage](#storage)
-  - [References](#references)
-
 
 ## Overview
 

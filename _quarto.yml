@@ -1,5 +1,14 @@
 project:
   type: website
+  output-dir: _site
+  preview:
+    port: 3333
+    browser: true
+    watch-inputs: true
+    timeout: 600
+  render:
+    - "templates/"
+
 
 website:
   title: "Research Reference"
@@ -13,10 +22,13 @@ website:
   sidebar:
     style: "docked"
     contents: auto
+    pinned: true
   page-footer: "Pranav Mishra || License CC-BY-SA" 
   reader-mode: true
   repo-url: https://github.com/pranavmishra90/research-reference
-  repo-actions: [edit, issue]
+  repo-actions: [issue, edit]
+  back-to-top-navigation: true
+
 
 
 format:

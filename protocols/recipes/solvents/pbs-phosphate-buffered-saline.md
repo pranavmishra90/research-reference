@@ -1,14 +1,5 @@
 # Phosphate Buffered Saline (PBS)
 
-- [Phosphate Buffered Saline (PBS)](#phosphate-buffered-saline-pbs)
-	- [Overview](#overview)
-		- [Uses](#uses)
-	- [Components](#components)
-	- [Preparation for 1L of 1x PBS](#preparation-for-1l-of-1x-pbs)
-	- [Preparation for 1L of 10x PBS](#preparation-for-1l-of-10x-pbs)
-	- [References:](#references)
-
-
 ## Overview
 Similar pH, electrolytes, and osmolarity to the human body.
 

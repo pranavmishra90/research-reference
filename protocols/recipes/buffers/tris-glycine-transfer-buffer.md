@@ -1,15 +1,4 @@
 # Recipe: Tris-Glycine Transfer Buffer
-- [Recipe: Tris-Glycine Transfer Buffer](#recipe-tris-glycine-transfer-buffer)
-  - [Overview](#overview)
-    - [Uses](#uses)
-  - [Components](#components)
-  - [Protocol](#protocol)
-    - [10x Stock of Transfer Buffer](#10x-stock-of-transfer-buffer)
-    - [1x Transfer Buffer](#1x-transfer-buffer)
-  - [Notes](#notes)
-  - [References](#references)
-  - [Supplemental](#supplemental)
-    - [Key resources table](#key-resources-table)
 
 ## Overview
 Tris-Gycine Transfer Buffer has a pH of 8.3. Protocol adapted from Abcam<sup>1</sup>
