@@ -27,6 +27,9 @@ format:
     lang: en-US
     email-obfuscation: javascript
 
+execute:
+  freeze: auto
+
 
 
 
