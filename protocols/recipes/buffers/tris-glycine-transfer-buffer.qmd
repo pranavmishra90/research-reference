@@ -69,7 +69,7 @@ Concentrations of Tris and Glycine differ from ThermoFicher's protocols<sup>2</s
 
 | REAGENT OR RESOURCE | SOURCE    | IDENTIFIER   |
 |---------------------|-----------|--------------|
-| Chemicals           |           |              |
+| **Chemicals**       |           |              |
 | Tris Base           | Ficher    | Cat# BP154-1 |
 | Glycine             | Sigma     | Cat# G-7126  |
 | 100% Methanol       | Ficher    | Cat# A412-4  |
