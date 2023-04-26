@@ -9,6 +9,7 @@ on:
     types: [opened, assigned, ready_for_review, review_requested]
   pull_request_review_comment:
     types: [created, deleted]
+
 name: Quarto Publish
 
 jobs:

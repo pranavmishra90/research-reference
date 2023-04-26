@@ -52,7 +52,7 @@ Running buffer for Western Blot
 
 |   REAGENT or RESOURCE          	|   SOURCE  	|   IDENTIFIER      	|
 |--------------------------------	|-----------	|-------------------	|
-|   Chemicals                    	|           	|                   	|
+|   **Chemicals**                	|           	|                   	|
 |   Tris Base                    	|   Ficher  	|   Cat# BP154-1    	|
 |   Glycine                      	|   Sigma   	|   Cat# G-7126     	|
 |   SDS - Electrophoresis Grade  	|   Fisher  	|   Cat# BP166-500  	|

@@ -14,13 +14,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
     search: true
   open-graph: true
   sidebar:
     style: "docked"
     contents: auto
-  page-footer: "Pranav Mishra || License CC-BY-SA" 
+  page-footer: "Created by Pranav Kumar Mishra || License CC-BY-SA" 
   reader-mode: true
   repo-url: https://github.com/pranavmishra90/research-reference
   repo-actions: [issue, edit]

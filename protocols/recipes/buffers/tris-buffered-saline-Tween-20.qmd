@@ -42,7 +42,7 @@ Do not start with a 1x TBS that we may keep at the bench. This will have 20% Met
 
 1. Western blot buffers and stock solutions. Abcam. https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot
 
-***
+
 
 ## Supplemental
 
