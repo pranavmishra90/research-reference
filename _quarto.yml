@@ -6,7 +6,6 @@ project:
     browser: true
     watch-inputs: true
     timeout: 600
-  references: references.bib
 
 
 website:
