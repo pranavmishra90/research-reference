@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    # - "!protocols/"
   preview:
     port: 3333
     browser: true
@@ -10,19 +13,19 @@ project:
 
 website:
   title: "Research Reference"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-    search: true
+  # navbar:
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
+  #     - href: about.qmd
+  #       text: About
+  #   search: true
   open-graph: true
   sidebar:
     style: "docked"
     contents: auto
   page-footer: "Created by Pranav Kumar Mishra || License CC-BY-SA" 
-  reader-mode: true
+  reader-mode: false
   repo-url: https://github.com/pranavmishra90/research-reference
   repo-actions: [issue, edit]
 
