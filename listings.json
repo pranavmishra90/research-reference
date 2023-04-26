@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/protocols/molecular-biology.html",
+    "listing": "/protocols/recipes.html",
     "items": [
       "/protocols/recipes/buffers/tris-glycine-transfer-buffer.html",
       "/protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "listing": "/protocols/recipes.html",
+    "listing": "/protocols/molecular-biology.html",
     "items": [
       "/protocols/recipes/buffers/tris-glycine-transfer-buffer.html",
       "/protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html",

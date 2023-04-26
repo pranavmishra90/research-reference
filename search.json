@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Research Reference",
-    "section": "",
-    "text": "The GitHub repository is the primary public-facing repository, while the GIN repository hosts annex-files as a common data source. If you would like to view the files without having to clone/download the Datalad dataset, you please visit the GIN repository.\nCurrent status: Most of my lab protocols documented in my LabArchives Notebooks and also kept on our Microsoft 365 infrastructure. I’m creating this Datalad dataset to try an ‘open’ format, which doesn’t require authentication to view and allows others to comment on the contents.\nIf you have any questions, comments, or critiques, please do not hesitate to open an issue on GitHub."
-  },
-  {
-    "objectID": "index.html#about-this-dataset",
-    "href": "index.html#about-this-dataset",
-    "title": "Research Reference",
-    "section": "About this dataset",
-    "text": "About this dataset\n\nGeneral information\nThis is a DataLad dataset (id: 3d6beff7-a55d-43a2-ab44-6def6a79bde5).\n\n\nDataLad datasets and how to use them\nThis repository is a DataLad dataset. It provides fine-grained data access down to the level of individual files, and allows for tracking future updates. In order to use this repository for data retrieval, DataLad is required. It is a free and open source command line tool, available for all major operating systems, and builds up on Git and git-annex to allow sharing, synchronizing, and version controlling collections of large files.\nMore information on how to install DataLad and how to install it can be found in the DataLad Handbook.\n\nGet the dataset\nA DataLad dataset can be cloned by running\ndatalad clone <url>\nOnce a dataset is cloned, it is a light-weight directory on your local machine. At this point, it contains only small metadata and information on the identity of the files in the dataset, but not actual content of the (sometimes large) data files.\n\n\nRetrieve dataset content\nAfter cloning a dataset, you can retrieve file contents by running\ndatalad get <path/to/directory/or/file>\nThis command will trigger a download of the files, directories, or subdatasets you have specified.\nDataLad datasets can contain other datasets, so called subdatasets. If you clone the top-level dataset, subdatasets do not yet contain metadata and information on the identity of files, but appear to be empty directories. In order to retrieve file availability metadata in subdatasets, run\ndatalad get -n <path/to/subdataset>\nAfterwards, you can browse the retrieved metadata to find out about subdataset contents, and retrieve individual files with datalad get. If you use datalad get <path/to/subdataset>, all contents of the subdataset will be downloaded at once.\n\n\nStay up-to-date\nDataLad datasets can be updated. The command datalad update will fetch updates and store them on a different branch (by default remotes/origin/master). Running\ndatalad update --merge\nwill pull available updates and integrate them in one go.\n\n\nFind out what has been done\nDataLad datasets contain their history in the git log. By running git log (or a tool that displays Git history) in the dataset or on specific files, you can find out what has been done to the dataset or to individual files by whom, and when."
-  },
-  {
     "objectID": "lab-materials/key-resources-table/readme.html",
     "href": "lab-materials/key-resources-table/readme.html",
     "title": "Key Resources Table in Markdown",
@@ -28,76 +14,6 @@
     "text": "Markdown Code to Copy and Paste\n| REAGENT or RESOURCE                               | SOURCE | IDENTIFIER |\n|---------------------------------------------------|--------|------------|\n| **Antibodies**                                    |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Bacterial and virus strains**                   |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Biological samples**                            |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Chemicals, peptides, and recombinant proteins** |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Critical commercial assays**                    |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Deposited data**                                |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Experimental models: Cell lines**               |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Experimental models: Organisms/strains**        |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Oligonucleotides**                              |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Recombinant DNA**                               |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Software and algorithms**                       |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |\n| **Other**                                         |        |            |\n| 1                                                 |        |            |\n| 2                                                 |        |            |\n| 3                                                 |        |            |\n| 4                                                 |        |            |\n| 5                                                 |        |            |"
   },
   {
-    "objectID": "deploy/readme.html",
-    "href": "deploy/readme.html",
-    "title": "Datalad with GitHub and GIN siblings",
-    "section": "",
-    "text": "datalad create-sibling-gin --access-protocol https-ssh \\\n  --credential gin@g-node.org \\\n  -r research-reference \\\n  --dry-run\n\ndatalad create-sibling-github -s github --credential github_pm90_sibling -r research-reference --dry-run\n\ndd if=/dev/zero of=binary.dat bs=1c count=1\n\ngit config --unset-all remote.gin.annex-ignore\n\ndatalad push --to gin\n\ndatalad siblings configure --name gin --as-common-datasrc gin-src\n\ndatalad push --to gin\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Pranav Mishra},\n  title = {Datalad with {GitHub} and {GIN} Siblings},\n  date = {2023-04-25},\n  url = {https://github.com/pranavmishra90/research-reference/readme.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nPranav Mishra. 2023. “Datalad with GitHub and GIN\nSiblings.” April 25, 2023. https://github.com/pranavmishra90/research-reference/readme.html."
-  },
-  {
-    "objectID": "Tutorial/tables.html",
-    "href": "Tutorial/tables.html",
-    "title": "Adding tables easily to this site",
-    "section": "",
-    "text": "To easily interchange between the formats, paste your table into https://tablesgenerator.com/markdown_tables"
-  },
-  {
-    "objectID": "Tutorial/tables.html#markdown",
-    "href": "Tutorial/tables.html#markdown",
-    "title": "Adding tables easily to this site",
-    "section": "Markdown",
-    "text": "Markdown\nThe easiest way to add tables into a .qmd file is to add it as a markdown formatted table. Here is an example from w3schools:\n|Header1 |Header2  | Header3|\n--- | --- | ---|\n|data1|data2|data3|\n|data11|data12|data13|\n\nOutput\n\n\n\nHeader1\nHeader2\nHeader3\n\n\n\n\ndata1\ndata2\ndata3\n\n\ndata11\ndata12\ndata13"
-  },
-  {
-    "objectID": "Tutorial/tables.html#html-with-css",
-    "href": "Tutorial/tables.html#html-with-css",
-    "title": "Adding tables easily to this site",
-    "section": "HTML with CSS",
-    "text": "HTML with CSS\nYou can also place the same table using HTML\n<style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-0pky\">Header1</th>\n    <th class=\"tg-0pky\">Header2</th>\n    <th class=\"tg-0pky\">Header3</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-0pky\">data1</td>\n    <td class=\"tg-0pky\">data2</td>\n    <td class=\"tg-0pky\">data3</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\">data11</td>\n    <td class=\"tg-0pky\">data12</td>\n    <td class=\"tg-0pky\">data13</td>\n  </tr>\n</tbody>\n</table>\n\nOutput\n\n\n\n\n  \n    Header1\n    Header2\n    Header3\n  \n\n\n  \n    data1\n    data2\n    data3\n  \n  \n    data11\n    data12\n    data13"
-  },
-  {
-    "objectID": "Tutorial/templates/recipe-template.html",
-    "href": "Tutorial/templates/recipe-template.html",
-    "title": "Recipe: Template",
-    "section": "",
-    "text": "Description of chemical here\n\n\nSome uses"
-  },
-  {
-    "objectID": "Tutorial/templates/recipe-template.html#components",
-    "href": "Tutorial/templates/recipe-template.html#components",
-    "title": "Recipe: Template",
-    "section": "Components",
-    "text": "Components\n\nitem 1\nitem 2\nitem 3"
-  },
-  {
-    "objectID": "Tutorial/templates/recipe-template.html#protocol",
-    "href": "Tutorial/templates/recipe-template.html#protocol",
-    "title": "Recipe: Template",
-    "section": "Protocol",
-    "text": "Protocol\n\nstep one\nstep two\nstep 3"
-  },
-  {
-    "objectID": "Tutorial/templates/recipe-template.html#notes",
-    "href": "Tutorial/templates/recipe-template.html#notes",
-    "title": "Recipe: Template",
-    "section": "Notes",
-    "text": "Notes\nSome specific observations or modifications made"
-  },
-  {
-    "objectID": "Tutorial/templates/recipe-template.html#references",
-    "href": "Tutorial/templates/recipe-template.html#references",
-    "title": "Recipe: Template",
-    "section": "References",
-    "text": "References\nList of references to create this protocol"
-  },
-  {
-    "objectID": "Tutorial/templates/recipe-template.html#supplemental",
-    "href": "Tutorial/templates/recipe-template.html#supplemental",
-    "title": "Recipe: Template",
-    "section": "Supplemental",
-    "text": "Supplemental\n\nKey resources table\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\n\nSOURCE\n\n\n\n\nIDENTIFIER\n\n\n\n\n\nAntibodies\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nBacterial and virus strains\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nBiological samples\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nChemicals, peptides, and recombinant proteins\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\n\nDeposited data\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nExperimental models: Cell lines\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nExperimental models: Organisms/strains\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nOligonucleotides\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nRecombinant DNA\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nSoftware and algorithms\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nOther\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -105,57 +21,43 @@
     "text": "This is open-access site for research protocols, files, and techniques which I use. It is in an extreme infancy phase and is undergoing active development.\nThanks for visiting\nPranav"
   },
   {
-    "objectID": "protocols/molecular-biology.html",
-    "href": "protocols/molecular-biology.html",
-    "title": "Listing Example",
+    "objectID": "about.html#a-new-site-under-active-development",
+    "href": "about.html#a-new-site-under-active-development",
+    "title": "About",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nApr 25, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
+    "text": "This is open-access site for research protocols, files, and techniques which I use. It is in an extreme infancy phase and is undergoing active development.\nThanks for visiting\nPranav"
   },
   {
-    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html",
-    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html",
-    "title": "Tris-Glycine SDS Running Buffer",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Research Reference",
     "section": "",
-    "text": "Tris-Gycine Transfer Buffer has a pH of 8.3. Protocol adapted from Abcam and ThermoFicher1, 2\n\n\nRunning buffer for Western Blot"
+    "text": "The GitHub repository is the primary public-facing repository, while the GIN repository hosts annex-files as a common data source. If you would like to view the files without having to clone/download the Datalad data set, you please visit the GIN repository.\nCurrent status: Most of my lab protocols documented in my LabArchives Notebooks and also kept on our Microsoft 365 infrastructure. I’m creating this Datalad data set to try an ‘open’ format, which doesn’t require authentication to view and allows others to comment on the contents.\nIf you have any questions, comments, or critiques, please do not hesitate to open an issue on GitHub."
   },
   {
-    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#components",
-    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#components",
-    "title": "Tris-Glycine SDS Running Buffer",
-    "section": "Components",
-    "text": "Components\n\nTris Base\nGlycine\n\\(HCl\\)\n\\(diH_2O\\)"
+    "objectID": "index.html#about-this-data-set",
+    "href": "index.html#about-this-data-set",
+    "title": "Research Reference",
+    "section": "About this data set",
+    "text": "About this data set\n\nGeneral information\nThis is a DataLad dataset (id: 3d6beff7-a55d-43a2-ab44-6def6a79bde5).\n\n\nDataLad datasets and how to use them\nThis repository is a DataLad dataset. It provides fine-grained data access down to the level of individual files, and allows for tracking future updates. In order to use this repository for data retrieval, DataLad is required. It is a free and open source command line tool, available for all major operating systems, and builds up on Git and git-annex to allow sharing, synchronizing, and version controlling collections of large files.\nMore information on how to install DataLad and how to install it can be found in the DataLad Handbook.\n\nGet the dataset\nA DataLad dataset can be cloned by running\ndatalad clone &lt;url&gt;\nOnce a dataset is cloned, it is a light-weight directory on your local machine. At this point, it contains only small metadata and information on the identity of the files in the dataset, but not actual content of the (sometimes large) data files.\n\n\nRetrieve dataset content\nAfter cloning a dataset, you can retrieve file contents by running\ndatalad get &lt;path/to/directory/or/file&gt;\nThis command will trigger a download of the files, directories, or subdatasets you have specified.\nDataLad datasets can contain other datasets, so called subdatasets. If you clone the top-level dataset, subdatasets do not yet contain metadata and information on the identity of files, but appear to be empty directories. In order to retrieve file availability metadata in subdatasets, run\ndatalad get -n &lt;path/to/subdataset&gt;\nAfterwards, you can browse the retrieved metadata to find out about subdataset contents, and retrieve individual files with datalad get. If you use datalad get &lt;path/to/subdataset&gt;, all contents of the subdataset will be downloaded at once.\n\n\nStay up-to-date\nDataLad datasets can be updated. The command datalad update will fetch updates and store them on a different branch (by default remotes/origin/master). Running\ndatalad update --merge\nwill pull available updates and integrate them in one go.\n\n\nFind out what has been done\nDataLad datasets contain their history in the git log. By running git log (or a tool that displays Git history) in the dataset or on specific files, you can find out what has been done to the dataset or to individual files by whom, and when."
   },
   {
-    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#protocol",
-    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#protocol",
-    "title": "Tris-Glycine SDS Running Buffer",
-    "section": "Protocol",
-    "text": "Protocol\n\n10x Stock\n\nAdd 700 mL of \\(diH_2O\\) to a beaker\nDissolve 29 g of Tris base, 144 g of Glycine, and 10 g of SDS\nAdjust pH using \\(HCl\\), as needed\nAdd \\(diH_2O\\) until the total volume reaches 1 L of solution\n\nConcentration of 1x Tris-Glycine SDS 25 mM Tris base, 190 mM glycine, 0.1% SDS"
-  },
-  {
-    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#notes",
-    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#notes",
-    "title": "Tris-Glycine SDS Running Buffer",
-    "section": "Notes",
-    "text": "Notes"
-  },
-  {
-    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#references",
-    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#references",
-    "title": "Tris-Glycine SDS Running Buffer",
-    "section": "References",
-    "text": "References\n\nTransfer and staining of proteins in western blot. Abcam. https://www.abcam.com/protocols/transfer-and-staining-of-proteins-in-western-blot\nWestern Blot Protocols and Recipes. ThermoFicher Scientific. https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-gel-electrophoresis-information/western-blot-protocols.html"
-  },
-  {
-    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#supplemental",
-    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#supplemental",
-    "title": "Tris-Glycine SDS Running Buffer",
-    "section": "Supplemental",
-    "text": "Supplemental\n\nKey resources table\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER\n\n\n\n\nChemicals\n\n\n\n\nTris Base\nFicher\nCat# BP154-1\n\n\nGlycine\nSigma\nCat# G-7126\n\n\nSDS - Electrophoresis Grade\nFisher\nCat# BP166-500\n\n\nHCl\nLab Stock\nN/A"
+    "objectID": "deploy/readme.html",
+    "href": "deploy/readme.html",
+    "title": "Datalad with GitHub and GIN siblings",
+    "section": "",
+    "text": "datalad create-sibling-gin --access-protocol https-ssh \\\n  --credential gin@g-node.org \\\n  -r research-reference \\\n  --dry-run\n\ndatalad create-sibling-github -s github --credential github_pm90_sibling -r research-reference --dry-run\n\ndd if=/dev/zero of=binary.dat bs=1c count=1\n\ngit config --unset-all remote.gin.annex-ignore\n\ndatalad push --to gin\n\ndatalad siblings configure --name gin --as-common-datasrc gin-src\n\ndatalad push --to gin\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Datalad with {GitHub} and {GIN} Siblings},\n  date = {2023-04-26},\n  url = {https://github.com/pranavmishra90/research-reference/deploy/readme.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Datalad with GitHub and GIN\nSiblings.” April 26, 2023. https://github.com/pranavmishra90/research-reference/deploy/readme.html."
   },
   {
     "objectID": "protocols/recipes/buffers/tris-buffered-saline-TBS.html",
     "href": "protocols/recipes/buffers/tris-buffered-saline-TBS.html",
+    "title": "Recipe: Tris-Buffered Saline (TBS)",
+    "section": "",
+    "text": "Tris (trishydroxymethylaminomethane) \\((HOCH_2)_3CNH_2\\) has an effective buffer range between 7.1 and 9.1 (pKa 8.07 at \\(25 ^\\circ C\\))\n\n\nWash buffer in Western Blots"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-buffered-saline-TBS.html#overview",
+    "href": "protocols/recipes/buffers/tris-buffered-saline-TBS.html#overview",
     "title": "Recipe: Tris-Buffered Saline (TBS)",
     "section": "",
     "text": "Tris (trishydroxymethylaminomethane) \\((HOCH_2)_3CNH_2\\) has an effective buffer range between 7.1 and 9.1 (pKa 8.07 at \\(25 ^\\circ C\\))\n\n\nWash buffer in Western Blots"
@@ -196,50 +98,15 @@
     "text": "Supplemental\n\nKey resources table\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER\n\n\n\n\nChemicals\n\n\n\n\nTris Base\nFicher\nCat# BP154-1\n\n\nNaCl\nFicher\nCat# S640-10\n\n\nHCl\nLab stock\nLab Stock"
   },
   {
-    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html",
-    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html",
-    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
-    "section": "",
-    "text": "Tween-20 is a non-ionic detergent which acts as a temporary blocking agent to prevent non-specific protein-protein binding. In western blots, after the primary antibody has been allowed to bind appropriately, we need to prepare for the secondary antibody. First, we must wash the membrane to remove all excess primary antibody. By washing the membrane with a detergent, we prevent the primary antibody from inadventantly, incorrectly binding to an incorrect site (non-specific binding to the membrane). The antibody will have a preferential binding to the detergent.\nDetergents are helpful temporary blockers - they can be washed away easily with aqeuous solutions."
-  },
-  {
-    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#components",
-    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#components",
-    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
-    "section": "Components",
-    "text": "Components\n\n10x Stock TBS\nTween 20\n\\(diH\\_2O\\)"
-  },
-  {
-    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#protocol",
-    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#protocol",
-    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
-    "section": "Protocol",
-    "text": "Protocol\n\nAdd 800 mL of \\(diH\\_2O\\) to orange top container\nAdd 1 mL of Tween 20 using a wide tip pipette (Tween 20 is very viscous)\nAdd ~199 mL of \\(diH\\_2O\\) down the side of the container until the total volume reaches 1 L"
-  },
-  {
-    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#notes",
-    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#notes",
-    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
-    "section": "Notes",
-    "text": "Notes\nDo not start with a 1x TBS that we may keep at the bench. This will have 20% Methanol added, which we do not want for TBST."
-  },
-  {
-    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#references",
-    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#references",
-    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
-    "section": "References",
-    "text": "References\n\nWestern blot buffers and stock solutions. Abcam. https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot"
-  },
-  {
-    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#supplemental",
-    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#supplemental",
-    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
-    "section": "Supplemental",
-    "text": "Supplemental\n\nKey resources table\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER\n\n\n\n\nChemicals\n\n\n\n\nTween 20\nSanta Cruz\nCat# SC-29113"
-  },
-  {
     "objectID": "protocols/recipes/buffers/tris-glycine-transfer-buffer.html",
     "href": "protocols/recipes/buffers/tris-glycine-transfer-buffer.html",
+    "title": "Tris-Glycine Transfer Buffer",
+    "section": "",
+    "text": "Tris-Gycine Transfer Buffer has a pH of 8.3. Protocol adapted from Abcam1\n\n\nTransfer buffer used in Western Blots"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-glycine-transfer-buffer.html#overview",
+    "href": "protocols/recipes/buffers/tris-glycine-transfer-buffer.html#overview",
     "title": "Tris-Glycine Transfer Buffer",
     "section": "",
     "text": "Tris-Gycine Transfer Buffer has a pH of 8.3. Protocol adapted from Abcam1\n\n\nTransfer buffer used in Western Blots"
@@ -280,8 +147,113 @@
     "text": "Supplemental\n\nKey resources table\n\n\n\nREAGENT OR RESOURCE\nSOURCE\nIDENTIFIER\n\n\n\n\nChemicals\n\n\n\n\nTris Base\nFicher\nCat# BP154-1\n\n\nGlycine\nSigma\nCat# G-7126\n\n\n100% Methanol\nFicher\nCat# A412-4\n\n\nHCl\nLab Stock\nN/A"
   },
   {
+    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html",
+    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html",
+    "title": "Tris-Glycine SDS Running Buffer",
+    "section": "",
+    "text": "Tris-Gycine Transfer Buffer has a pH of 8.3. Protocol adapted from Abcam and ThermoFicher1, 2\n\n\nRunning buffer for Western Blot"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#overview",
+    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#overview",
+    "title": "Tris-Glycine SDS Running Buffer",
+    "section": "",
+    "text": "Tris-Gycine Transfer Buffer has a pH of 8.3. Protocol adapted from Abcam and ThermoFicher1, 2\n\n\nRunning buffer for Western Blot"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#components",
+    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#components",
+    "title": "Tris-Glycine SDS Running Buffer",
+    "section": "Components",
+    "text": "Components\n\nTris Base\nGlycine\n\\(HCl\\)\n\\(diH_2O\\)"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#protocol",
+    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#protocol",
+    "title": "Tris-Glycine SDS Running Buffer",
+    "section": "Protocol",
+    "text": "Protocol\n\n10x Stock\n\nAdd 700 mL of \\(diH_2O\\) to a beaker\nDissolve 29 g of Tris base, 144 g of Glycine, and 10 g of SDS\nAdjust pH using \\(HCl\\), as needed\nAdd \\(diH_2O\\) until the total volume reaches 1 L of solution\n\nConcentration of 1x Tris-Glycine SDS 25 mM Tris base, 190 mM glycine, 0.1% SDS"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#notes",
+    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#notes",
+    "title": "Tris-Glycine SDS Running Buffer",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#references",
+    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#references",
+    "title": "Tris-Glycine SDS Running Buffer",
+    "section": "References",
+    "text": "References\n\nTransfer and staining of proteins in western blot. Abcam. https://www.abcam.com/protocols/transfer-and-staining-of-proteins-in-western-blot\nWestern Blot Protocols and Recipes. ThermoFicher Scientific. https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-gel-electrophoresis-information/western-blot-protocols.html"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#supplemental",
+    "href": "protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html#supplemental",
+    "title": "Tris-Glycine SDS Running Buffer",
+    "section": "Supplemental",
+    "text": "Supplemental\n\nKey resources table\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER\n\n\n\n\nChemicals\n\n\n\n\nTris Base\nFicher\nCat# BP154-1\n\n\nGlycine\nSigma\nCat# G-7126\n\n\nSDS - Electrophoresis Grade\nFisher\nCat# BP166-500\n\n\nHCl\nLab Stock\nN/A"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html",
+    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html",
+    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
+    "section": "",
+    "text": "Tween-20 is a non-ionic detergent which acts as a temporary blocking agent to prevent non-specific protein-protein binding. In western blots, after the primary antibody has been allowed to bind appropriately, we need to prepare for the secondary antibody. First, we must wash the membrane to remove all excess primary antibody. By washing the membrane with a detergent, we prevent the primary antibody from inadventantly, incorrectly binding to an incorrect site (non-specific binding to the membrane). The antibody will have a preferential binding to the detergent.\nDetergents are helpful temporary blockers - they can be washed away easily with aqeuous solutions."
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#overview",
+    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#overview",
+    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
+    "section": "",
+    "text": "Tween-20 is a non-ionic detergent which acts as a temporary blocking agent to prevent non-specific protein-protein binding. In western blots, after the primary antibody has been allowed to bind appropriately, we need to prepare for the secondary antibody. First, we must wash the membrane to remove all excess primary antibody. By washing the membrane with a detergent, we prevent the primary antibody from inadventantly, incorrectly binding to an incorrect site (non-specific binding to the membrane). The antibody will have a preferential binding to the detergent.\nDetergents are helpful temporary blockers - they can be washed away easily with aqeuous solutions."
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#components",
+    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#components",
+    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
+    "section": "Components",
+    "text": "Components\n\n10x Stock TBS\nTween 20\n\\(diH\\_2O\\)"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#protocol",
+    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#protocol",
+    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
+    "section": "Protocol",
+    "text": "Protocol\n\nAdd 800 mL of \\(diH\\_2O\\) to orange top container\nAdd 1 mL of Tween 20 using a wide tip pipette (Tween 20 is very viscous)\nAdd ~199 mL of \\(diH\\_2O\\) down the side of the container until the total volume reaches 1 L"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#notes",
+    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#notes",
+    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
+    "section": "Notes",
+    "text": "Notes\nDo not start with a 1x TBS that we may keep at the bench. This will have 20% Methanol added, which we do not want for TBST."
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#references",
+    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#references",
+    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
+    "section": "References",
+    "text": "References\n\nWestern blot buffers and stock solutions. Abcam. https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot"
+  },
+  {
+    "objectID": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#supplemental",
+    "href": "protocols/recipes/buffers/tris-buffered-saline-Tween-20.html#supplemental",
+    "title": "Tris-Buffered Saline with Tween 20 (TBST)",
+    "section": "Supplemental",
+    "text": "Supplemental\n\nKey resources table\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER\n\n\n\n\nChemicals\n\n\n\n\nTween 20\nSanta Cruz\nCat# SC-29113"
+  },
+  {
     "objectID": "protocols/recipes/solvents/pbs-phosphate-buffered-saline.html",
     "href": "protocols/recipes/solvents/pbs-phosphate-buffered-saline.html",
+    "title": "Phosphate Buffered Saline (PBS)",
+    "section": "",
+    "text": "Similar pH, electrolytes, and osmolarity to the human body.\n\nConcentration: 1x\npH 7.4\n\n\n\n\nWashing tissues, cells\nCommon base solvent in many solutions"
+  },
+  {
+    "objectID": "protocols/recipes/solvents/pbs-phosphate-buffered-saline.html#overview",
+    "href": "protocols/recipes/solvents/pbs-phosphate-buffered-saline.html#overview",
     "title": "Phosphate Buffered Saline (PBS)",
     "section": "",
     "text": "Similar pH, electrolytes, and osmolarity to the human body.\n\nConcentration: 1x\npH 7.4\n\n\n\n\nWashing tissues, cells\nCommon base solvent in many solutions"
@@ -322,6 +294,13 @@
     "text": "The term “Formalin” specifically refers to a saturated solution of Formaldehyde, which is 37% w/v or about 40% v/v. This is a rather high concentration of formaldehyde. A common dilution is a 1:10, which is referred to as 10% Formalin or 4% Formaldehyde (aka 4% Paraformaldehyde). “Paraformaldehyde” technically refers to a polymerized form of formaldehyde which is stable at room temperature without the addition of methanol. Upon addition to an aqueous solution, it dissolves into formaldehyde by breaking the polymer chain.\n\n\nFixing tissue"
   },
   {
+    "objectID": "protocols/recipes/solvents/formalin (10 percent).html#overview",
+    "href": "protocols/recipes/solvents/formalin (10 percent).html#overview",
+    "title": "10% Formalin (4% Paraformaldehyde)",
+    "section": "",
+    "text": "The term “Formalin” specifically refers to a saturated solution of Formaldehyde, which is 37% w/v or about 40% v/v. This is a rather high concentration of formaldehyde. A common dilution is a 1:10, which is referred to as 10% Formalin or 4% Formaldehyde (aka 4% Paraformaldehyde). “Paraformaldehyde” technically refers to a polymerized form of formaldehyde which is stable at room temperature without the addition of methanol. Upon addition to an aqueous solution, it dissolves into formaldehyde by breaking the polymer chain.\n\n\nFixing tissue"
+  },
+  {
     "objectID": "protocols/recipes/solvents/formalin (10 percent).html#components",
     "href": "protocols/recipes/solvents/formalin (10 percent).html#components",
     "title": "10% Formalin (4% Paraformaldehyde)",
@@ -354,6 +333,83 @@
     "href": "protocols/recipes.html",
     "title": "Recipes",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nApr 25, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nApr 25, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nApr 26, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "protocols/molecular-biology.html",
+    "href": "protocols/molecular-biology.html",
+    "title": "Listing Example",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nApr 26, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nApr 26, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Tutorial/templates/recipe-template.html",
+    "href": "Tutorial/templates/recipe-template.html",
+    "title": "Recipe: Template",
+    "section": "",
+    "text": "Description of chemical here\n\n\nSome uses"
+  },
+  {
+    "objectID": "Tutorial/templates/recipe-template.html#overview",
+    "href": "Tutorial/templates/recipe-template.html#overview",
+    "title": "Recipe: Template",
+    "section": "",
+    "text": "Description of chemical here\n\n\nSome uses"
+  },
+  {
+    "objectID": "Tutorial/templates/recipe-template.html#components",
+    "href": "Tutorial/templates/recipe-template.html#components",
+    "title": "Recipe: Template",
+    "section": "Components",
+    "text": "Components\n\nitem 1\nitem 2\nitem 3"
+  },
+  {
+    "objectID": "Tutorial/templates/recipe-template.html#protocol",
+    "href": "Tutorial/templates/recipe-template.html#protocol",
+    "title": "Recipe: Template",
+    "section": "Protocol",
+    "text": "Protocol\n\nstep one\nstep two\nstep 3"
+  },
+  {
+    "objectID": "Tutorial/templates/recipe-template.html#notes",
+    "href": "Tutorial/templates/recipe-template.html#notes",
+    "title": "Recipe: Template",
+    "section": "Notes",
+    "text": "Notes\nSome specific observations or modifications made"
+  },
+  {
+    "objectID": "Tutorial/templates/recipe-template.html#references",
+    "href": "Tutorial/templates/recipe-template.html#references",
+    "title": "Recipe: Template",
+    "section": "References",
+    "text": "References\nList of references to create this protocol"
+  },
+  {
+    "objectID": "Tutorial/templates/recipe-template.html#supplemental",
+    "href": "Tutorial/templates/recipe-template.html#supplemental",
+    "title": "Recipe: Template",
+    "section": "Supplemental",
+    "text": "Supplemental\n\nKey resources table\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\n\nSOURCE\n\n\n\n\nIDENTIFIER\n\n\n\n\n\nAntibodies\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nBacterial and virus strains\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nBiological samples\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nChemicals, peptides, and recombinant proteins\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\n\nDeposited data\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nExperimental models: Cell lines\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nExperimental models: Organisms/strains\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nOligonucleotides\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nRecombinant DNA\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nSoftware and algorithms\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n\n\nOther\n\n\n\n\n\n\n-\n\n\n\n\n-\n\n\n\n\n-"
+  },
+  {
+    "objectID": "Tutorial/tables.html",
+    "href": "Tutorial/tables.html",
+    "title": "Adding tables easily to this site",
+    "section": "",
+    "text": "To easily interchange between the formats, paste your table into https://tablesgenerator.com/markdown_tables"
+  },
+  {
+    "objectID": "Tutorial/tables.html#markdown",
+    "href": "Tutorial/tables.html#markdown",
+    "title": "Adding tables easily to this site",
+    "section": "Markdown",
+    "text": "Markdown\nThe easiest way to add tables into a .qmd file is to add it as a markdown formatted table. Here is an example from w3schools:\n|Header1 |Header2  | Header3|\n--- | --- | ---|\n|data1|data2|data3|\n|data11|data12|data13|\n\nOutput\n\n\n\nHeader1\nHeader2\nHeader3\n\n\n\n\ndata1\ndata2\ndata3\n\n\ndata11\ndata12\ndata13"
+  },
+  {
+    "objectID": "Tutorial/tables.html#html-with-css",
+    "href": "Tutorial/tables.html#html-with-css",
+    "title": "Adding tables easily to this site",
+    "section": "HTML with CSS",
+    "text": "HTML with CSS\nYou can also place the same table using HTML\n&lt;style type=\"text/css\"&gt;\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n&lt;/style&gt;\n&lt;table class=\"tg\"&gt;\n&lt;thead&gt;\n  &lt;tr&gt;\n    &lt;th class=\"tg-0pky\"&gt;Header1&lt;/th&gt;\n    &lt;th class=\"tg-0pky\"&gt;Header2&lt;/th&gt;\n    &lt;th class=\"tg-0pky\"&gt;Header3&lt;/th&gt;\n  &lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n  &lt;tr&gt;\n    &lt;td class=\"tg-0pky\"&gt;data1&lt;/td&gt;\n    &lt;td class=\"tg-0pky\"&gt;data2&lt;/td&gt;\n    &lt;td class=\"tg-0pky\"&gt;data3&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td class=\"tg-0pky\"&gt;data11&lt;/td&gt;\n    &lt;td class=\"tg-0pky\"&gt;data12&lt;/td&gt;\n    &lt;td class=\"tg-0pky\"&gt;data13&lt;/td&gt;\n  &lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n\nOutput\n\n\n\n\n\nHeader1\nHeader2\nHeader3\n\n\n\n\ndata1\ndata2\ndata3\n\n\ndata11\ndata12\ndata13"
   }
 ]
