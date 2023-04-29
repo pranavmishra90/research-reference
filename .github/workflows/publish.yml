@@ -18,14 +18,17 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - uses: conda-incubator/setup-miniconda@v2
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v2.2.0
         with:
           python-version: 3.9
           mamba-version: "*"
           channels: conda-forge,defaults
           channel-priority: true
-          activate-environment: anaconda-client-env
+          activate-environment: quarto-import
           environment-file: environment.yml
+
+
       - shell: bash -el {0}
         run: |
           conda info
@@ -33,6 +36,8 @@ jobs:
           conda config --show-sources
           conda config --show
           printenv | sort
+
+
       - shell: bash -el {0}
         run: mamba install jupyterlab
 
