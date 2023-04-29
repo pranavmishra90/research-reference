@@ -5,7 +5,7 @@ on:
       - main
       - 'releases/**'
   pull_request:
-    types: [ready_for_review, review_requested]
+    types: [assigned, ready_for_review, review_requested]
 
 name: Quarto Publish
 
@@ -18,13 +18,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - uses: conda-incubator/setup-miniconda@v2
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v2.2.0
         with:
           python-version: 3.9
-          channels: conda-forge
-          miniforge-variant: Mambaforge
-          activate-environment: quarto-import
-          environment-file: code/python/environment.yml
+          mamba-version: "*"
+          channels: conda-forge,defaults
+          channel-priority: true
+
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
