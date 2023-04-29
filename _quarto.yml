@@ -13,13 +13,13 @@ project:
 
 website:
   title: "Research Reference"
-  # navbar:
-  #   left:
-  #     - href: index.qmd
-  #       text: Home
-  #     - href: about.qmd
-  #       text: About
-  #   search: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+    search: true
   open-graph: true
   sidebar:
     style: "docked"
