@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "!**/spatial-transcriptomics/*"
   preview:
     port: 3333
     browser: true
@@ -22,7 +25,7 @@ website:
     style: "docked"
     contents: auto
   page-footer: "Created by Pranav Kumar Mishra || License CC-BY-SA" 
-  reader-mode: true
+  reader-mode: false
   repo-url: https://github.com/pranavmishra90/research-reference
   repo-actions: [issue, edit]
 

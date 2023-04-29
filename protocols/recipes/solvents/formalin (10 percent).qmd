@@ -10,6 +10,8 @@ author:
     affiliation-url: https://rushu.rush.edu 
 citation: true
 google-scholar: true
+csl: ../../../american-medical-association.csl
+references: references.bib
 ---
 ## Overview
 
@@ -28,10 +30,13 @@ Fixing tissue
 
 
 ## Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)
+
+Adapted from [@rd_systems_protocol_nodate] 
+
 1. In a vented hood, add 800 mL of PBS to a beaker with a stir bar on a hot plate set to $60 ^\circ C$
 2. Add 40g of PFA powder to the heated PBS solution
-3. Spin until mostly disolved
-4. Raise the pH, dropwise, by adding 1N $NaOH$ until the solution clears
+3. Spin until mostly disolved ^[Note: the solution will appear like milk]
+4. Raise the pH, by adding 1N $NaOH$ dropwise using a transfer pipette, until the solution clears ^[Note: Takes $\le$ 2 mL of 1N $NaOH$ to turn the solution clear.]
 5. Cool to room temperature
 6. Add 1x PBS until the volume reaches 1L total
 
@@ -41,6 +46,8 @@ Fixing tissue
 - $2-8 ^\circ C$: 1 month
 - $-20 ^\circ C$: several months
 
-
 ## References
 1. R&D Systems. Protocol for Making a 4% Formaldehyde Solution in PBS. https://www.rndsystems.com/resources/protocols/protocol-making-4-formaldehyde-solution-pbs
+
+::: {#refs}
+:::

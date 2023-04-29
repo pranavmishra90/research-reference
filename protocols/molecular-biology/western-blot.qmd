@@ -1,0 +1,18 @@
+---
+title: "Western Blot Protocol"
+date: last-modified
+date-format: full
+author:
+  - name: Pranav Mishra
+    url: https://drpranavmishra.com
+    orcid: 0000-0001-5219-6269 
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu 
+citation: true
+google-scholar: true
+
+# nocite: |
+#   @something
+---
+
+(Western Blot Protocol goes here)

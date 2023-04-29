@@ -1,0 +1,116 @@
+---
+title: "Key Resources"
+date: last-modified
+date-format: full
+author:
+  - name: Pranav Mishra
+    url: https://www.drpranavmishra.com
+    orcid: 0000-0001-5219-6269 
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu 
+citation: false
+google-scholar: false
+code-fold: true
+---
+
+## Antibodies
+```{python}
+import pandas as pd
+df = pd.read_csv('01-antibodies.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+
+## Biological Samples
+```{python}
+import pandas as pd
+df = pd.read_csv('02-biological-samples.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+
+## Chemicals; peptides; and recombinant proteins
+
+```{python}
+import pandas as pd
+df = pd.read_csv('03-chemicals-peptides-recombinant-proteins.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+## Deposited Data
+
+```{python}
+import pandas as pd
+df = pd.read_csv('04-deposited-data.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+
+## Experimental models: Cell Lines
+
+```{python}
+import pandas as pd
+df = pd.read_csv('05-exp-models-cell-lines.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+## Experimental models: Organisms and Strains
+
+```{python}
+import pandas as pd
+df = pd.read_csv('06-exp-models-organisms-strains.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+
+## Oligonucleotides
+
+```{python}
+import pandas as pd
+df = pd.read_csv('07-oligonucleotides.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+## Recominant DNA
+
+```{python}
+import pandas as pd
+df = pd.read_csv('08-recombinant-DNA.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+## Software Algorithms
+
+```{python}
+import pandas as pd
+df = pd.read_csv('09-software-algorithms.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
+
+## Other
+
+```{python}
+import pandas as pd
+df = pd.read_csv('10-other.csv')
+df = df.fillna('')
+html_table = df.to_html()
+display(html_table)
+```
