@@ -33,8 +33,6 @@ display(html_table)
 ```
 
 
-
-
 ## Chemicals; peptides; and recombinant proteins
 
 ```{python}
