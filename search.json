@@ -112,6 +112,83 @@
     "text": "About this Datalad dataset\n\nGeneral information\nThis is a DataLad dataset (id: 3d6beff7-a55d-43a2-ab44-6def6a79bde5).\n\n\nDataLad datasets and how to use them\nThis repository is a DataLad dataset. It provides fine-grained data access down to the level of individual files, and allows for tracking future updates. In order to use this repository for data retrieval, DataLad is required. It is a free and open source command line tool, available for all major operating systems, and builds up on Git and git-annex to allow sharing, synchronizing, and version controlling collections of large files.\nMore information on how to install DataLad and how to install it can be found in the DataLad Handbook.\n\nGet the dataset\nA DataLad dataset can be cloned by running\ndatalad clone &lt;url&gt;\nOnce a dataset is cloned, it is a light-weight directory on your local machine. At this point, it contains only small metadata and information on the identity of the files in the dataset, but not actual content of the (sometimes large) data files.\n\n\nRetrieve dataset content\nAfter cloning a dataset, you can retrieve file contents by running\ndatalad get &lt;path/to/directory/or/file&gt;\nThis command will trigger a download of the files, directories, or subdatasets you have specified.\nDataLad datasets can contain other datasets, so called subdatasets. If you clone the top-level dataset, subdatasets do not yet contain metadata and information on the identity of files, but appear to be empty directories. In order to retrieve file availability metadata in subdatasets, run\ndatalad get -n &lt;path/to/subdataset&gt;\nAfterwards, you can browse the retrieved metadata to find out about subdataset contents, and retrieve individual files with datalad get. If you use datalad get &lt;path/to/subdataset&gt;, all contents of the subdataset will be downloaded at once.\n\n\nStay up-to-date\nDataLad datasets can be updated. The command datalad update will fetch updates and store them on a different branch (by default remotes/origin/master). Running\ndatalad update --merge\nwill pull available updates and integrate them in one go.\n\n\nFind out what has been done\nDataLad datasets contain their history in the git log. By running git log (or a tool that displays Git history) in the dataset or on specific files, you can find out what has been done to the dataset or to individual files by whom, and when."
   },
   {
+    "objectID": "lab-materials/key-resources-table/index.html",
+    "href": "lab-materials/key-resources-table/index.html",
+    "title": "Key Resources",
+    "section": "",
+    "text": "Code\nimport pandas as pd\ndf = pd.read_csv('01-antibodies.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#antibodies",
+    "href": "lab-materials/key-resources-table/index.html#antibodies",
+    "title": "Key Resources",
+    "section": "",
+    "text": "Code\nimport pandas as pd\ndf = pd.read_csv('01-antibodies.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#biological-samples",
+    "href": "lab-materials/key-resources-table/index.html#biological-samples",
+    "title": "Key Resources",
+    "section": "Biological Samples",
+    "text": "Biological Samples\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('02-biological-samples.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#chemicals-peptides-and-recombinant-proteins",
+    "href": "lab-materials/key-resources-table/index.html#chemicals-peptides-and-recombinant-proteins",
+    "title": "Key Resources",
+    "section": "Chemicals; peptides; and recombinant proteins",
+    "text": "Chemicals; peptides; and recombinant proteins\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('03-chemicals-peptides-recombinant-proteins.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n\nSodium Chloride\n\n\n\nFisher\n\n\n\nCat# S630-10\n\n\n\n\n\n\n\n1\n\n\n\nTween-20\n\n\n\nSanta Cruz\n\n\n\nCat# SC-29913\n\n\n\n\n\n\n\n2\n\n\n\nPierce RIPA Buffer\n\n\n\nThermo\n\n\n\nCat# 89901\n\n\n\n\n\n\n\n3\n\n\n\nSDS\n\n\n\nFisher\n\n\n\nCat# BP166-500\n\n\n\n\n\n\n\n4\n\n\n\nGlycine\n\n\n\nSigma\n\n\n\nCat# G-7126\n\n\n\n\n\n\n\n5\n\n\n\nTris Base\n\n\n\nFisher\n\n\n\nCat# BP154-1\n\n\n\n\n\n\n\n6\n\n\n\nBCA Protein Assay Kit\n\n\n\nPierce\n\n\n\nCat# 23225\n\n\n\n\n\n\n\n7\n\n\n\nPrecision Plus Protein Dual Color Standards\n\n\n\nBio-Rad\n\n\n\nCat# 1610374\n\n\n\n\n\n\n\n8\n\n\n\nRestore Western Blot Stripping Buffer\n\n\n\nThermo\n\n\n\nCat# 21059\n\n\n\n\n\n\n\n9\n\n\n\nPierce Protease and Phosphatase Inhibitor Mini Tablets EDTA-Free\n\n\n\nThermo\n\n\n\nCat# A32961\n\n\n\n\n\n\n\n10\n\n\n\nMethanol (100%)\n\n\n\nFicher\n\n\n\nCat# A412-4\n\n\n\n\n\n\n\n11\n\n\n\nRNaseZap\n\n\n\nSigma\n\n\n\nR2020-250ML\n\n\n\n\n\n\n\n12\n\n\n\nPowerUp SYBR Green Master Mix\n\n\n\nApplied Biosystems\n\n\n\nA25742\n\n\n\n\n\n\n\n13\n\n\n\nSuperScript IV VILO Master Mix\n\n\n\nInvitrogen\n\n\n\n11766050"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#deposited-data",
+    "href": "lab-materials/key-resources-table/index.html#deposited-data",
+    "title": "Key Resources",
+    "section": "Deposited Data",
+    "text": "Deposited Data\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('04-deposited-data.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#experimental-models-cell-lines",
+    "href": "lab-materials/key-resources-table/index.html#experimental-models-cell-lines",
+    "title": "Key Resources",
+    "section": "Experimental models: Cell Lines",
+    "text": "Experimental models: Cell Lines\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('05-exp-models-cell-lines.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#experimental-models-organisms-and-strains",
+    "href": "lab-materials/key-resources-table/index.html#experimental-models-organisms-and-strains",
+    "title": "Key Resources",
+    "section": "Experimental models: Organisms and Strains",
+    "text": "Experimental models: Organisms and Strains\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('06-exp-models-organisms-strains.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#oligonucleotides",
+    "href": "lab-materials/key-resources-table/index.html#oligonucleotides",
+    "title": "Key Resources",
+    "section": "Oligonucleotides",
+    "text": "Oligonucleotides\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('07-oligonucleotides.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#recominant-dna",
+    "href": "lab-materials/key-resources-table/index.html#recominant-dna",
+    "title": "Key Resources",
+    "section": "Recominant DNA",
+    "text": "Recominant DNA\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('08-recombinant-DNA.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#software-algorithms",
+    "href": "lab-materials/key-resources-table/index.html#software-algorithms",
+    "title": "Key Resources",
+    "section": "Software Algorithms",
+    "text": "Software Algorithms\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('09-software-algorithms.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/index.html#other",
+    "href": "lab-materials/key-resources-table/index.html#other",
+    "title": "Key Resources",
+    "section": "Other",
+    "text": "Other\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('10-other.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n\nNova Max Plus\n\n\n\nNova\n\n\n\n43436\n\n\n\n\n\n\n\n1\n\n\n\nNova Max Glucose Test Strips\n\n\n\nNova\n\n\n\n43523"
+  },
+  {
     "objectID": "protocols/molecular-biology/index.html",
     "href": "protocols/molecular-biology/index.html",
     "title": "Molecular Biology",
@@ -354,7 +431,7 @@
     "href": "protocols/recipes/solvents/formalin (10 percent).html#protocol-preparation-of-1-liter-of-4-pfa-10-formalin",
     "title": "10% Formalin (4% Paraformaldehyde)",
     "section": "Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)",
-    "text": "Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)\n\nIn a vented hood, add 800 mL of PBS to a beaker with a stir bar on a hot plate set to \\(60 ^\\circ C\\)\nAdd 40g of PFA powder to the heated PBS solution\nSpin until mostly disolved 1\nRaise the pH, by adding 1N \\(NaOH\\) dropwise using a transfer pipette, until the solution clears 2\nCool to room temperature\nAdd 1x PBS until the volume reaches 1L total"
+    "text": "Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)\nAdapted fromrd_systems_protocol_nodate?\n\nIn a vented hood, add 800 mL of PBS to a beaker with a stir bar on a hot plate set to \\(60 ^\\circ C\\)\nAdd 40g of PFA powder to the heated PBS solution\nSpin until mostly disolved 1\nRaise the pH, by adding 1N \\(NaOH\\) dropwise using a transfer pipette, until the solution clears 2\nCool to room temperature\nAdd 1x PBS until the volume reaches 1L total"
   },
   {
     "objectID": "protocols/recipes/solvents/formalin (10 percent).html#storage",
@@ -368,7 +445,7 @@
     "href": "protocols/recipes/solvents/formalin (10 percent).html#references",
     "title": "10% Formalin (4% Paraformaldehyde)",
     "section": "References",
-    "text": "References"
+    "text": "References\n\nR&D Systems. Protocol for Making a 4% Formaldehyde Solution in PBS. https://www.rndsystems.com/resources/protocols/protocol-making-4-formaldehyde-solution-pbs"
   },
   {
     "objectID": "protocols/recipes/solvents/formalin (10 percent).html#footnotes",
