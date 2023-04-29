@@ -21,10 +21,20 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v2
         with:
           python-version: 3.9
-          channels: conda-forge
-          miniforge-variant: Mambaforge
-          activate-environment: quarto-import
-          environment-file: /home/runner/work/research-reference/code/python/environment.yml
+          mamba-version: "*"
+          channels: conda-forge,defaults
+          channel-priority: true
+          activate-environment: anaconda-client-env
+          environment-file: code/python/environment.yml
+      - shell: bash -el {0}
+        run: |
+          conda info
+          conda list
+          conda config --show-sources
+          conda config --show
+          printenv | sort
+      - shell: bash -el {0}
+        run: mamba install jupyterlab
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
