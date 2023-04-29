@@ -5,7 +5,7 @@ on:
       - main
       - 'releases/**'
   pull_request:
-    types: [ready_for_review, review_requested]
+    types: [assigned, ready_for_review, review_requested]
 
 name: Quarto Publish
 
@@ -24,7 +24,7 @@ jobs:
           channels: conda-forge
           miniforge-variant: Mambaforge
           activate-environment: quarto-import
-          environment-file: code/python/environment.yml
+          environment-file: /code/python/environment.yml
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
