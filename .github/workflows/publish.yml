@@ -24,7 +24,7 @@ jobs:
           channels: conda-forge
           miniforge-variant: Mambaforge
           activate-environment: quarto-import
-          environment-file: /code/python/environment.yml
+          environment-file: /home/runner/work/research-reference/code/python/environment.yml
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
