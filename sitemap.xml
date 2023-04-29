@@ -1,63 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/pranavmishra90/research-reference/lab-materials/key-resources-table/readme.html</loc>
-    <lastmod>2023-04-29T02:53:30.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/about.html</loc>
-    <lastmod>2023-04-29T02:53:30.737Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/index.html</loc>
-    <lastmod>2023-04-29T02:53:31.205Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/deploy/readme.html</loc>
-    <lastmod>2023-04-29T02:53:31.865Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/buffers/tris-buffered-saline-TBS.html</loc>
-    <lastmod>2023-04-29T02:53:32.449Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/buffers/tris-glycine-transfer-buffer.html</loc>
-    <lastmod>2023-04-29T02:53:32.957Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html</loc>
-    <lastmod>2023-04-29T02:53:33.445Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/buffers/tris-buffered-saline-Tween-20.html</loc>
-    <lastmod>2023-04-29T02:53:33.909Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/solvents/pbs-phosphate-buffered-saline.html</loc>
-    <lastmod>2023-04-29T02:53:34.429Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/solvents/formalin (10 percent).html</loc>
-    <lastmod>2023-04-29T02:53:34.909Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html</loc>
-    <lastmod>2023-04-29T02:53:35.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes.html</loc>
-    <lastmod>2023-04-29T02:53:35.617Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/pranavmishra90/research-reference/protocols/molecular-biology.html</loc>
-    <lastmod>2023-04-29T02:53:36.049Z</lastmod>
+    <loc>https://github.com/pranavmishra90/research-reference/Tutorial/tables.html</loc>
+    <lastmod>2023-04-29T04:03:56.763Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/pranavmishra90/research-reference/Tutorial/templates/recipe-template.html</loc>
-    <lastmod>2023-04-29T02:53:36.605Z</lastmod>
+    <lastmod>2023-04-29T04:03:57.755Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/pranavmishra90/research-reference/Tutorial/tables.html</loc>
-    <lastmod>2023-04-29T02:53:37.001Z</lastmod>
+    <loc>https://github.com/pranavmishra90/research-reference/about.html</loc>
+    <lastmod>2023-04-29T04:03:58.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/deploy/readme.html</loc>
+    <lastmod>2023-04-29T04:03:58.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/index.html</loc>
+    <lastmod>2023-04-29T04:03:59.175Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/index.html</loc>
+    <lastmod>2023-04-29T04:03:59.591Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html</loc>
+    <lastmod>2023-04-29T04:04:00.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/buffers/tris-buffered-saline-TBS.html</loc>
+    <lastmod>2023-04-29T04:04:00.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/buffers/tris-buffered-saline-Tween-20.html</loc>
+    <lastmod>2023-04-29T04:04:01.111Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html</loc>
+    <lastmod>2023-04-29T04:04:01.627Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/buffers/tris-glycine-transfer-buffer.html</loc>
+    <lastmod>2023-04-29T04:04:02.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/index.html</loc>
+    <lastmod>2023-04-29T04:04:02.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/solvents/formalin (10 percent).html</loc>
+    <lastmod>2023-04-29T04:04:03.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/pranavmishra90/research-reference/protocols/recipes/solvents/pbs-phosphate-buffered-saline.html</loc>
+    <lastmod>2023-04-29T04:04:03.647Z</lastmod>
   </url>
 </urlset>
