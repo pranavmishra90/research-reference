@@ -1,0 +1,10 @@
+name: quarto-import
+channels:
+- conda-forge
+dependencies:
+- python=3.9
+- nbformat=5.1
+- pandas
+- pip
+- pip:
+  - markdown
