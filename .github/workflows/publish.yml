@@ -27,18 +27,6 @@ jobs:
           channel-priority: true
 
 
-      - shell: bash -el {0}
-        run: |
-          conda info
-          conda list
-          conda config --show-sources
-          conda config --show
-          printenv | sort
-
-
-      - shell: bash -el {0}
-        run: mamba install jupyterlab
-
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
