@@ -22,15 +22,15 @@ bibliography: ../../references.bib
 Methyl alchohol
 
 ### Product information
-[Manufacturer MSDS Link](https://www.fishersci.com/store/msds?partNumber=A4124&productDescription=methanol-certified-acs-fisher-chemical-10&language=en&countryCode=US) [@regulatory_affairs_methanol_2021]
+[Manufacturer MSDS Link](https://www.fishersci.com/store/msds?partNumber=A4124&productDescription=methanol-certified-acs-fisher-chemical-10&language=en&countryCode=US) [@regulatory_affairs_methanol_2021].
 
 
 ## Disposal instructions
 
-### From MSDS
-Dispose of contents/container to an approved waste disposal plant
+### MSDS Instructions
+Dispose of contents/container to an approved waste disposal plant [@regulatory_affairs_methanol_2021]
 
-### From FlinnSci
+### Additional / external sources
 For small amounts of methyl alcohol, one possible disposal method is Flinn Suggested Disposal Method #18a, evaporation in an operating fume hood. For larger amounts, a professional chemical waste disposal firm should be used [@flinn_scientific_methyl_2016].
 
 :::{.callout-important}
