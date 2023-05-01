@@ -10,6 +10,7 @@ author:
     affiliation-url: https://rushu.rush.edu 
 citation: true
 google-scholar: true
+bibliography: ../../../references.bib 
 ---
 
 ## Overview
@@ -29,7 +30,7 @@ Detergents are helpful temporary blockers - they can be washed away easily with 
 * $diH\_2O$
 
 ## Protocol
-
+Adapted from (@abcam_western_2023)
 1. Add 800 mL of $diH\_2O$ to orange top container
 2. Add 1 mL of *Tween 20* using a wide tip pipette (Tween 20 is very viscous)
 3. Add \~199 mL of $diH\_2O$ down the side of the container until the total volume reaches 1 L
@@ -38,10 +39,13 @@ Detergents are helpful temporary blockers - they can be washed away easily with 
 
 Do not start with a 1x TBS that we may keep at the bench. This will have 20% Methanol added, which we do not want for TBST.
 
-## References
+----
 
-1. Western blot buffers and stock solutions. Abcam. https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot
+**References**
 
+::: {#refs}
+:::
+---
 
 
 ## Supplemental

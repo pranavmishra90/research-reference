@@ -1,0 +1,9 @@
+---
+title: "Safe disposal of lab chemicals"
+listing:
+  contents: .
+  type: table
+  categories: true
+  sort:
+  - "title desc"
+---

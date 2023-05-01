@@ -10,6 +10,7 @@ author:
     affiliation-url: https://rushu.rush.edu 
 citation: true
 google-scholar: true
+bibliography: ../../../references.bib
 ---
 
 ## Overview
@@ -61,14 +62,16 @@ using the 10x solution described above
 
 ## Notes
 
-Abcam and Thermo have protocols in agreement. Phosphosolutions proposes 2mM Tris, 14 mM NaCl. Our group has more experience using the Abcam protocol, which is why it is listed here. Note that there are multiple different approaches to the concentrations when making TBS.
+Abcam (@abcam_western_2023) and Thermo (@thermofisher_western_2023) have protocols in agreement. Phosphosolutions proposes 2mM Tris, 14 mM NaCl. Our group has more experience using the Abcam protocol, which is why it is listed here. Note that there are multiple different approaches to the concentrations when making TBS.
 
 We currently have 2N HCl stock in the lab, so it requires significantly more HCl added to neutralize the Tris Base.
 
-## References
+----
 
-1.  Western blot buffers and stock solutions. Abcam. https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot#TBS-10x
-2.  Western Blot Protocols and Recipes. ThermoFicher Scientific. https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-gel-electrophoresis-information/western-blot-protocols.html
+**References**
+
+::: {#refs}
+:::
 
 ------------------------------------------------------------------------
 

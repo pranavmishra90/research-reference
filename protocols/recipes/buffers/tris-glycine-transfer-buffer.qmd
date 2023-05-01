@@ -10,6 +10,7 @@ author:
     affiliation-url: https://rushu.rush.edu 
 citation: true
 google-scholar: true
+bibliography: ../../../references.bib
 ---
 
 
@@ -55,13 +56,14 @@ Concentrations of Tris and Glycine differ from ThermoFicher's protocols<sup>2</s
 | Tris base 	| 25         	| 12.5        	|
 | Glycine   	| 190        	| 96          	|
 
-## References
-1. Transfer and staining of proteins in western blot. Abcam. https://www.abcam.com/protocols/transfer-and-staining-of-proteins-in-western-blot
-2. Western Blot Protocols and Recipes. ThermoFicher Scientific. https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-gel-electrophoresis-information/western-blot-protocols.html
+----
 
+**References**
 
-
+::: {#refs}
+:::
 ---
+
 
 ## Supplemental
 

@@ -1,0 +1,39 @@
+---
+title: "ANOVA in Python"
+date: last-modified
+date-format: full
+author:
+  - name: Pranav Mishra
+    url: https://drpranavmishra.com
+    orcid: 0000-0001-5219-6269 
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu 
+citation: true
+google-scholar: true
+bibliography: ../../references.bib
+---
+
+## Pre-ANOVA testing
+
+### Levene test
+
+A test which sees if the variance found in each group / sample is equal to that of the other ones.
+
+Input: quantitative variables - 2+
+
+Which test(s) are we hoping to perform later:
+
+-   One-way ANOVA
+-   T-test for independent samples
+
+Why is the Levene test important?
+
+If the each group / sample has a large difference in their sample sizes, you need to make sure that the varience in each group are roughly the same. This is called *homogeneity*. Without homogeneous variances between groups of different sizes, the ANOVA could give you a false result of significance [@van_den_berg_levenes_2023].
+
+
+----
+
+**References**
+
+::: {#refs}
+:::
