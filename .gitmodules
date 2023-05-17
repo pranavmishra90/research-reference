@@ -1,4 +1,4 @@
 [submodule "protocols/spatial-transcriptomics"]
 	path = protocols/spatial-transcriptomics
-	url = ./protocols/spatial-transcriptomics
+	url =  git@github.com:pranavmishra90/research-reference-protocols-spatial-transcriptomics.git
 	datalad-id = 1b9a1eec-af3d-4d2b-9471-af941525a32a
