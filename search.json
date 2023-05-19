@@ -88,7 +88,7 @@
     "href": "deploy/readme.html",
     "title": "Datalad with GitHub and GIN siblings",
     "section": "",
-    "text": "datalad create-sibling-gin --access-protocol https-ssh \\\n  --credential gin@g-node.org \\\n  -r research-reference \\\n  --dry-run\n\ndatalad create-sibling-github -s github --credential github_pm90_sibling -r research-reference --dry-run\n\ndd if=/dev/zero of=binary.dat bs=1c count=1\n\ngit config --unset-all remote.gin.annex-ignore\n\ndatalad push --to gin\n\ndatalad siblings configure --name gin --as-common-datasrc gin-src\n\ndatalad push --to gin\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Datalad with {GitHub} and {GIN} Siblings},\n  date = {2023-05-17},\n  url = {https://github.com/pranavmishra90/research-reference/deploy/readme.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Datalad with GitHub and GIN\nSiblings.” May 17, 2023. https://github.com/pranavmishra90/research-reference/deploy/readme.html."
+    "text": "datalad create-sibling-gin --access-protocol https-ssh \\\n  --credential gin@g-node.org \\\n  -r research-reference \\\n  --dry-run\n\ndatalad create-sibling-github -s github --credential github_pm90_sibling -r research-reference --dry-run\n\ndd if=/dev/zero of=binary.dat bs=1c count=1\n\ngit config --unset-all remote.gin.annex-ignore\n\ndatalad push --to gin\n\ndatalad siblings configure --name gin --as-common-datasrc gin-src\n\ndatalad push --to gin\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Datalad with {GitHub} and {GIN} Siblings},\n  date = {2023-05-19},\n  url = {https://github.com/pranavmishra90/research-reference/deploy/readme.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Datalad with GitHub and GIN\nSiblings.” May 19, 2023. https://github.com/pranavmishra90/research-reference/deploy/readme.html."
   },
   {
     "objectID": "index.html",
@@ -193,14 +193,14 @@
     "href": "protocols/molecular-biology/index.html",
     "title": "Molecular Biology",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 17, 2023\n\n\nWestern Blot Protocol\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 19, 2023\n\n\nWestern Blot Protocol\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "protocols/molecular-biology/western-blot.html",
     "href": "protocols/molecular-biology/western-blot.html",
     "title": "Western Blot Protocol",
     "section": "",
-    "text": "(Western Blot Protocol goes here)\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Western {Blot} {Protocol}},\n  date = {2023-05-17},\n  url = {https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Western Blot Protocol.” May 17,\n2023. https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html."
+    "text": "(Western Blot Protocol goes here)\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Western {Blot} {Protocol}},\n  date = {2023-05-19},\n  url = {https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Western Blot Protocol.” May 19,\n2023. https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html."
   },
   {
     "objectID": "protocols/recipes/buffers/tris-buffered-saline-TBS.html",
@@ -403,7 +403,7 @@
     "href": "protocols/recipes/index.html",
     "title": "Recipes",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 17, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nMay 17, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nMay 17, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nMay 17, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nMay 17, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nMay 17, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 19, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nMay 19, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nMay 19, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nMay 19, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nMay 19, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nMay 19, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "protocols/recipes/solvents/formalin (10 percent).html",
