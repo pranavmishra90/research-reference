@@ -88,7 +88,7 @@
     "href": "deploy/readme.html",
     "title": "Datalad with GitHub and GIN siblings",
     "section": "",
-    "text": "datalad create-sibling-gin --access-protocol https-ssh \\\n  --credential gin@g-node.org \\\n  -r research-reference \\\n  --dry-run\n\ndatalad create-sibling-github -s github --credential github_pm90_sibling -r research-reference --dry-run\n\ndd if=/dev/zero of=binary.dat bs=1c count=1\n\ngit config --unset-all remote.gin.annex-ignore\n\ndatalad push --to gin\n\ndatalad siblings configure --name gin --as-common-datasrc gin-src\n\ndatalad push --to gin\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Datalad with {GitHub} and {GIN} Siblings},\n  date = {2023-05-22},\n  url = {https://github.com/pranavmishra90/research-reference/deploy/readme.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Datalad with GitHub and GIN\nSiblings.” May 22, 2023. https://github.com/pranavmishra90/research-reference/deploy/readme.html."
+    "text": "datalad create-sibling-gin --access-protocol https-ssh \\\n  --credential gin@g-node.org \\\n  -r research-reference \\\n  --dry-run\n\ndatalad create-sibling-github -s github --credential github_pm90_sibling -r research-reference --dry-run\n\ndd if=/dev/zero of=binary.dat bs=1c count=1\n\ngit config --unset-all remote.gin.annex-ignore\n\ndatalad push --to gin\n\ndatalad siblings configure --name gin --as-common-datasrc gin-src\n\ndatalad push --to gin\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Datalad with {GitHub} and {GIN} Siblings},\n  date = {2023-06-09},\n  url = {https://github.com/pranavmishra90/research-reference/deploy/readme.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Datalad with GitHub and GIN\nSiblings.” June 9, 2023. https://github.com/pranavmishra90/research-reference/deploy/readme.html."
   },
   {
     "objectID": "index.html",
@@ -137,7 +137,7 @@
     "href": "lab-materials/key-resources-table/index.html#chemicals-peptides-and-recombinant-proteins",
     "title": "Key Resources",
     "section": "Chemicals; peptides; and recombinant proteins",
-    "text": "Chemicals; peptides; and recombinant proteins\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('03-chemicals-peptides-recombinant-proteins.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n\nSodium Chloride\n\n\n\nFisher\n\n\n\nCat# S630-10\n\n\n\n\n\n\n\n1\n\n\n\nTween-20\n\n\n\nSanta Cruz\n\n\n\nCat# SC-29913\n\n\n\n\n\n\n\n2\n\n\n\nPierce RIPA Buffer\n\n\n\nThermo\n\n\n\nCat# 89901\n\n\n\n\n\n\n\n3\n\n\n\nSDS\n\n\n\nFisher\n\n\n\nCat# BP166-500\n\n\n\n\n\n\n\n4\n\n\n\nGlycine\n\n\n\nSigma\n\n\n\nCat# G-7126\n\n\n\n\n\n\n\n5\n\n\n\nTris Base\n\n\n\nFisher\n\n\n\nCat# BP154-1\n\n\n\n\n\n\n\n6\n\n\n\nBCA Protein Assay Kit\n\n\n\nPierce\n\n\n\nCat# 23225\n\n\n\n\n\n\n\n7\n\n\n\nPrecision Plus Protein Dual Color Standards\n\n\n\nBio-Rad\n\n\n\nCat# 1610374\n\n\n\n\n\n\n\n8\n\n\n\nRestore Western Blot Stripping Buffer\n\n\n\nThermo\n\n\n\nCat# 21059\n\n\n\n\n\n\n\n9\n\n\n\nPierce Protease and Phosphatase Inhibitor Mini Tablets EDTA-Free\n\n\n\nThermo\n\n\n\nCat# A32961\n\n\n\n\n\n\n\n10\n\n\n\nMethanol (100%)\n\n\n\nFicher\n\n\n\nCat# A412-4\n\n\n\n\n\n\n\n11\n\n\n\nRNaseZap\n\n\n\nSigma\n\n\n\nR2020-250ML\n\n\n\n\n\n\n\n12\n\n\n\nPowerUp SYBR Green Master Mix\n\n\n\nApplied Biosystems\n\n\n\nA25742\n\n\n\n\n\n\n\n13\n\n\n\nSuperScript IV VILO Master Mix\n\n\n\nInvitrogen\n\n\n\n11766050"
+    "text": "Chemicals; peptides; and recombinant proteins\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('03-chemicals-peptides-recombinant-proteins.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n\nSodium Chloride\n\n\n\nFisher\n\n\n\nS630-10\n\n\n\n\n\n\n\n1\n\n\n\nTween-20\n\n\n\nSanta Cruz\n\n\n\nSC-29913\n\n\n\n\n\n\n\n2\n\n\n\nPierce RIPA Buffer\n\n\n\nThermo Scientific\n\n\n\n89901\n\n\n\n\n\n\n\n3\n\n\n\nSDS\n\n\n\nFisher\n\n\n\nBP166-500\n\n\n\n\n\n\n\n4\n\n\n\nGlycine\n\n\n\nSigma\n\n\n\nG-7126\n\n\n\n\n\n\n\n5\n\n\n\nTris Base\n\n\n\nFisher\n\n\n\nBP154-1\n\n\n\n\n\n\n\n6\n\n\n\nBCA Protein Assay Kit\n\n\n\nPierce\n\n\n\n23225\n\n\n\n\n\n\n\n7\n\n\n\nPrecision Plus Protein Dual Color Standards\n\n\n\nBio-Rad\n\n\n\n1610374\n\n\n\n\n\n\n\n8\n\n\n\nRestore Western Blot Stripping Buffer\n\n\n\nThermo\n\n\n\n21059\n\n\n\n\n\n\n\n9\n\n\n\nPierce Protease and Phosphatase Inhibitor Mini Tablets EDTA-Free\n\n\n\nThermo\n\n\n\nA32961\n\n\n\n\n\n\n\n10\n\n\n\nMethanol (100%)\n\n\n\nFicher\n\n\n\nA412-4\n\n\n\n\n\n\n\n11\n\n\n\nRNaseZap\n\n\n\nSigma\n\n\n\nR2020-250ML\n\n\n\n\n\n\n\n12\n\n\n\nPowerUp SYBR Green Master Mix\n\n\n\nApplied Biosystems\n\n\n\nA25742\n\n\n\n\n\n\n\n13\n\n\n\nSuperScript IV VILO Master Mix\n\n\n\nInvitrogen\n\n\n\n11766050\n\n\n\n\n\n\n\n14\n\n\n\n2-Mercaptoethanol\n\n\n\nBio-Rad\n\n\n\n1610710\n\n\n\n\n\n\n\n15\n\n\n\n4x Laemmli Sample Buffer\n\n\n\nBio-Rad\n\n\n\n1610747\n\n\n\n\n\n\n\n16\n\n\n\nTRIzol Reagent\n\n\n\nAmbion\n\n\n\n15596018\n\n\n\n\n\n\n\n17\n\n\n\n10x Tris/Glycine/SDS Buffer\n\n\n\nBio-Rad\n\n\n\n1610732\n\n\n\n\n\n\n\n18\n\n\n\nSpectra Multicolor High Range Protein Ladder\n\n\n\nThermo Scientific\n\n\n\n26625\n\n\n\n\n\n\n\n19\n\n\n\nPrecision Plus Protein Dual Color Standards\n\n\n\nBio-Rad\n\n\n\n1610374\n\n\n\n\n\n\n\n20\n\n\n\nBCA Protein Assay\n\n\n\nPierce\n\n\n\n23225"
   },
   {
     "objectID": "lab-materials/key-resources-table/index.html#deposited-data",
@@ -186,21 +186,21 @@
     "href": "lab-materials/key-resources-table/index.html#other",
     "title": "Key Resources",
     "section": "Other",
-    "text": "Other\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('10-other.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n\nNova Max Plus\n\n\n\nNova\n\n\n\n43436\n\n\n\n\n\n\n\n1\n\n\n\nNova Max Glucose Test Strips\n\n\n\nNova\n\n\n\n43523"
+    "text": "Other\n\n\nCode\nimport pandas as pd\ndf = pd.read_csv('10-other.csv')\ndf = df.fillna('')\nhtml_table = df.to_html()\ndisplay(html_table)\n\n\n\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\n\n\n\nSOURCE\n\n\n\nIDENTIFIER\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n\nNova Max Plus\n\n\n\nNova\n\n\n\n43436\n\n\n\n\n\n\n\n1\n\n\n\nNova Max Glucose Test Strips\n\n\n\nNova\n\n\n\n43523\n\n\n\n\n\n\n\n2\n\n\n\nMicroAmp Fast 96-well Reaction Plate (0.1mL)\n\n\n\nApplied Biosystems\n\n\n\n4346907\n\n\n\n\n\n\n\n3\n\n\n\nMicroAmp EnduraPlate Optical 384-well clear reaction plate with barcode\n\n\n\nApplied Biosystems\n\n\n\n4483285\n\n\n\n\n\n\n\n4\n\n\n\n#10 Surgical Blade\n\n\n\nBard-Parker\n\n\n\n371110"
   },
   {
     "objectID": "protocols/molecular-biology/index.html",
     "href": "protocols/molecular-biology/index.html",
     "title": "Molecular Biology",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 22, 2023\n\n\nWestern Blot Protocol\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJun 9, 2023\n\n\nWestern Blot Protocol\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "protocols/molecular-biology/western-blot.html",
     "href": "protocols/molecular-biology/western-blot.html",
     "title": "Western Blot Protocol",
     "section": "",
-    "text": "(Western Blot Protocol goes here)\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Western {Blot} {Protocol}},\n  date = {2023-05-22},\n  url = {https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Western Blot Protocol.” May 22,\n2023. https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html."
+    "text": "(Western Blot Protocol goes here)\n\n\n\nCitationBibTeX citation:@online{mishra2023,\n  author = {Mishra, Pranav},\n  title = {Western {Blot} {Protocol}},\n  date = {2023-06-09},\n  url = {https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html},\n  langid = {en-US}\n}\nFor attribution, please cite this work as:\nMishra, Pranav. 2023. “Western Blot Protocol.” June 9,\n2023. https://github.com/pranavmishra90/research-reference/protocols/molecular-biology/western-blot.html."
   },
   {
     "objectID": "protocols/recipes/buffers/tris-buffered-saline-TBS.html",
@@ -403,7 +403,7 @@
     "href": "protocols/recipes/index.html",
     "title": "Recipes",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 22, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nMay 22, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nMay 22, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nMay 22, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nMay 22, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nMay 22, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJun 9, 2023\n\n\nTris-Glycine Transfer Buffer\n\n\nPranav Mishra\n\n\n\n\nJun 9, 2023\n\n\nTris-Glycine SDS Running Buffer\n\n\nPranav Mishra\n\n\n\n\nJun 9, 2023\n\n\nTris-Buffered Saline with Tween 20 (TBST)\n\n\nPranav Mishra\n\n\n\n\nJun 9, 2023\n\n\nRecipe: Tris-Buffered Saline (TBS)\n\n\nPranav Mishra\n\n\n\n\nJun 9, 2023\n\n\nPhosphate Buffered Saline (PBS)\n\n\nPranav Mishra\n\n\n\n\nJun 9, 2023\n\n\n10% Formalin (4% Paraformaldehyde)\n\n\nPranav Mishra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "protocols/recipes/solvents/formalin (10 percent).html",
@@ -431,7 +431,7 @@
     "href": "protocols/recipes/solvents/formalin (10 percent).html#protocol-preparation-of-1-liter-of-4-pfa-10-formalin",
     "title": "10% Formalin (4% Paraformaldehyde)",
     "section": "Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)",
-    "text": "Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)\nAdapted fromrd_systems_protocol_nodate?\n\nIn a vented hood, add 800 mL of PBS to a beaker with a stir bar on a hot plate set to \\(60 ^\\circ C\\)\nAdd 40g of PFA powder to the heated PBS solution\nSpin until mostly disolved 1\nRaise the pH, by adding 1N \\(NaOH\\) dropwise using a transfer pipette, until the solution clears 2\nCool to room temperature\nAdd 1x PBS until the volume reaches 1L total"
+    "text": "Protocol: Preparation of 1 liter of 4% PFA (10% Formalin)\nAdapted from1\n\nIn a vented hood, add 800 mL of PBS to a beaker with a stir bar on a hot plate set to \\(60 ^\\circ C\\)\nAdd 40g of PFA powder to the heated PBS solution\nSpin until mostly disolved 1\nRaise the pH, by adding 1N \\(NaOH\\) dropwise using a transfer pipette, until the solution clears 2\nCool to room temperature\nAdd 1x PBS until the volume reaches 1L total"
   },
   {
     "objectID": "protocols/recipes/solvents/formalin (10 percent).html#storage",
@@ -445,7 +445,7 @@
     "href": "protocols/recipes/solvents/formalin (10 percent).html#references",
     "title": "10% Formalin (4% Paraformaldehyde)",
     "section": "References",
-    "text": "References\n\nR&D Systems. Protocol for Making a 4% Formaldehyde Solution in PBS. https://www.rndsystems.com/resources/protocols/protocol-making-4-formaldehyde-solution-pbs"
+    "text": "References\n\nR&D Systems. Protocol for Making a 4% Formaldehyde Solution in PBS. https://www.rndsystems.com/resources/protocols/protocol-making-4-formaldehyde-solution-pbs\n\n\n\n1. R&D Systems. Protocol for making a 4% formaldehyde solution in PBS. R&d systems. Accessed March 31, 2023. https://www.rndsystems.com/resources/protocols/protocol-making-4-formaldehyde-solution-pbs"
   },
   {
     "objectID": "protocols/recipes/solvents/formalin (10 percent).html#footnotes",
