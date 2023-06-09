@@ -11,7 +11,7 @@ author:
 citation: true
 google-scholar: true
 csl: ../../../american-medical-association.csl
-references: references.bib
+bibliography: ../../../references.bib
 ---
 ## Overview
 

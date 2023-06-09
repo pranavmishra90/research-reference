@@ -1,0 +1,13 @@
+version: '2'
+services:
+  tidyverse:
+    container_name: Genomics-Studio
+    restart: unless-stopped
+    environment:
+      - PASSWORD=pranavmishra
+    ports:
+      - '9119:8787'
+    image: pranavmishra90/genomics-studio-base
+    volumes:
+      - ${PWD}:/home/rstudio/workspace/
+      - /home/pranav/.ssh/id_ed25519:/home/rstudio/.ssh/id_ed25519:ro
