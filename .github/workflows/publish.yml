@@ -5,7 +5,7 @@ on:
       - main
       - 'releases/**'
   pull_request:
-    types: [assigned, ready_for_review, review_requested]
+    types: [review_requested]
 
 name: Quarto Publish
 
@@ -17,11 +17,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
+        with:
+          submodules: 'true'
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Setup Miniconda
         uses: conda-incubator/setup-miniconda@v2.2.0
         with:
-          python-version: 3.9
+          python-version: 3.10
           mamba-version: "*"
           channels: conda-forge,defaults
           channel-priority: true
