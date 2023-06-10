@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: 'true'
-          repo-token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }} 
 
       - name: Setup Miniconda
         uses: conda-incubator/setup-miniconda@v2.2.0
