@@ -34,8 +34,8 @@ website:
 format:
   html:
     theme:
-      light: cosmo
-      dark: [cosmo, ./deploy/src/theme-dark.scss]
+      light: flatly
+      dark: darkly
     toc: true
     lang: en-US
     email-obfuscation: javascript
