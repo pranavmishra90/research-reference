@@ -3,8 +3,7 @@
 	url =  git@github.com:pranavmishra90/research-reference-protocols-spatial-transcriptomics.git
 	datalad-id = 1b9a1eec-af3d-4d2b-9471-af941525a32a
 [submodule "nextgen-analysis"]
-	datalad-url = git@github.com:pranavmishra90/nextgen-analysis.git
-[submodule "nextgen-analysis"]
 	path = nextgen-analysis
-	url = ./nextgen-analysis
+	url = git@github.com:pranavmishra90/nextgen-analysis.git
 	datalad-id = c4c8a17f-fac6-4493-b9c3-45e810767d77
+	datalad-url = git@github.com:pranavmishra90/nextgen-analysis.git
