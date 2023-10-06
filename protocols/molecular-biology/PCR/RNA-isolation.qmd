@@ -1,0 +1,152 @@
+---
+title: "mRNA Isolation"
+subtitle: "Isolating mRNA from surgical samples"
+date: 2023-10-03
+date-format: "MMM D, YYYY"
+author:
+  - name: Pranav Kumar Mishra
+    url: https://drpranavmishra.com
+    orcid: 0000-0001-5219-6269
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu
+
+format:
+  html:
+    code-fold: true
+    tbl-cap-location: bottom
+  pdf:
+    # pdf-engine: latexmk
+    documentclass: scrartcl
+    code-fold: true
+    papersize: letter
+    margin-left: 30mm
+    margin-right: 30mm
+    highlight-style: github
+    colorlinks: true
+    default-image-extension: png
+    tbl-cap-location: bottom
+
+execute: 
+  enabled: true
+  echo: false
+  output: true
+---
+
+```{python}
+# Parameters
+
+target_total_rna_ng_ul = 1500
+vol_total_reaction_ul = 20
+vol_superscript_ul = 4
+```
+
+## Protocol
+
+### Lyse samples and separate phases
+1. Add $0.5\ mL$ of TRIzol into an Eppendorf tube containing each sample
+2. Transfer the contents to a mortar. Add $50\ mL$ of liquid nitrogen ($LN_2$) and grind the sample. Repeat with additional $LN_2$, as needed, grinding the sample into a fine powder.
+3. Transfer the Sample + Trizol powder into a fresh Eppendorf.
+4. Add $0.3\ mL$ of TRIzol into each Eppendorf.
+5. Pipette mix to homogenize
+6. Incubate for *5 min* for complete dissociation of the nucleoprotein complex
+7. $0.25\ mL$ of chloroform per $1\ mL$ of Trizol
+8. Incubate for *2-3 min*
+9. Centrifuge the samples for *15 min* at $12,000g$ at $4^{\circ}C$
+10. Transfer the clear upper phase containing RNA to a fresh Eppendorf tube. Ensure you do not contaminate the aqueous phase by touching the whitish, DNA containing interphase.
+11. If desired, you can store the remainder of Trizol phase containing DNA and Protein at $-80^{\circ}C$
+  
+### RNA Isolation
+1. Add $0.5\ mL$ of Isopropanol to the aqueous phase per 1 mL of Trizol used
+2. Incubate for *10 min*
+3. Centrifuge the samples for *15 min* at $12,000g$ at $4^{\circ}C$
+4. Visualize the total RNA precipitate at the bottom of the tube (whitish, gel-like pellet)
+5. Discard the supernatant with a pipette
+6. Wash pellet with $1\ mL$ of cold ($4^{\circ}C$) 75% Ethanol per 1mL of Trizol used
+7. Vortex briefly
+8. Centrifuge the samples for *5 min* at $7,500g$ at $4^{\circ}C$
+9. Discard the supernatant by inverting the tube in one fluid motion, being careful to not disturb the pellet
+10. Use a vacuum centrifuge to dry the remaining amount of supernatant (~ *5 min*)
+11. Resuspend the pellet in $32\ \mu L$ of RNAse-free water (molecular grade water)
+12. Pipette mix to ensure complete resuspension
+
+### Determine the RNA Yield: Nanodrop
+1. Configure the nanodrop to export to USB CSV
+2. Pipette $1.5\ \mu L$ of each sample into the nanodrop to measure the concentration
+3. Save the sample, giving it a name ##### RNA to USB CSV (##### is the 5 digit randomized study subject identification number)
+4. Paste the nanodrop readings into the corresponding CSV file / Excel file
+
+```{python}
+
+# Initialize environment
+import pandas as pd
+import numpy as np
+from IPython.display import display, Markdown, Latex
+from tabulate import tabulate
+import os, socket
+
+pd.set_option('display.precision', 2)
+
+# Get the name of the computer, then save it to an environment variable
+os.environ['computer_name']= socket.gethostname()
+
+if len(os.environ['computer_name']) == 12:
+    if os.path.exists('./work'):
+        is_docker = 'True'
+        os.environ['is_docker']=is_docker
+        os.chdir('/home/coder/work')
+        os.environ['repo_root']=os.getcwd()
+
+elif os.environ['computer_name']=="singulab":
+    os.environ['is_docker'] = 'False'
+    os.environ['repo_root'] = "/home/pranav/work/pranavmishra90/research-reference"
+
+os.chdir(os.environ['repo_root'])
+
+# Load the subject's nanodrop readings
+
+subject_nanodrop = pd.read_csv(f'protocols/molecular-biology/PCR/demo_nanodrop.csv')
+```
+
+```{python}
+#| label: tbl-nanodrop
+#| tbl-cap: Select nanodrop readings
+
+Markdown(tabulate(subject_nanodrop[['Date', 'Time', 'Sample Number', 'A230', 'A260', 'A280', 'A320',
+       'A260/A230', 'A260/A280', 'Concentration', 'Sample Name']], headers=['Date', 'Time', 'Sample Number', 'Sample Name', 'A230', 'A260', 'A280', 'A320', 'A260/A230', 'A260/A280', 'Concentration'],showindex="never", numalign='center', stralign='center', tablefmt="grid"))
+
+```
+
+
+### Conversion to cDNA
+
+```{python}
+lowest_rna_concentration = min(subject_nanodrop['Concentration'])
+
+rna_to_be_used = target_total_rna_ng_ul / lowest_rna_concentration
+
+cdna_conversion = subject_nanodrop
+
+cdna_conversion['RNA_uL'] = target_total_rna_ng_ul / cdna_conversion['Concentration']
+
+cdna_conversion['VILO_uL'] = vol_superscript_ul
+
+cdna_conversion['Water_uL'] = vol_total_reaction_ul - (cdna_conversion['RNA_uL'] + cdna_conversion['VILO_uL'])
+```
+
+```{python}
+
+display(Markdown(f" Our target concentration of cDNA is {target_total_rna_ng_ul} $\\frac{{ng}}{{\mu L}}$."))
+
+display(Markdown(f"The least concentration of any sample is {lowest_rna_concentration} $\\frac{{ng}}{{\mu L}}$. To obtain the target concentration, we will need to use {round(rna_to_be_used, 2)} $\\mu L$ of the RNA previously isolated."))
+
+display(Markdown(f"Our protocol will use  {vol_superscript_ul} $\\mu L$ of Superscript IV VILO for each sample. The volume ($\\mu L$) of molecular grade water to be added is listed in the column 'Water_uL'."))
+```
+
+```{python}
+#| label: tbl-cdna-calculations
+#| tbl-cap: Conversion to cDNA using Superscript VILO
+# display(cdna_conversion[['Sample Number', 'Sample Name', 'RNA_uL', 'VILO_uL', 'Water_uL']].to_html(index=False))
+
+Markdown(tabulate(cdna_conversion[['Sample Number', 'Sample Name', 'RNA_uL', 'VILO_uL', 'Water_uL']], headers=['Sample Number', 'Sample Name', 'RNA (uL)', 'VILO (uL)', 'Water (uL)'],showindex="never", numalign='center', stralign='center'))
+
+```
