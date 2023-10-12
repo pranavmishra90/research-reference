@@ -10,6 +10,8 @@ project:
     watch-inputs: true
     timeout: 600
 
+profile:
+  default: production
 
 website:
   title: "Research Reference"
@@ -56,6 +58,7 @@ format:
 execute:
   freeze: auto
   cache: true
+  error: true
 
 bibliography: ./references.bib
 csl: ./ama.csl

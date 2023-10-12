@@ -1,0 +1,8 @@
+project:
+  type: website
+  output-dir: _gfm
+
+format:
+  gfm:
+    html-math-method: webtex
+    preview-mode: raw
