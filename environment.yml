@@ -1,4 +1,4 @@
-name: base
+name: quarto
 channels:
   - conda-forge
   - bioconda

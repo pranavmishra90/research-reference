@@ -21,10 +21,13 @@ jobs:
       - name: Setup Miniconda
         uses: conda-incubator/setup-miniconda@v2.2.0
         with:
-          python-version: 3.9
-          mamba-version: "*"
+          python-version: 3.10
           channels: conda-forge,defaults
           channel-priority: true
+          mamba-version: "*"
+          auto-activate-base: false
+          activate-environment: "quarto"
+          environment-file: environment.yml
 
 
       - name: Set up Quarto
