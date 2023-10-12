@@ -56,33 +56,183 @@ our group.
 
 ## Chemicals; peptides; and recombinant proteins
 
-| REAGENT or RESOURCE                                              | SOURCE             | IDENTIFIER  |
-|------------------------------------------------------------------|--------------------|-------------|
-| Sodium Chloride                                                  | Fisher             | S630-10     |
-| Tween-20                                                         | Santa Cruz         | SC-29913    |
-| Pierce RIPA Buffer                                               | Thermo Scientific  | 89901       |
-| SDS                                                              | Fisher             | BP166-500   |
-| Glycine                                                          | Sigma              | G-7126      |
-| Tris Base                                                        | Fisher             | BP154-1     |
-| BCA Protein Assay Kit                                            | Pierce             | 23225       |
-| Precision Plus Protein Dual Color Standards                      | Bio-Rad            | 1610374     |
-| Restore Western Blot Stripping Buffer                            | Thermo             | 21059       |
-| Pierce Protease and Phosphatase Inhibitor Mini Tablets EDTA-Free | Thermo             | A32961      |
-| Methanol (100%)                                                  | Ficher             | A412-4      |
-| RNaseZap                                                         | Sigma              | R2020-250ML |
-| PowerUp SYBR Green Master Mix                                    | Applied Biosystems | A25742      |
-| SuperScript IV VILO Master Mix                                   | Invitrogen         | 11766050    |
-| 2-Mercaptoethanol                                                | Bio-Rad            | 1610710     |
-| 4x Laemmli Sample Buffer                                         | Bio-Rad            | 1610747     |
-| TRIzol Reagent                                                   | Ambion             | 15596018    |
-| 10x Tris/Glycine/SDS Buffer                                      | Bio-Rad            | 1610732     |
-| Spectra Multicolor High Range Protein Ladder                     | Thermo Scientific  | 26625       |
-| Precision Plus Protein Dual Color Standards                      | Bio-Rad            | 1610374     |
-| BCA Protein Assay                                                | Pierce             | 23225       |
-| Reagent Alcohol 95% Histoprep                                    | Fisher             | HC13001GL   |
-| Alcohol 100%                                                     | Sigma-Aldrich      | 65347-M     |
-| Xylenes (Histological)                                           | Fisher Chemical    | X3P-1GAL    |
-| TRIzol™ Reagent                                                  | Invitrogen         | 15-596-018  |
+<table style="width:98%;">
+<colgroup>
+<col style="width: 55%" />
+<col style="width: 17%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>REAGENT or RESOURCE</th>
+<th>SOURCE</th>
+<th>IDENTIFIER</th>
+<th>Experiment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sodium Chloride</td>
+<td>Fisher</td>
+<td>S630-10</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Tween-20</td>
+<td>Santa Cruz</td>
+<td>SC-29913</td>
+<td>Western Blot</td>
+</tr>
+<tr class="odd">
+<td>Pierce RIPA Buffer</td>
+<td>Thermo Scientific</td>
+<td>89901</td>
+<td>Western Blot</td>
+</tr>
+<tr class="even">
+<td>SDS</td>
+<td>Fisher</td>
+<td>BP166-500</td>
+<td>Western Blot</td>
+</tr>
+<tr class="odd">
+<td>Glycine</td>
+<td>Sigma</td>
+<td>G-7126</td>
+<td>Western Blot</td>
+</tr>
+<tr class="even">
+<td>Tris Base</td>
+<td>Fisher</td>
+<td>BP154-1</td>
+<td>Western Blot</td>
+</tr>
+<tr class="odd">
+<td>BCA Protein Assay Kit</td>
+<td>Pierce</td>
+<td>23225</td>
+<td>Western Blot</td>
+</tr>
+<tr class="even">
+<td>Precision Plus Protein Dual Color Standards</td>
+<td>Bio-Rad</td>
+<td>1610374</td>
+<td>Western Blot</td>
+</tr>
+<tr class="odd">
+<td>Restore Western Blot Stripping Buffer</td>
+<td>Thermo</td>
+<td>21059</td>
+<td>Western Blot</td>
+</tr>
+<tr class="even">
+<td>Pierce Protease and Phosphatase Inhibitor Mini Tablets
+EDTA-Free</td>
+<td>Thermo</td>
+<td>A32961</td>
+<td>Western Blot</td>
+</tr>
+<tr class="odd">
+<td>Methanol (100%)</td>
+<td>Ficher</td>
+<td>A412-4</td>
+<td>Western Blot</td>
+</tr>
+<tr class="even">
+<td>RNaseZap</td>
+<td>Sigma</td>
+<td>R2020-250ML</td>
+<td>qPCR</td>
+</tr>
+<tr class="odd">
+<td>PowerUp SYBR Green Master Mix</td>
+<td>Applied Biosystems</td>
+<td>A25742</td>
+<td>qPCR</td>
+</tr>
+<tr class="even">
+<td>SuperScript IV VILO Master Mix</td>
+<td>Invitrogen</td>
+<td>11766050</td>
+<td>qPCR</td>
+</tr>
+<tr class="odd">
+<td>2-Mercaptoethanol</td>
+<td>Bio-Rad</td>
+<td>1610710</td>
+<td>Western Blot</td>
+</tr>
+<tr class="even">
+<td>4x Laemmli Sample Buffer</td>
+<td>Bio-Rad</td>
+<td>1610747</td>
+<td>Western Blot</td>
+</tr>
+<tr class="odd">
+<td>TRIzol Reagent</td>
+<td>Ambion</td>
+<td>15596018</td>
+<td>Western Blot</td>
+</tr>
+<tr class="even">
+<td>10x Tris/Glycine/SDS Buffer</td>
+<td>Bio-Rad</td>
+<td>1610732</td>
+<td>Western Blot</td>
+</tr>
+<tr class="odd">
+<td>Spectra Multicolor High Range Protein Ladder</td>
+<td>Thermo Scientific</td>
+<td>26625</td>
+<td>Western Blot</td>
+</tr>
+<tr class="even">
+<td>Reagent Alcohol 95% Histoprep</td>
+<td>Fisher</td>
+<td>HC13001GL</td>
+<td>Histology</td>
+</tr>
+<tr class="odd">
+<td>Alcohol 100%</td>
+<td>Sigma-Aldrich</td>
+<td>65347-M</td>
+<td>Histology</td>
+</tr>
+<tr class="even">
+<td>Xylenes (Histological)</td>
+<td>Fisher Chemical</td>
+<td>X3P-1GAL</td>
+<td>Histology</td>
+</tr>
+<tr class="odd">
+<td>TRIzol™ Reagent</td>
+<td>Invitrogen</td>
+<td>15-596-018</td>
+<td>qPCR</td>
+</tr>
+<tr class="even">
+<td>Paraplast X-tra</td>
+<td>Leica</td>
+<td>39603002</td>
+<td>Histology</td>
+</tr>
+<tr class="odd">
+<td>EM-400 Embedding Medium Paraffin</td>
+<td>Leica</td>
+<td>3801320</td>
+<td>Histology</td>
+</tr>
+<tr class="even">
+<td>Tissue Path™ Disposable Embedding Rings</td>
+<td>Fisher</td>
+<td>22038198</td>
+<td>Histology</td>
+</tr>
+</tbody>
+</table>
 
 ## Deposited Data
 
@@ -122,14 +272,129 @@ our group.
 
 ## Other
 
-| REAGENT or RESOURCE                                                     | SOURCE             | IDENTIFIER |
-|-------------------------------------------------------------------------|--------------------|------------|
-| Nova Max Plus                                                           | Nova               | 43436      |
-| Nova Max Glucose Test Strips                                            | Nova               | 43523      |
-| HbA1c Test Kit                                                          | Afinion            | 1115015    |
-| HbA1c Controls                                                          | Afinion            | 1115178    |
-| MicroAmp Fast 96-well Reaction Plate (0.1mL)                            | Applied Biosystems | 4346907    |
-| MicroAmp EnduraPlate Optical 384-well clear reaction plate with barcode | Applied Biosystems | 4483285    |
-| \#10 Surgical Blade                                                     | Bard-Parker        | 371110     |
-| BD Vacutainer Serum                                                     | BD                 | 367815     |
-| BD Vacutainer Sodium Herparin                                           | BD                 | 367878     |
+<table style="width:98%;">
+<colgroup>
+<col style="width: 52%" />
+<col style="width: 14%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>REAGENT or RESOURCE</th>
+<th>SOURCE</th>
+<th>IDENTIFIER</th>
+<th>Experiment</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nova Max Plus</td>
+<td>Nova</td>
+<td>43436</td>
+<td>Blood test</td>
+<td>Hardware</td>
+</tr>
+<tr class="even">
+<td>Nova Max Glucose Test Strips</td>
+<td>Nova</td>
+<td>43523</td>
+<td>Blood test</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>HbA1c Test Kit</td>
+<td>Afinion</td>
+<td>1115015</td>
+<td>Blood test</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>HbA1c Controls</td>
+<td>Afinion</td>
+<td>1115178</td>
+<td>Blood test</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>MicroAmp Fast 96-well Reaction Plate (0.1mL)</td>
+<td>Applied Biosystems</td>
+<td>4346907</td>
+<td>qPCR</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>MicroAmp EnduraPlate Optical 384-well clear reaction plate with
+barcode</td>
+<td>Applied Biosystems</td>
+<td>4483285</td>
+<td>qPCR</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>#10 Surgical Blade</td>
+<td>Bard-Parker</td>
+<td>371110</td>
+<td><ul>
+<li></li>
+</ul></td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>BD Vacutainer Serum</td>
+<td>BD</td>
+<td>367815</td>
+<td>Blood test</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>BD Vacutainer Sodium Herparin</td>
+<td>BD</td>
+<td>367878</td>
+<td>Blood test</td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Gentamicin (50 mg/mL)</td>
+<td>Glibco</td>
+<td>15750060</td>
+<td>Cell culture</td>
+<td>Drug</td>
+</tr>
+<tr class="odd">
+<td><ul>
+<li></li>
+</ul></td>
+<td><ul>
+<li></li>
+</ul></td>
+<td><ul>
+<li></li>
+</ul></td>
+<td><ul>
+<li></li>
+</ul></td>
+<td><ul>
+<li></li>
+</ul></td>
+</tr>
+</tbody>
+</table>

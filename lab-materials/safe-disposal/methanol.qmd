@@ -11,8 +11,6 @@ author:
     affiliation-url: https://rushu.rush.edu 
 citation: false
 google-scholar: true
-csl: ../../american-medical-association.csl
-bibliography: ../../references.bib
 ---
 
 ## Overview

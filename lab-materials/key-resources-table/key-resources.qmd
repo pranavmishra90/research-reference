@@ -101,7 +101,7 @@ Markdown(tabulate(biological_samples, headers=["REAGENT or RESOURCE","SOURCE","I
 chem_peptide_proteins = pd.read_csv('lab-materials/key-resources-table/03-chemicals-peptides-recombinant-proteins.csv')
 chem_peptide_proteins = chem_peptide_proteins.fillna('-')
 
-Markdown(tabulate(chem_peptide_proteins, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+Markdown(tabulate(chem_peptide_proteins, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER", "Experiment"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 
 ```
 
@@ -175,6 +175,9 @@ import pandas as pd
 other = pd.read_csv('lab-materials/key-resources-table/10-other.csv')
 other = other.fillna('-')
 
-Markdown(tabulate(other, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+# Convert floats to ints in a string column
+other = other.astype(str).replace('\.0', '', regex=True)
+
+Markdown(tabulate(other, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER", "Experiment", "Category"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 
 ```

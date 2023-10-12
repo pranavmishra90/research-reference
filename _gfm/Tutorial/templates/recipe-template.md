@@ -1,6 +1,6 @@
 # Recipe: Template
 Pranav Kumar Mishra
-Wednesday, October 11, 2023
+Thursday, October 12, 2023
 
 ## Overview
 

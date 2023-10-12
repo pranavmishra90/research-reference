@@ -1,6 +1,6 @@
 # 10% Formalin (4% Paraformaldehyde)
 Pranav Kumar Mishra
-Wednesday, October 11, 2023
+Thursday, October 12, 2023
 
 ## Overview
 
@@ -56,11 +56,12 @@ Adapted from<sup>1</sup>
 
 <div id="refs" class="references csl-bib-body">
 
-<div id="ref-rd_systems_protocol_nodate" class="csl-entry">
+<div id="ref-rd_systems_protocol_2023" class="csl-entry">
 
 <span class="csl-left-margin">1.
 </span><span class="csl-right-inline">R&D Systems. Protocol for making a
-4% formaldehyde solution in PBS. R&d systems. Accessed March 31, 2023.
+4% formaldehyde solution in PBS. R&d systems. Published 2023. Accessed
+March 31, 2023.
 <https://www.rndsystems.com/resources/protocols/protocol-making-4-formaldehyde-solution-pbs></span>
 
 </div>

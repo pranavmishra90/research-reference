@@ -1,9 +1,0 @@
----
-title: "Recipes"
-listing:
-  contents: .
-  type: table
-  categories: true
-  sort:
-  - "title desc"
----

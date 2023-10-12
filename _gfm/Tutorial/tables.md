@@ -1,6 +1,6 @@
 # Adding tables easily to this site
 Pranav Kumar Mishra
-Wednesday, October 11, 2023
+Thursday, October 12, 2023
 
 To easily interchange between the formats, paste your table into
 <https://tablesgenerator.com/markdown_tables>
