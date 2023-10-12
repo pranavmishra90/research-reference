@@ -27,8 +27,8 @@ jobs:
           channel-priority: true
           mamba-version: "*"
           auto-activate-base: false
-          activate-environment: "quarto"
-          environment-file: environment.yml
+          # activate-environment: "quarto"
+          # environment-file: environment.yml
 
 
       - name: Set up Quarto
