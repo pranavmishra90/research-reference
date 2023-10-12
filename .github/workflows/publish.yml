@@ -3,6 +3,7 @@ on:
   push:
     branches: 
       - main
+      - develop
       - 'releases/**'
   pull_request:
     types: [assigned, ready_for_review, review_requested]
