@@ -3,7 +3,7 @@ title: "Recipe: Tris-Buffered Saline (TBS)"
 date: last-modified
 date-format: full
 author:
-  - name: Pranav Mishra
+  - name: Pranav Kumar Mishra
     url: https://drpranavmishra.com
     orcid: 0000-0001-5219-6269 
     affiliation: Rush University

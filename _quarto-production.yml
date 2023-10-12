@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+  execute-dir: project
+
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    lang: en-US
+    email-obfuscation: javascript
+    code-fold: true
+    code-line-numbers: true
+    code-overflow: wrap
+    default-image-extension: svg
+    embed-resources: false
+
+
+execute:
+  freeze: false

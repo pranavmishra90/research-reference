@@ -1,0 +1,180 @@
+---
+title: "Key Resources Tables"
+subtitle: "Adapted from STAR Methods"
+date: now
+author:
+  - name: Pranav Kumar Mishra
+    url: https://drpranavmishra.com
+    orcid: 0000-0001-5219-6269
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu
+
+format:
+  html:
+    code-fold: true
+  gfm:
+    html-math-method: webtex
+citation:
+  type: article
+
+execute: 
+  enabled: true
+  echo: false
+  output: true
+  cache: false
+---
+
+Adapted from the [Cell Press STAR Methods](https://www.cell.com/star-authors-guide) to help produce Structured, Transparent, Accessible Reporting in research.
+
+This page is a [living document](https://en.wikipedia.org/wiki/Living_document) and a work-in-progress. With the goal of improving research reproducibility, several major journals now require a detailed listing of the key resources required to conduct the experiments described. 
+
+Schedule permitting, I will update the "[csv databases](https://github.com/pranavmishra90/research-reference/tree/main/lab-materials/key-resources-table)", which can be found on GitHub. Using Quarto and Python, the csv files are rendered into HTML and GitHub-flavored Markdown. The markdown file is additionally rendered in my [Wordpress post](https://www.drpranavmishra.com/research/2023/star-methods-key-resources/).  
+
+```{python}
+# Initialize environment
+import pandas as pd
+import os, socket
+import re
+from IPython.display import display, Markdown, Latex
+from tabulate import tabulate
+
+
+# Get the name of the computer, then save it to an environment variable
+os.environ['computer_name']= socket.gethostname()
+
+if len(os.environ['computer_name']) == 12:
+    if os.path.exists('./work'):
+        is_docker = 'True'
+        os.environ['is_docker']=is_docker
+        os.chdir('/home/coder/work')
+        os.environ['repo_root']=os.getcwd()
+
+elif os.environ['computer_name']=="singulab":
+    os.environ['is_docker'] = 'False'
+    os.environ['repo_root'] = "/home/pranav/work/pranavmishra90/research-reference"
+
+os.chdir(os.environ['repo_root'])
+
+```
+
+## Antibodies
+```{python}
+antibodies = pd.read_csv('lab-materials/key-resources-table/01-antibodies.csv', delimiter=',')
+antibodies = antibodies.fillna('--')
+
+# Function to add URL to RRID
+def add_url(rrid):
+    return f"[{rrid}](http://antibodyregistry.org/{rrid})"
+
+antibodies['RRID'] = antibodies['RRID'].apply(add_url)
+
+# Convert floats to ints in a string column
+antibodies = antibodies.astype(str).replace('\.0', '', regex=True)
+
+markdown_table = tabulate(antibodies, headers=["REAGENT or RESOURCE", "SOURCE", "IDENTIFIER", "Size (kDA)", "Source", "Target", "RRID"], numalign='left', stralign='left', showindex="never", tablefmt="grid")
+
+display(Markdown(markdown_table))
+
+```
+
+::: {.callout-note}
+[RRIDs](https://scicrunch.org/resources/rin/rrids) are sourced from the [Antibody Registry](http://antibodyregistry.org/), via [SciCrunch](https://scicrunch.org/resources/rin/rrids)
+
+:::
+
+We would like to acknowledge [Dr. Thomas Schmid](https://www.rushu.rush.edu/faculty/thomas-schmid-phd) at Rush University for preparing and sharing the Lubricin (PRG4) antibody with our group.
+
+
+## Biological Samples
+```{python}
+biological_samples = pd.read_csv('lab-materials/key-resources-table/02-biological-samples.csv')
+biological_samples = biological_samples.fillna('-')
+
+Markdown(tabulate(biological_samples, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+
+```
+
+
+## Chemicals; peptides; and recombinant proteins
+
+```{python}
+chem_peptide_proteins = pd.read_csv('lab-materials/key-resources-table/03-chemicals-peptides-recombinant-proteins.csv')
+chem_peptide_proteins = chem_peptide_proteins.fillna('-')
+
+Markdown(tabulate(chem_peptide_proteins, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+
+```
+
+## Deposited Data
+
+```{python}
+import pandas as pd
+
+deposited_data = pd.read_csv('lab-materials/key-resources-table/04-deposited-data.csv')
+deposited_data = deposited_data.fillna('-')
+
+Markdown(tabulate(deposited_data, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+```
+
+
+## Experimental models: Cell Lines
+
+```{python}
+import pandas as pd
+cell_lines = pd.read_csv('lab-materials/key-resources-table/05-exp-models-cell-lines.csv')
+cell_lines = cell_lines.fillna('-')
+
+Markdown(tabulate(cell_lines, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+```
+
+## Experimental models: Organisms and Strains
+
+```{python}
+import pandas as pd
+strains = pd.read_csv('lab-materials/key-resources-table/06-exp-models-organisms-strains.csv')
+strains = strains.fillna('-')
+
+Markdown(tabulate(strains, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+```
+
+
+## Oligonucleotides
+
+```{python}
+import pandas as pd
+oligonucleotides = pd.read_csv('lab-materials/key-resources-table/07-oligonucleotides.csv')
+oligonucleotides = oligonucleotides.fillna('-')
+
+Markdown(tabulate(oligonucleotides, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+```
+
+## Recominant DNA
+
+```{python}
+import pandas as pd
+recombinant = pd.read_csv('lab-materials/key-resources-table/08-recombinant-DNA.csv')
+recombinant = recombinant.fillna('-')
+
+Markdown(tabulate(recombinant, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+```
+
+## Software Algorithms
+
+```{python}
+import pandas as pd
+software_algorithms = pd.read_csv('lab-materials/key-resources-table/09-software-algorithms.csv')
+software_algorithms = software_algorithms.fillna('')
+
+Markdown(tabulate(software_algorithms, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+```
+
+## Other
+
+```{python}
+import pandas as pd
+other = pd.read_csv('lab-materials/key-resources-table/10-other.csv')
+other = other.fillna('-')
+
+Markdown(tabulate(other, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+
+```

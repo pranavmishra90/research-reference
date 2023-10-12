@@ -3,14 +3,18 @@ title: "Phosphate Buffered Saline (PBS)"
 date: last-modified
 date-format: full
 author:
-  - name: Pranav Mishra
+  - name: Pranav Kumar Mishra
     url: https://drpranavmishra.com
     orcid: 0000-0001-5219-6269 
     affiliation: Rush University
     affiliation-url: https://rushu.rush.edu 
-citation: true
-google-scholar: true
-bibliography: ../../../references.bib
+format:
+  html:
+    code-fold: true
+  gfm:
+    html-math-method: webtex
+citation:
+  type: article
 ---
 ## Overview
 Similar pH, electrolytes, and osmolarity to the human body.

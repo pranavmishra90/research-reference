@@ -1,0 +1,23 @@
+{
+  "image": "pranavmishra90/genomics-studio-base",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-powertoys",
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode",
+        "quarto.quarto",
+        "WakaTime.vscode-wakatime",
+        "mechatroner.rainbow-csv",
+        "SimonSiefke.svg-preview",
+        "JannisX11.batch-rename-extension"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 3333, 9119]
+}

@@ -10,6 +10,8 @@ project:
     watch-inputs: true
     timeout: 600
 
+profile:
+  default: production
 
 website:
   title: "Research Reference"
@@ -19,6 +21,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: https://github.com/pranavmishra90/research-reference
+        text: GitHub
     search: true
   open-graph: true
   sidebar:
@@ -28,13 +32,37 @@ website:
   reader-mode: false
   repo-url: https://github.com/pranavmishra90/research-reference
   repo-actions: [issue, edit]
+  site-url: ref.drpranavmishra.com
 
 
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: cosmo
+      dark: darkly
     toc: true
+    toc-depth: 3
     lang: en-US
     email-obfuscation: javascript
+    code-fold: true
+    code-line-numbers: true
+    code-overflow: wrap
+    # grid:
+    #   sidebar-width: 300px
+    #   body-width: 900px
+    default-image-extension: svg
+    embed-resources: true
+
+
+execute:
+  freeze: auto
+  cache: true
+  error: true
+
+bibliography: ./references.bib
+csl: ./ama.csl
+
+citation: true
+google-scholar: true
+

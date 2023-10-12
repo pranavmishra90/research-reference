@@ -1,0 +1,35 @@
+name: quarto
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - IPython=8.14
+  - ipykernel=6.23
+  - ipywidgets=8.0
+  - jupyter=1.0.0
+  - jupyter-cache=0.6
+  - nbformat=5.9
+  - nbclient>0.5
+  - markdown=3.5
+  - pandas=2.0
+  - numpy>1.23
+  - scipy=1
+  - matplotlib=3.7
+  - seaborn=0.12
+  - plotly=5.15
+  - pytorch=2.0
+  - scanpy=1.9
+  - scvi=0.6
+  - scvi-tools=1.0
+  - scikit-learn
+  - tqdm=4.65
+  - requests=2.31
+  - urllib3
+  - six=1.16
+  - datalad=0.19
+  - arrow=1.2
+  - fastparquet=2023.4
+  - pandoc=3.1
+  - nbconvert=7.6
+  - papermill=2.3
+  - pip

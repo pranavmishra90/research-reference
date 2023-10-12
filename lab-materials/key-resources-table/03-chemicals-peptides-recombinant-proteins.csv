@@ -1,24 +1,26 @@
-REAGENT or RESOURCE                                              ,SOURCE             ,IDENTIFIER
-Sodium Chloride                                                  ,Fisher             ,S630-10
-Tween-20                                                         ,Santa Cruz         ,SC-29913
-Pierce RIPA Buffer                                               ,Thermo Scientific  ,89901
-SDS                                                              ,Fisher             ,BP166-500
-Glycine                                                          ,Sigma              ,G-7126
-Tris Base                                                        ,Fisher             ,BP154-1
-BCA Protein Assay Kit                                            ,Pierce             ,23225
-Precision Plus Protein Dual Color Standards                      ,Bio-Rad            ,1610374
-Restore Western Blot Stripping Buffer                            ,Thermo             ,21059
-Pierce Protease and Phosphatase Inhibitor Mini Tablets EDTA-Free ,Thermo             ,A32961
-Methanol (100%)                                                  ,Ficher             ,A412-4
-RNaseZap                                                         ,Sigma              ,R2020-250ML
-PowerUp SYBR Green Master Mix                                    ,Applied Biosystems ,A25742
-SuperScript IV VILO Master Mix                                   ,Invitrogen         ,11766050
-2-Mercaptoethanol                                                ,Bio-Rad            ,1610710
-4x Laemmli Sample Buffer                                         ,Bio-Rad            ,1610747
-TRIzol Reagent                                                   ,Ambion             ,15596018
-10x Tris/Glycine/SDS Buffer                                      ,Bio-Rad            ,1610732
-Spectra Multicolor High Range Protein Ladder                     ,Thermo Scientific  ,26625
-Precision Plus Protein Dual Color Standards                      ,Bio-Rad            ,1610374
-BCA Protein Assay                                                ,Pierce             ,23225
-Dehydration Alcohol 100%: For Histology and Cytology             ,Sigma Aldrich      ,65347-85
-Xylenes Histogical Grade                                         ,Fisher             ,X3P-1GAL
+REAGENT or RESOURCE,SOURCE,IDENTIFIER
+Sodium Chloride,Fisher,S630-10
+Tween-20,Santa Cruz,SC-29913
+Pierce RIPA Buffer,Thermo Scientific,89901
+SDS,Fisher,BP166-500
+Glycine,Sigma,G-7126
+Tris Base,Fisher,BP154-1
+BCA Protein Assay Kit,Pierce,23225
+Precision Plus Protein Dual Color Standards,Bio-Rad,1610374
+Restore Western Blot Stripping Buffer,Thermo,21059
+Pierce Protease and Phosphatase Inhibitor Mini Tablets EDTA-Free,Thermo,A32961
+Methanol (100%),Ficher,A412-4
+RNaseZap,Sigma,R2020-250ML
+PowerUp SYBR Green Master Mix,Applied Biosystems,A25742
+SuperScript IV VILO Master Mix,Invitrogen,11766050
+2-Mercaptoethanol,Bio-Rad,1610710
+4x Laemmli Sample Buffer,Bio-Rad,1610747
+TRIzol Reagent,Ambion,15596018
+10x Tris/Glycine/SDS Buffer,Bio-Rad,1610732
+Spectra Multicolor High Range Protein Ladder,Thermo Scientific,26625
+Precision Plus Protein Dual Color Standards,Bio-Rad,1610374
+BCA Protein Assay,Pierce,23225
+Reagent Alcohol 95% Histoprep,Fisher,HC13001GL
+Alcohol 100%,Sigma-Aldrich,65347-M
+Xylenes (Histological),Fisher Chemical,X3P-1GAL
+TRIzol™ Reagent,Invitrogen,15-596-018

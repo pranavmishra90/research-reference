@@ -3,15 +3,18 @@ title: "10% Formalin (4% Paraformaldehyde)"
 date: last-modified
 date-format: full
 author:
-  - name: Pranav Mishra
+  - name: Pranav Kumar Mishra
     url: https://drpranavmishra.com
     orcid: 0000-0001-5219-6269 
     affiliation: Rush University
     affiliation-url: https://rushu.rush.edu 
-citation: true
-google-scholar: true
-csl: ../../../american-medical-association.csl
-references: references.bib
+format:
+  html:
+    code-fold: true
+  gfm:
+    html-math-method: webtex
+citation:
+  type: article
 ---
 ## Overview
 
