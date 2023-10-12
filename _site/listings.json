@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/lab-materials/safe-disposal/index.html",
+    "items": [
+      "/lab-materials/safe-disposal/methanol.html"
+    ]
+  },
+  {
+    "listing": "/protocols/molecular-biology/index.html",
+    "items": [
+      "/protocols/molecular-biology/western-blot.html",
+      "/protocols/molecular-biology/PCR/RNA-isolation.html"
+    ]
+  }
+]
