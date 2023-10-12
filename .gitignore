@@ -1,3 +1,5 @@
 /.quarto/
 /_freeze/
 **/.jupyter_cache
+!/protocols/**/*.html
+_site/**/*.html

@@ -1,10 +1,8 @@
-# Key Resources Tables
+# Key Resources
 Pranav Kumar Mishra
 2023-10-12
 
-Adapted from the [Cell Press STAR
-Methods](https://www.cell.com/star-authors-guide) to help produce
-Structured, Transparent, Accessible Reporting in research.
+## Overview
 
 This page is a [living
 document](https://en.wikipedia.org/wiki/Living_document) and a
@@ -12,12 +10,29 @@ work-in-progress. With the goal of improving research reproducibility,
 several major journals now require a detailed listing of the key
 resources required to conduct the experiments described.
 
-Schedule permitting, I will update the “[csv
+I will be periodically updating the “[csv
 databases](https://github.com/pranavmishra90/research-reference/tree/main/lab-materials/key-resources-table)”,
 which can be found on GitHub. Using Quarto and Python, the csv files are
 rendered into HTML and GitHub-flavored Markdown. The markdown file is
 additionally rendered in my [Wordpress
 post](https://www.drpranavmishra.com/research/2023/star-methods-key-resources/).
+
+Adapted from the [Cell Press STAR
+Methods](https://www.cell.com/star-authors-guide) to help produce
+Structured, Transparent, Accessible Reporting in research.
+
+### Objectives
+
+1.  Save me time during manuscript preparation by having my key
+    resources already itemized
+2.  Help others find reagents / resources which have been used
+    successfully
+
+<!-- -->
+
+    NameError: name 'date' is not defined
+
+## Key Resources Table
 
 ## Antibodies
 
@@ -33,28 +48,22 @@ post](https://www.drpranavmishra.com/research/2023/star-methods-key-resources/).
 | MMP13 Ab            | RnD        | Cat# AF511; RRID:AB_355401     | 55         | Goat   | Human  | [AB_355401](http://antibodyregistry.org/AB_355401)   |
 | ADAMTS4 Ab          | RnD        | Cat# MAB4307; RRID:AB_2222318  | 58         | Mouse  | Human  | [AB_2222318](http://antibodyregistry.org/AB_2222318) |
 
-<div>
-
-> **Note**
->
-> [RRIDs](https://scicrunch.org/resources/rin/rrids) are sourced from
-> the [Antibody Registry](http://antibodyregistry.org/), via
-> [SciCrunch](https://scicrunch.org/resources/rin/rrids)
-
-</div>
+[RRIDs](https://scicrunch.org/resources/rin/rrids) are sourced from the
+[Antibody Registry](http://antibodyregistry.org/), via
+[SciCrunch](https://scicrunch.org/resources/rin/rrids)
 
 We would like to acknowledge [Dr. Thomas
 Schmid](https://www.rushu.rush.edu/faculty/thomas-schmid-phd) at Rush
 University for preparing and sharing the Lubricin (PRG4) antibody with
 our group.
 
-## Biological Samples
+### Biological Samples
 
 | REAGENT or RESOURCE | SOURCE | IDENTIFIER |
 |---------------------|--------|------------|
 |                     |        |            |
 
-## Chemicals; peptides; and recombinant proteins
+### Chemicals; peptides; and recombinant proteins
 
 | REAGENT or RESOURCE                                              | SOURCE             | IDENTIFIER  |
 |------------------------------------------------------------------|--------------------|-------------|
@@ -84,43 +93,43 @@ our group.
 | Xylenes (Histological)                                           | Fisher Chemical    | X3P-1GAL    |
 | TRIzol™ Reagent                                                  | Invitrogen         | 15-596-018  |
 
-## Deposited Data
+### Deposited Data
 
 | REAGENT or RESOURCE | SOURCE | IDENTIFIER |
 |---------------------|--------|------------|
 |                     |        |            |
 
-## Experimental models: Cell Lines
+### Experimental models: Cell Lines
 
 | REAGENT or RESOURCE | SOURCE | IDENTIFIER |
 |---------------------|--------|------------|
 |                     |        |            |
 
-## Experimental models: Organisms and Strains
+### Experimental models: Organisms and Strains
 
 | REAGENT or RESOURCE | SOURCE | IDENTIFIER |
 |---------------------|--------|------------|
 |                     |        |            |
 
-## Oligonucleotides
+### Oligonucleotides
 
 | REAGENT or RESOURCE | SOURCE | IDENTIFIER |
 |---------------------|--------|------------|
 |                     |        |            |
 
-## Recominant DNA
+### Recominant DNA
 
 | REAGENT or RESOURCE | SOURCE | IDENTIFIER |
 |---------------------|--------|------------|
 |                     |        |            |
 
-## Software Algorithms
+### Software Algorithms
 
 | REAGENT or RESOURCE | SOURCE | IDENTIFIER |
 |---------------------|--------|------------|
 |                     |        |            |
 
-## Other
+### Other
 
 | REAGENT or RESOURCE                                                     | SOURCE             | IDENTIFIER |
 |-------------------------------------------------------------------------|--------------------|------------|
