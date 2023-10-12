@@ -1,0 +1,11 @@
+{
+  "listing": "/protocols/recipes/index.html",
+  "items": [
+    "/protocols/recipes/buffers/tris-glycine-transfer-buffer.html",
+    "/protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html",
+    "/protocols/recipes/buffers/tris-buffered-saline-Tween-20.html",
+    "/protocols/recipes/buffers/tris-buffered-saline-TBS.html",
+    "/protocols/recipes/solvents/pbs-phosphate-buffered-saline.html",
+    "/protocols/recipes/solvents/formalin (10 percent).html"
+  ]
+}
