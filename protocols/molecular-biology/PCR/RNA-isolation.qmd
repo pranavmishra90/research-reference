@@ -14,17 +14,7 @@ format:
   html:
     code-fold: true
     tbl-cap-location: bottom
-  pdf:
-    # pdf-engine: latexmk
-    documentclass: scrartcl
-    code-fold: true
-    papersize: letter
-    margin-left: 30mm
-    margin-right: 30mm
-    highlight-style: github
-    colorlinks: true
-    default-image-extension: png
-    tbl-cap-location: bottom
+
 
 execute: 
   enabled: true

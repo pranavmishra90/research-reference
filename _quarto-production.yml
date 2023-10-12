@@ -16,9 +16,6 @@ format:
     code-fold: true
     code-line-numbers: true
     code-overflow: wrap
-    # grid:
-    #   sidebar-width: 300px
-    #   body-width: 900px
     default-image-extension: svg
     embed-resources: false
 

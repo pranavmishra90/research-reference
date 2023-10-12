@@ -3,6 +3,7 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+
     - "!**/spatial-transcriptomics/*"
   preview:
     port: 3333
