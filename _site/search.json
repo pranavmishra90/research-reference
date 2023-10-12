@@ -40,5 +40,82 @@
     "title": "Phosphate Buffered Saline (PBS)",
     "section": "References:",
     "text": "References:\n\nPhosphate-buffered saline (Pbs). Cold Spring Harb Protoc. 2006;2006(1):pdb.rec8247. doi:10.1101/pdb.rec8247"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html",
+    "href": "lab-materials/key-resources-table/key-resources.html",
+    "title": "Key Resources Tables",
+    "section": "",
+    "text": "Adapted from the Cell Press STAR Methods to help produce Structured, Transparent, Accessible Reporting in research.\nThis page is a living document and a work-in-progress. With the goal of improving research reproducibility, several major journals now require a detailed listing of the key resources required to conduct the experiments described.\nSchedule permitting, I will update the “csv databases”, which can be found on GitHub. Using Quarto and Python, the csv files are rendered into HTML and GitHub-flavored Markdown. The markdown file is additionally rendered in my Wordpress post."
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#antibodies",
+    "href": "lab-materials/key-resources-table/key-resources.html#antibodies",
+    "title": "Key Resources Tables",
+    "section": "Antibodies",
+    "text": "Antibodies\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER\nSize (kDA)\nSource\nTarget\nRRID\n\n\n\n\nIL-1β Ab\nSanta Cruz\nCat# SC-32294; RRID:AB_627790\n17\nMouse\nHuman\nAB_627790\n\n\nIL-36α Ab\nRnD\nCat# AF1078; RRID:AB_2124771\n16\nGoat\nHuman\nAB_2124771\n\n\nIL-36RA Ab\nRnD\nCat# AF1275; RRID:AB_2124757\n17\nGoat\nHuman\nAB_2124757\n\n\nCollagen II Ab\nAbcam\nCat# ab34712; RRID:AB_731688\n141\nRabbit\nHuman\nAB_731688\n\n\nAggrecan Ab\nRnD\nCat# AF1220; RRID:AB_2219833\n120\nGoat\nHuman\nAB_2219833\n\n\nSOX-9 Ab\nAbcam\nCat# ab185966; RRID:AB_2728660\n70\nRabbit\nHuman\nAB_2728660\n\n\nLubricin (PRG4) Ab\nRush U\n–\n–\nRabbit\nHuman\n–\n\n\nMMP13 Ab\nRnD\nCat# AF511; RRID:AB_355401\n55\nGoat\nHuman\nAB_355401\n\n\nADAMTS4 Ab\nRnD\nCat# MAB4307; RRID:AB_2222318\n58\nMouse\nHuman\nAB_2222318\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nRRIDs are sourced from the Antibody Registry, via SciCrunch\n\n\nWe would like to acknowledge Dr. Thomas Schmid at Rush University for preparing and sharing the Lubricin (PRG4) antibody with our group."
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#biological-samples",
+    "href": "lab-materials/key-resources-table/key-resources.html#biological-samples",
+    "title": "Key Resources Tables",
+    "section": "Biological Samples",
+    "text": "Biological Samples\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#chemicals-peptides-and-recombinant-proteins",
+    "href": "lab-materials/key-resources-table/key-resources.html#chemicals-peptides-and-recombinant-proteins",
+    "title": "Key Resources Tables",
+    "section": "Chemicals; peptides; and recombinant proteins",
+    "text": "Chemicals; peptides; and recombinant proteins\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER\n\n\n\n\nSodium Chloride\nFisher\nS630-10\n\n\nTween-20\nSanta Cruz\nSC-29913\n\n\nPierce RIPA Buffer\nThermo Scientific\n89901\n\n\nSDS\nFisher\nBP166-500\n\n\nGlycine\nSigma\nG-7126\n\n\nTris Base\nFisher\nBP154-1\n\n\nBCA Protein Assay Kit\nPierce\n23225\n\n\nPrecision Plus Protein Dual Color Standards\nBio-Rad\n1610374\n\n\nRestore Western Blot Stripping Buffer\nThermo\n21059\n\n\nPierce Protease and Phosphatase Inhibitor Mini Tablets EDTA-Free\nThermo\nA32961\n\n\nMethanol (100%)\nFicher\nA412-4\n\n\nRNaseZap\nSigma\nR2020-250ML\n\n\nPowerUp SYBR Green Master Mix\nApplied Biosystems\nA25742\n\n\nSuperScript IV VILO Master Mix\nInvitrogen\n11766050\n\n\n2-Mercaptoethanol\nBio-Rad\n1610710\n\n\n4x Laemmli Sample Buffer\nBio-Rad\n1610747\n\n\nTRIzol Reagent\nAmbion\n15596018\n\n\n10x Tris/Glycine/SDS Buffer\nBio-Rad\n1610732\n\n\nSpectra Multicolor High Range Protein Ladder\nThermo Scientific\n26625\n\n\nPrecision Plus Protein Dual Color Standards\nBio-Rad\n1610374\n\n\nBCA Protein Assay\nPierce\n23225\n\n\nReagent Alcohol 95% Histoprep\nFisher\nHC13001GL\n\n\nAlcohol 100%\nSigma-Aldrich\n65347-M\n\n\nXylenes (Histological)\nFisher Chemical\nX3P-1GAL\n\n\nTRIzol™ Reagent\nInvitrogen\n15-596-018"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#deposited-data",
+    "href": "lab-materials/key-resources-table/key-resources.html#deposited-data",
+    "title": "Key Resources Tables",
+    "section": "Deposited Data",
+    "text": "Deposited Data\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#experimental-models-cell-lines",
+    "href": "lab-materials/key-resources-table/key-resources.html#experimental-models-cell-lines",
+    "title": "Key Resources Tables",
+    "section": "Experimental models: Cell Lines",
+    "text": "Experimental models: Cell Lines\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#experimental-models-organisms-and-strains",
+    "href": "lab-materials/key-resources-table/key-resources.html#experimental-models-organisms-and-strains",
+    "title": "Key Resources Tables",
+    "section": "Experimental models: Organisms and Strains",
+    "text": "Experimental models: Organisms and Strains\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#oligonucleotides",
+    "href": "lab-materials/key-resources-table/key-resources.html#oligonucleotides",
+    "title": "Key Resources Tables",
+    "section": "Oligonucleotides",
+    "text": "Oligonucleotides\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#recominant-dna",
+    "href": "lab-materials/key-resources-table/key-resources.html#recominant-dna",
+    "title": "Key Resources Tables",
+    "section": "Recominant DNA",
+    "text": "Recominant DNA\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#software-algorithms",
+    "href": "lab-materials/key-resources-table/key-resources.html#software-algorithms",
+    "title": "Key Resources Tables",
+    "section": "Software Algorithms",
+    "text": "Software Algorithms\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER"
+  },
+  {
+    "objectID": "lab-materials/key-resources-table/key-resources.html#other",
+    "href": "lab-materials/key-resources-table/key-resources.html#other",
+    "title": "Key Resources Tables",
+    "section": "Other",
+    "text": "Other\n\n\n\n\n\n\n\n\n\n\nREAGENT or RESOURCE\nSOURCE\nIDENTIFIER\n\n\n\n\nNova Max Plus\nNova\n43436\n\n\nNova Max Glucose Test Strips\nNova\n43523\n\n\nHbA1c Test Kit\nAfinion\n1115015\n\n\nHbA1c Controls\nAfinion\n1115178\n\n\nMicroAmp Fast 96-well Reaction Plate (0.1mL)\nApplied Biosystems\n4346907\n\n\nMicroAmp EnduraPlate Optical 384-well clear reaction plate with barcode\nApplied Biosystems\n4483285\n\n\n#10 Surgical Blade\nBard-Parker\n371110\n\n\nBD Vacutainer Serum\nBD\n367815\n\n\nBD Vacutainer Sodium Herparin\nBD\n367878"
   }
 ]

@@ -26,6 +26,10 @@ execute:
 
 Adapted from the [Cell Press STAR Methods](https://www.cell.com/star-authors-guide) to help produce Structured, Transparent, Accessible Reporting in research.
 
+This page is a [living document](https://en.wikipedia.org/wiki/Living_document) and a work-in-progress. With the goal of improving research reproducibility, several major journals now require a detailed listing of the key resources required to conduct the experiments described. 
+
+Schedule permitting, I will update the "[csv databases](https://github.com/pranavmishra90/research-reference/tree/main/lab-materials/key-resources-table)", which can be found on GitHub. Using Quarto and Python, the csv files are rendered into HTML and GitHub-flavored Markdown. The markdown file is additionally rendered in my [Wordpress post](https://www.drpranavmishra.com/research/2023/star-methods-key-resources/).  
+
 ```{python}
 # Initialize environment
 import pandas as pd
