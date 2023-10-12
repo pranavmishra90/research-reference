@@ -8,11 +8,15 @@ author:
     orcid: 0000-0001-5219-6269
     affiliation: Rush University
     affiliation-url: https://rushu.rush.edu
+
 format:
   html:
     code-fold: true
   gfm:
     html-math-method: webtex
+citation:
+  type: article
+
 execute: 
   enabled: true
   echo: false
