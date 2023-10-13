@@ -12,7 +12,8 @@ on:
       - opened
       - synchronize
       - closed
-
+  workflow_dispatch:
+  
 jobs:
   copy-site:
     runs-on: ubuntu-latest
