@@ -1,6 +1,6 @@
 # Datalad with GitHub and GIN siblings
 Pranav Kumar Mishra
-Wednesday, October 11, 2023
+Thursday, October 12, 2023
 
 ``` sh
 datalad create-sibling-gin --access-protocol https-ssh \

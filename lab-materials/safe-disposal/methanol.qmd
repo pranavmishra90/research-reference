@@ -1,0 +1,46 @@
+---
+title: "Methanol"
+subtitle: "Safe Disposal"
+date: last-modified
+date-format: full
+author:
+  - name: Pranav Mishra
+    url: https://drpranavmishra.com
+    orcid: 0000-0001-5219-6269 
+    affiliation: Rush University
+    affiliation-url: https://rushu.rush.edu 
+citation: false
+google-scholar: true
+---
+
+## Overview
+
+### Synonyms (also known as)
+
+Methyl alchohol
+
+### Product information
+[Manufacturer MSDS Link](https://www.fishersci.com/store/msds?partNumber=A4124&productDescription=methanol-certified-acs-fisher-chemical-10&language=en&countryCode=US) [@regulatory_affairs_methanol_2021].
+
+
+## Disposal instructions
+
+### MSDS Instructions
+Dispose of contents/container to an approved waste disposal plant [@regulatory_affairs_methanol_2021]
+
+### Additional / external sources
+For small amounts of methyl alcohol, one possible disposal method is Flinn Suggested Disposal Method #18a, evaporation in an operating fume hood. For larger amounts, a professional chemical waste disposal firm should be used [@flinn_scientific_methyl_2016].
+
+:::{.callout-important}
+## Sink / Sewer Disposal NOT PERMITTED
+
+You **may not** dispose of methanol or any solution using methanol as a solvent, in any concentration, down the sink [@office_of_clinical_and_research_safety_guide_2023].
+:::
+
+
+## Disclaimer
+This page is an uncertified open notebook. Users should always consult with their PI, institutional policies, manufacturer MSDS, and local/state/federal guidelines prior to taking any action. **When in doubt, reach out** prior to disposing any laboratory material.
+
+## References
+::: {#refs}
+:::

@@ -1,6 +1,6 @@
 # Phosphate Buffered Saline (PBS)
 Pranav Kumar Mishra
-Wednesday, October 11, 2023
+Thursday, October 12, 2023
 
 ## Overview
 
@@ -24,6 +24,8 @@ Similar pH, electrolytes, and osmolarity to the human body.
 6.  1L sterile container
 
 ## Preparation for 1L of 1x PBS
+
+Adapted from<sup>1</sup>.
 
 1.  Add 800 mL of
     ![diH_20](https://latex.codecogs.com/svg.latex?diH_20 "diH_20") a
@@ -57,7 +59,21 @@ Similar pH, electrolytes, and osmolarity to the human body.
     or
     ![KH_2PO_4](https://latex.codecogs.com/svg.latex?KH_2PO_4 "KH_2PO_4")
 
-## References:
+------------------------------------------------------------------------
 
-1.  Phosphate-buffered saline (Pbs). Cold Spring Harb Protoc.
-    2006;2006(1):pdb.rec8247. doi:10.1101/pdb.rec8247
+**References**
+
+<div id="refs" class="references csl-bib-body">
+
+<div id="ref-noauthor_phosphate-buffered_2006" class="csl-entry">
+
+<span class="csl-left-margin">1.
+</span><span class="csl-right-inline">Phosphate-buffered saline (PBS).
+*Cold Spring Harb Protoc*. 2006;2006(1):pdb.rec8247.
+doi:[10.1101/pdb.rec8247](https://doi.org/10.1101/pdb.rec8247)</span>
+
+</div>
+
+</div>
+
+<!-- 1. Phosphate-buffered saline (Pbs). Cold Spring Harb Protoc. 2006;2006(1):pdb.rec8247. doi:10.1101/pdb.rec8247 -->

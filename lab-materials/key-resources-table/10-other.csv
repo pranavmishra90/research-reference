@@ -1,10 +1,12 @@
-REAGENT or RESOURCE,SOURCE,IDENTIFIER
-Nova Max Plus, Nova, 43436
-Nova Max Glucose Test Strips, Nova, 43523
-HbA1c Test Kit,Afinion,1115015
-HbA1c Controls,Afinion,1115178
-MicroAmp Fast 96-well Reaction Plate (0.1mL), Applied Biosystems, 4346907
-MicroAmp EnduraPlate Optical 384-well clear reaction plate with barcode, Applied Biosystems, 4483285
+REAGENT or RESOURCE,SOURCE,IDENTIFIER,Experiment,Category
+Nova Max Plus," Nova"," 43436",Blood test,Hardware
+Nova Max Glucose Test Strips," Nova"," 43523",Blood test,
+HbA1c Test Kit,Afinion,1115015,Blood test,
+HbA1c Controls,Afinion,1115178,Blood test,
+MicroAmp Fast 96-well Reaction Plate (0.1mL)," Applied Biosystems"," 4346907",qPCR,
+MicroAmp EnduraPlate Optical 384-well clear reaction plate with barcode," Applied Biosystems"," 4483285",qPCR,
 #10 Surgical Blade, Bard-Parker, 371110
-BD Vacutainer Serum,BD,367815
-BD Vacutainer Sodium Herparin,BD,367878
+BD Vacutainer Serum,BD,367815,Blood test,
+BD Vacutainer Sodium Herparin,BD,367878,Blood test,
+Gentamicin (50 mg/mL),Glibco,15750060,Cell culture,Drug
+,,,,

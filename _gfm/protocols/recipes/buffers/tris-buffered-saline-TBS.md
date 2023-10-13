@@ -1,6 +1,6 @@
 # Recipe: Tris-Buffered Saline (TBS)
 Pranav Kumar Mishra
-Wednesday, October 11, 2023
+Thursday, October 12, 2023
 
 ## Overview
 
@@ -68,20 +68,40 @@ using the 10x solution described above
 
 ## Notes
 
-Abcam and Thermo have protocols in agreement. Phosphosolutions proposes
-2mM Tris, 14 mM NaCl. Our group has more experience using the Abcam
-protocol, which is why it is listed here. Note that there are multiple
-different approaches to the concentrations when making TBS.
+Abcam (<sup>1</sup>) and Thermo (<sup>2</sup>) have protocols in
+agreement. Phosphosolutions proposes 2mM Tris, 14 mM NaCl. Our group has
+more experience using the Abcam protocol, which is why it is listed
+here. Note that there are multiple different approaches to the
+concentrations when making TBS.
 
 We currently have 2N HCl stock in the lab, so it requires significantly
 more HCl added to neutralize the Tris Base.
 
-## References
+------------------------------------------------------------------------
 
-1.  Western blot buffers and stock solutions. Abcam.
-    https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot#TBS-10x
-2.  Western Blot Protocols and Recipes. ThermoFicher Scientific.
-    https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-gel-electrophoresis-information/western-blot-protocols.html
+**References**
+
+<div id="refs" class="references csl-bib-body">
+
+<div id="ref-abcam_western_2023" class="csl-entry">
+
+<span class="csl-left-margin">1.
+</span><span class="csl-right-inline">Abcam. Western blotting - a
+beginner’s guide. Published online 2023.
+<https://www.abcam.com/ps/products/131/ab131366/documents/Western%20blotting%20-%20a%20beginner's%20guide.pdf></span>
+
+</div>
+
+<div id="ref-thermofisher_western_2023" class="csl-entry">
+
+<span class="csl-left-margin">2.
+</span><span class="csl-right-inline">ThermoFisher. Western blot
+protocols and recipes. ThermoFicher scientific. Published 2023.
+<https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-gel-electrophoresis-information/western-blot-protocols.html></span>
+
+</div>
+
+</div>
 
 ------------------------------------------------------------------------
 

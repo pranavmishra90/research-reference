@@ -1,75 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>ref.drpranavmishra.com/protocols/recipes/solvents/pbs-phosphate-buffered-saline.html</loc>
-    <lastmod>2023-10-12T09:20:18.288Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/protocols/recipes/index.html</loc>
-    <lastmod>2023-10-12T09:20:16.584Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html</loc>
-    <lastmod>2023-10-12T09:20:14.820Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/protocols/recipes/buffers/tris-buffered-saline-TBS.html</loc>
-    <lastmod>2023-10-12T09:20:13.068Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/protocols/molecular-biology/index.html</loc>
-    <lastmod>2023-10-12T09:20:11.360Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/nextgen-analysis/platform/analysis-on-debian.html</loc>
-    <lastmod>2023-10-12T09:20:08.424Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/lab-materials/key-resources-table/key-resources.html</loc>
-    <lastmod>2023-10-12T09:20:06.132Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/deploy/readme.html</loc>
-    <lastmod>2023-10-12T09:19:59.960Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/Tutorial/templates/recipe-template.html</loc>
-    <lastmod>2023-10-12T09:19:58.248Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/Tutorial/tables.html</loc>
-    <lastmod>2023-10-12T09:19:57.244Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/about.html</loc>
-    <lastmod>2023-10-12T09:19:58.980Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/index.html</loc>
-    <lastmod>2023-10-12T09:20:00.804Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/nextgen-analysis/lung-atlas-tutorial/index.html</loc>
-    <lastmod>2023-10-12T09:20:07.112Z</lastmod>
+    <loc>ref.drpranavmishra.com/protocols/molecular-biology/western-blot.html</loc>
+    <lastmod>2023-10-12T23:33:36.416Z</lastmod>
   </url>
   <url>
     <loc>ref.drpranavmishra.com/protocols/molecular-biology/PCR/RNA-isolation.html</loc>
-    <lastmod>2023-10-12T09:20:10.564Z</lastmod>
+    <lastmod>2023-10-12T23:33:34.796Z</lastmod>
   </url>
   <url>
-    <loc>ref.drpranavmishra.com/protocols/molecular-biology/western-blot.html</loc>
-    <lastmod>2023-10-12T09:20:12.152Z</lastmod>
+    <loc>ref.drpranavmishra.com/nextgen-analysis/lung-atlas-tutorial/index.html</loc>
+    <lastmod>2023-10-12T23:33:31.340Z</lastmod>
   </url>
   <url>
-    <loc>ref.drpranavmishra.com/protocols/recipes/buffers/tris-buffered-saline-Tween-20.html</loc>
-    <lastmod>2023-10-12T09:20:13.936Z</lastmod>
+    <loc>ref.drpranavmishra.com/lab-materials/safe-disposal/index.html</loc>
+    <lastmod>2023-10-12T23:33:29.608Z</lastmod>
   </url>
   <url>
-    <loc>ref.drpranavmishra.com/protocols/recipes/buffers/tris-glycine-transfer-buffer.html</loc>
-    <lastmod>2023-10-12T09:20:15.704Z</lastmod>
+    <loc>ref.drpranavmishra.com/index.html</loc>
+    <lastmod>2023-10-12T23:33:23.484Z</lastmod>
   </url>
   <url>
-    <loc>ref.drpranavmishra.com/protocols/recipes/solvents/formalin (10 percent).html</loc>
-    <lastmod>2023-10-12T09:20:17.436Z</lastmod>
+    <loc>ref.drpranavmishra.com/data-analysis/statistics/anova.html</loc>
+    <lastmod>2023-10-12T23:33:21.624Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/Tutorial/templates/recipe-template.html</loc>
+    <lastmod>2023-10-12T23:33:19.924Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/Tutorial/tables.html</loc>
+    <lastmod>2023-10-12T23:33:18.920Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/about.html</loc>
+    <lastmod>2023-10-12T23:33:20.796Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/deploy/readme.html</loc>
+    <lastmod>2023-10-12T23:33:22.676Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/lab-materials/key-resources-table/key-resources.html</loc>
+    <lastmod>2023-10-12T23:33:28.796Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/lab-materials/safe-disposal/methanol.html</loc>
+    <lastmod>2023-10-12T23:33:30.348Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/nextgen-analysis/platform/analysis-on-debian.html</loc>
+    <lastmod>2023-10-12T23:33:32.660Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/protocols/molecular-biology/index.html</loc>
+    <lastmod>2023-10-12T23:33:35.624Z</lastmod>
   </url>
 </urlset>

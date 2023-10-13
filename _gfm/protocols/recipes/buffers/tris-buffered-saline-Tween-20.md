@@ -1,6 +1,6 @@
 # Tris-Buffered Saline with Tween 20 (TBST)
 Pranav Kumar Mishra
-Wednesday, October 11, 2023
+Thursday, October 12, 2023
 
 ## Overview
 
@@ -29,24 +29,36 @@ easily with aqeuous solutions.
 
 ## Protocol
 
-1.  Add 800 mL of
-    ![diH\\2O](https://latex.codecogs.com/svg.latex?diH%5C_2O "diH\_2O")
-    to orange top container
-2.  Add 1 mL of *Tween 20* using a wide tip pipette (Tween 20 is very
-    viscous)
-3.  Add ~199 mL of
-    ![diH\\2O](https://latex.codecogs.com/svg.latex?diH%5C_2O "diH\_2O")
-    down the side of the container until the total volume reaches 1 L
+Adapted from (<sup>1</sup>) 1. Add 800 mL of
+![diH\\2O](https://latex.codecogs.com/svg.latex?diH%5C_2O "diH\_2O") to
+orange top container 2. Add 1 mL of *Tween 20* using a wide tip pipette
+(Tween 20 is very viscous) 3. Add ~199 mL of
+![diH\\2O](https://latex.codecogs.com/svg.latex?diH%5C_2O "diH\_2O")
+down the side of the container until the total volume reaches 1 L
 
 ## Notes
 
 Do not start with a 1x TBS that we may keep at the bench. This will have
 20% Methanol added, which we do not want for TBST.
 
-## References
+------------------------------------------------------------------------
 
-1.  Western blot buffers and stock solutions. Abcam.
-    https://www.abcam.com/protocols/buffer-and-stock-solutions-for-western-blot
+**References**
+
+<div id="refs" class="references csl-bib-body">
+
+<div id="ref-abcam_western_2023" class="csl-entry">
+
+<span class="csl-left-margin">1.
+</span><span class="csl-right-inline">Abcam. Western blotting - a
+beginner’s guide. Published online 2023.
+<https://www.abcam.com/ps/products/131/ab131366/documents/Western%20blotting%20-%20a%20beginner's%20guide.pdf></span>
+
+</div>
+
+</div>
+
+------------------------------------------------------------------------
 
 ## Supplemental
 

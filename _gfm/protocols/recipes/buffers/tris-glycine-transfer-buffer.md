@@ -1,6 +1,6 @@
 # Tris-Glycine Transfer Buffer
 Pranav Kumar Mishra
-Wednesday, October 11, 2023
+Thursday, October 12, 2023
 
 ## Overview
 
@@ -57,12 +57,13 @@ Glycine.
 | Tris base | 25         | 12.5        |
 | Glycine   | 190        | 96          |
 
-## References
+------------------------------------------------------------------------
 
-1.  Transfer and staining of proteins in western blot. Abcam.
-    https://www.abcam.com/protocols/transfer-and-staining-of-proteins-in-western-blot
-2.  Western Blot Protocols and Recipes. ThermoFicher Scientific.
-    https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-gel-electrophoresis-information/western-blot-protocols.html
+**References**
+
+<div id="refs">
+
+</div>
 
 ------------------------------------------------------------------------
 
