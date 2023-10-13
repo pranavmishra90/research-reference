@@ -1,6 +1,5 @@
 name: Copy _site folder to gh-pages branch
 
-
 on:
   push:
     branches:
@@ -28,6 +27,7 @@ jobs:
 
     - name: Fetch all branches
       run: git fetch --all
+
 
     - name: Create gh-pages branch
       run: git checkout --orphan gh-pages && git reset --hard && git commit --allow-empty -m "Initialize gh-pages branch" && git push origin gh-pages
