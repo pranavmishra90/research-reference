@@ -3,7 +3,6 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3.10
   - IPython=8.14
   - ipykernel=6.23
   - ipywidgets=8.0
