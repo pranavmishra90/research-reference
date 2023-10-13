@@ -1,16 +1,28 @@
 name: Copy _site folder to gh-pages branch
 
+
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - develop
 
 jobs:
   copy-site:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    - name: Checkout code without submodules
+      run: git clone --branch main --depth 1 --no-checkout https://github.com/${{ github.repository }}.git .
+    
+    - name: Set up Git
+      run: |
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+    - name: Fetch all branches
+      run: git fetch --all
 
     - name: Create gh-pages branch
       run: git checkout --orphan gh-pages && git reset --hard && git commit --allow-empty -m "Initialize gh-pages branch" && git push origin gh-pages
