@@ -1,6 +1,6 @@
 # Key Resources Tables
 Pranav Kumar Mishra
-2023-10-12
+2023-10-16
 
 Adapted from the [Cell Press STAR
 Methods](https://www.cell.com/star-authors-guide) to help produce
@@ -23,27 +23,21 @@ post](https://www.drpranavmishra.com/research/2023/star-methods-key-resources/).
 
 | REAGENT or RESOURCE | SOURCE     | IDENTIFIER                     | Size (kDA) | Source | Target | RRID                                                 |
 |---------------------|------------|--------------------------------|------------|--------|--------|------------------------------------------------------|
-| IL-1β Ab            | Santa Cruz | Cat# SC-32294; RRID:AB_627790  | 17         | Mouse  | Human  | [AB_627790](http://antibodyregistry.org/AB_627790)   |
-| IL-36α Ab           | RnD        | Cat# AF1078; RRID:AB_2124771   | 16         | Goat   | Human  | [AB_2124771](http://antibodyregistry.org/AB_2124771) |
-| IL-36RA Ab          | RnD        | Cat# AF1275; RRID:AB_2124757   | 17         | Goat   | Human  | [AB_2124757](http://antibodyregistry.org/AB_2124757) |
-| Collagen II Ab      | Abcam      | Cat# ab34712; RRID:AB_731688   | 141        | Rabbit | Human  | [AB_731688](http://antibodyregistry.org/AB_731688)   |
-| Aggrecan Ab         | RnD        | Cat# AF1220; RRID:AB_2219833   | 120        | Goat   | Human  | [AB_2219833](http://antibodyregistry.org/AB_2219833) |
-| SOX-9 Ab            | Abcam      | Cat# ab185966; RRID:AB_2728660 | 70         | Rabbit | Human  | [AB_2728660](http://antibodyregistry.org/AB_2728660) |
-| Lubricin (PRG4) Ab  | Rush U     | –                              | –          | Rabbit | Human  | [–](http://antibodyregistry.org/--)                  |
-| MMP13 Ab            | RnD        | Cat# AF511; RRID:AB_355401     | 55         | Goat   | Human  | [AB_355401](http://antibodyregistry.org/AB_355401)   |
 | ADAMTS4 Ab          | RnD        | Cat# MAB4307; RRID:AB_2222318  | 58         | Mouse  | Human  | [AB_2222318](http://antibodyregistry.org/AB_2222318) |
+| Aggrecan Ab         | RnD        | Cat# AF1220; RRID:AB_2219833   | 120        | Goat   | Human  | [AB_2219833](http://antibodyregistry.org/AB_2219833) |
+| Collagen II Ab      | Abcam      | Cat# ab34712; RRID:AB_731688   | 141        | Rabbit | Human  | [AB_731688](http://antibodyregistry.org/AB_731688)   |
+| IL-1β Ab            | Santa Cruz | Cat# SC-32294; RRID:AB_627790  | 17         | Mouse  | Human  | [AB_627790](http://antibodyregistry.org/AB_627790)   |
+| IL-36RA Ab          | RnD        | Cat# AF1275; RRID:AB_2124757   | 17         | Goat   | Human  | [AB_2124757](http://antibodyregistry.org/AB_2124757) |
+| IL-36α Ab           | RnD        | Cat# AF1078; RRID:AB_2124771   | 16         | Goat   | Human  | [AB_2124771](http://antibodyregistry.org/AB_2124771) |
+| Lubricin (PRG4) Ab  | Rush U     | –                              | –          | Rabbit | Human  | [–](http://antibodyregistry.org/%20--)               |
+| MMP13 Ab            | RnD        | Cat# AF511; RRID:AB_355401     | 55         | Goat   | Human  | [AB_355401](http://antibodyregistry.org/AB_355401)   |
+| SOX-9 Ab            | Abcam      | Cat# ab185966; RRID:AB_2728660 | 70         | Rabbit | Human  | [AB_2728660](http://antibodyregistry.org/AB_2728660) |
 
-<div>
+**Note:** [RRIDs](https://scicrunch.org/resources/rin/rrids) are sourced
+from the [Antibody Registry](http://antibodyregistry.org/), via
+[SciCrunch](https://scicrunch.org/resources/rin/rrids)
 
-> **Note**
->
-> [RRIDs](https://scicrunch.org/resources/rin/rrids) are sourced from
-> the [Antibody Registry](http://antibodyregistry.org/), via
-> [SciCrunch](https://scicrunch.org/resources/rin/rrids)
-
-</div>
-
-We would like to acknowledge [Dr. Thomas
+**Acknowledgement:** We would like to acknowledge [Dr. Thomas
 Schmid](https://www.rushu.rush.edu/faculty/thomas-schmid-phd) at Rush
 University for preparing and sharing the Lubricin (PRG4) antibody with
 our group.
@@ -56,195 +50,47 @@ our group.
 
 ## Chemicals; peptides; and recombinant proteins
 
-<table style="width:98%;">
-<colgroup>
-<col style="width: 55%" />
-<col style="width: 17%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>REAGENT or RESOURCE</th>
-<th>SOURCE</th>
-<th>IDENTIFIER</th>
-<th>Experiment</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sodium Chloride</td>
-<td>Fisher</td>
-<td>S630-10</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Tween-20</td>
-<td>Santa Cruz</td>
-<td>SC-29913</td>
-<td>Western Blot</td>
-</tr>
-<tr class="odd">
-<td>Pierce RIPA Buffer</td>
-<td>Thermo Scientific</td>
-<td>89901</td>
-<td>Western Blot</td>
-</tr>
-<tr class="even">
-<td>SDS</td>
-<td>Fisher</td>
-<td>BP166-500</td>
-<td>Western Blot</td>
-</tr>
-<tr class="odd">
-<td>Glycine</td>
-<td>Sigma</td>
-<td>G-7126</td>
-<td>Western Blot</td>
-</tr>
-<tr class="even">
-<td>Tris Base</td>
-<td>Fisher</td>
-<td>BP154-1</td>
-<td>Western Blot</td>
-</tr>
-<tr class="odd">
-<td>BCA Protein Assay Kit</td>
-<td>Pierce</td>
-<td>23225</td>
-<td>Western Blot</td>
-</tr>
-<tr class="even">
-<td>Precision Plus Protein Dual Color Standards</td>
-<td>Bio-Rad</td>
-<td>1610374</td>
-<td>Western Blot</td>
-</tr>
-<tr class="odd">
-<td>Restore Western Blot Stripping Buffer</td>
-<td>Thermo</td>
-<td>21059</td>
-<td>Western Blot</td>
-</tr>
-<tr class="even">
-<td>Pierce Protease and Phosphatase Inhibitor Mini Tablets
-EDTA-Free</td>
-<td>Thermo</td>
-<td>A32961</td>
-<td>Western Blot</td>
-</tr>
-<tr class="odd">
-<td>Methanol (100%)</td>
-<td>Ficher</td>
-<td>A412-4</td>
-<td>Western Blot</td>
-</tr>
-<tr class="even">
-<td>RNaseZap</td>
-<td>Sigma</td>
-<td>R2020-250ML</td>
-<td>qPCR</td>
-</tr>
-<tr class="odd">
-<td>PowerUp SYBR Green Master Mix</td>
-<td>Applied Biosystems</td>
-<td>A25742</td>
-<td>qPCR</td>
-</tr>
-<tr class="even">
-<td>SuperScript IV VILO Master Mix</td>
-<td>Invitrogen</td>
-<td>11766050</td>
-<td>qPCR</td>
-</tr>
-<tr class="odd">
-<td>2-Mercaptoethanol</td>
-<td>Bio-Rad</td>
-<td>1610710</td>
-<td>Western Blot</td>
-</tr>
-<tr class="even">
-<td>4x Laemmli Sample Buffer</td>
-<td>Bio-Rad</td>
-<td>1610747</td>
-<td>Western Blot</td>
-</tr>
-<tr class="odd">
-<td>TRIzol Reagent</td>
-<td>Ambion</td>
-<td>15596018</td>
-<td>Western Blot</td>
-</tr>
-<tr class="even">
-<td>10x Tris/Glycine/SDS Buffer</td>
-<td>Bio-Rad</td>
-<td>1610732</td>
-<td>Western Blot</td>
-</tr>
-<tr class="odd">
-<td>Spectra Multicolor High Range Protein Ladder</td>
-<td>Thermo Scientific</td>
-<td>26625</td>
-<td>Western Blot</td>
-</tr>
-<tr class="even">
-<td>Reagent Alcohol 95% Histoprep</td>
-<td>Fisher</td>
-<td>HC13001GL</td>
-<td>Histology</td>
-</tr>
-<tr class="odd">
-<td>Alcohol 100%</td>
-<td>Sigma-Aldrich</td>
-<td>65347-M</td>
-<td>Histology</td>
-</tr>
-<tr class="even">
-<td>Xylenes (Histological)</td>
-<td>Fisher Chemical</td>
-<td>X3P-1GAL</td>
-<td>Histology</td>
-</tr>
-<tr class="odd">
-<td>TRIzol™ Reagent</td>
-<td>Invitrogen</td>
-<td>15-596-018</td>
-<td>qPCR</td>
-</tr>
-<tr class="even">
-<td>Paraplast X-tra</td>
-<td>Leica</td>
-<td>39603002</td>
-<td>Histology</td>
-</tr>
-<tr class="odd">
-<td>EM-400 Embedding Medium Paraffin</td>
-<td>Leica</td>
-<td>3801320</td>
-<td>Histology</td>
-</tr>
-<tr class="even">
-<td>Tissue Path™ Disposable Embedding Rings</td>
-<td>Fisher</td>
-<td>22038198</td>
-<td>Histology</td>
-</tr>
-</tbody>
-</table>
+| REAGENT or RESOURCE                                              | SOURCE             | IDENTIFIER  | Experiment   |
+|------------------------------------------------------------------|--------------------|-------------|--------------|
+| Alcohol 100%                                                     | Sigma-Aldrich      | 65347-M     | Histology    |
+| EM-400 Embedding Medium Paraffin                                 | Leica              | 3801320     | Histology    |
+| Paraplast X-tra                                                  | Leica              | 39603002    | Histology    |
+| Reagent Alcohol 95% Histoprep                                    | Fisher             | HC13001GL   | Histology    |
+| Tissue Path™ Disposable Embedding Rings                          | Fisher             | 22038198    | Histology    |
+| Xylenes (Histological)                                           | Fisher Chemical    | X3P-1GAL    | Histology    |
+| 10x Tris/Glycine/SDS Buffer                                      | Bio-Rad            | 1610732     | Western Blot |
+| 2-Mercaptoethanol                                                | Bio-Rad            | 1610710     | Western Blot |
+| 4x Laemmli Sample Buffer                                         | Bio-Rad            | 1610747     | Western Blot |
+| BCA Protein Assay Kit                                            | Pierce             | 23225       | Western Blot |
+| Glycine                                                          | Sigma              | G-7126      | Western Blot |
+| Methanol (100%)                                                  | Ficher             | A412-4      | Western Blot |
+| Pierce Protease and Phosphatase Inhibitor Mini Tablets EDTA-Free | Thermo             | A32961      | Western Blot |
+| Pierce RIPA Buffer                                               | Thermo Scientific  | 89901       | Western Blot |
+| Precision Plus Protein Dual Color Standards                      | Bio-Rad            | 1610374     | Western Blot |
+| Restore Western Blot Stripping Buffer                            | Thermo             | 21059       | Western Blot |
+| SDS                                                              | Fisher             | BP166-500   | Western Blot |
+| Spectra Multicolor High Range Protein Ladder                     | Thermo Scientific  | 26625       | Western Blot |
+| TRIzol Reagent                                                   | Ambion             | 15596018    | Western Blot |
+| Tris Base                                                        | Fisher             | BP154-1     | Western Blot |
+| Tween-20                                                         | Santa Cruz         | SC-29913    | Western Blot |
+| PowerUp SYBR Green Master Mix                                    | Applied Biosystems | A25742      | qPCR         |
+| RNaseZap                                                         | Sigma              | R2020-250ML | qPCR         |
+| SuperScript IV VILO Master Mix                                   | Invitrogen         | 11766050    | qPCR         |
+| TRIzol™ Reagent                                                  | Invitrogen         | 15-596-018  | qPCR         |
+| Sodium Chloride                                                  | Fisher             | S630-10     | –            |
 
 ## Deposited Data
 
-| REAGENT or RESOURCE | SOURCE | IDENTIFIER |
-|---------------------|--------|------------|
-|                     |        |            |
+|                                                       |                  | REAGENT or RESOURCE            | SOURCE | IDENTIFIER |
+|-------------------------------------------------------|------------------|--------------------------------|--------|------------|
+| A molecular single-cell lung atlas of lethal COVID-19 | GEO              | GSE171524                      | –      | Learning   |
+| Cells of the adult human heart                        | Human Cell Atlas | DOI: 10.1038/s41586-020-2797-4 | –      | Learning   |
 
 ## Experimental models: Cell Lines
 
-| REAGENT or RESOURCE | SOURCE | IDENTIFIER |
-|---------------------|--------|------------|
-|                     |        |            |
+| REAGENT or RESOURCE | SOURCE | IDENTIFIER | Project | Purpose |
+|---------------------|--------|------------|---------|---------|
+|                     |        |            |         |         |
 
 ## Experimental models: Organisms and Strains
 
@@ -272,129 +118,15 @@ EDTA-Free</td>
 
 ## Other
 
-<table style="width:98%;">
-<colgroup>
-<col style="width: 52%" />
-<col style="width: 14%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 9%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>REAGENT or RESOURCE</th>
-<th>SOURCE</th>
-<th>IDENTIFIER</th>
-<th>Experiment</th>
-<th>Category</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nova Max Plus</td>
-<td>Nova</td>
-<td>43436</td>
-<td>Blood test</td>
-<td>Hardware</td>
-</tr>
-<tr class="even">
-<td>Nova Max Glucose Test Strips</td>
-<td>Nova</td>
-<td>43523</td>
-<td>Blood test</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>HbA1c Test Kit</td>
-<td>Afinion</td>
-<td>1115015</td>
-<td>Blood test</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>HbA1c Controls</td>
-<td>Afinion</td>
-<td>1115178</td>
-<td>Blood test</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>MicroAmp Fast 96-well Reaction Plate (0.1mL)</td>
-<td>Applied Biosystems</td>
-<td>4346907</td>
-<td>qPCR</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>MicroAmp EnduraPlate Optical 384-well clear reaction plate with
-barcode</td>
-<td>Applied Biosystems</td>
-<td>4483285</td>
-<td>qPCR</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>#10 Surgical Blade</td>
-<td>Bard-Parker</td>
-<td>371110</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>BD Vacutainer Serum</td>
-<td>BD</td>
-<td>367815</td>
-<td>Blood test</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>BD Vacutainer Sodium Herparin</td>
-<td>BD</td>
-<td>367878</td>
-<td>Blood test</td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Gentamicin (50 mg/mL)</td>
-<td>Glibco</td>
-<td>15750060</td>
-<td>Cell culture</td>
-<td>Drug</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li></li>
-</ul></td>
-<td><ul>
-<li></li>
-</ul></td>
-<td><ul>
-<li></li>
-</ul></td>
-<td><ul>
-<li></li>
-</ul></td>
-<td><ul>
-<li></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+| REAGENT or RESOURCE                                                     | SOURCE             | IDENTIFIER | Experiment   | Category |
+|-------------------------------------------------------------------------|--------------------|------------|--------------|----------|
+| BD Vacutainer Serum                                                     | BD                 | 367815     | Blood test   | –        |
+| BD Vacutainer Sodium Herparin                                           | BD                 | 367878     | Blood test   | –        |
+| HbA1c Controls                                                          | Afinion            | 1115178    | Blood test   | –        |
+| HbA1c Test Kit                                                          | Afinion            | 1115015    | Blood test   | –        |
+| Nova Max Glucose Test Strips                                            | Nova               | 43523      | Blood test   | –        |
+| Nova Max Plus                                                           | Nova               | 43436      | Blood test   | Hardware |
+| Gentamicin (50 mg/mL)                                                   | Glibco             | 15750060   | Cell culture | Drug     |
+| MicroAmp EnduraPlate Optical 384-well clear reaction plate with barcode | Applied Biosystems | 4483285    | qPCR         | –        |
+| MicroAmp Fast 96-well Reaction Plate (0.1mL)                            | Applied Biosystems | 4346907    | qPCR         | –        |
+| \#10 Surgical Blade                                                     | Bard-Parker        | 371110     | –            | –        |

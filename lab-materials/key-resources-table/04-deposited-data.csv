@@ -1,1 +1,3 @@
-REAGENT or RESOURCE,SOURCE,IDENTIFIER
+REAGENT or RESOURCE,SOURCE,IDENTIFIER,Project,Purposes
+A molecular single-cell lung atlas of lethal COVID-19,GEO,GSE171524,N/A,Learning
+Cells of the adult human heart,Human Cell Atlas,DOI: 10.1038/s41586-020-2797-4,N/A,Learning

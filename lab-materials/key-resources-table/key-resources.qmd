@@ -60,7 +60,8 @@ os.chdir(os.environ['repo_root'])
 ## Antibodies
 ```{python}
 antibodies = pd.read_csv('lab-materials/key-resources-table/01-antibodies.csv', delimiter=',')
-antibodies = antibodies.fillna('--')
+antibodies.sort_values(by=["Target_Organism", "REAGENT or RESOURCE"], inplace=True)
+antibodies = antibodies.fillna(' -- ')
 
 # Function to add URL to RRID
 def add_url(rrid):
@@ -76,19 +77,17 @@ markdown_table = tabulate(antibodies, headers=["REAGENT or RESOURCE", "SOURCE", 
 display(Markdown(markdown_table))
 
 ```
-
-::: {.callout-note}
+**Note:**
 [RRIDs](https://scicrunch.org/resources/rin/rrids) are sourced from the [Antibody Registry](http://antibodyregistry.org/), via [SciCrunch](https://scicrunch.org/resources/rin/rrids)
 
-:::
-
+**Acknowledgement:**
 We would like to acknowledge [Dr. Thomas Schmid](https://www.rushu.rush.edu/faculty/thomas-schmid-phd) at Rush University for preparing and sharing the Lubricin (PRG4) antibody with our group.
 
 
 ## Biological Samples
 ```{python}
 biological_samples = pd.read_csv('lab-materials/key-resources-table/02-biological-samples.csv')
-biological_samples = biological_samples.fillna('--')
+biological_samples = biological_samples.fillna(' -- ')
 
 Markdown(tabulate(biological_samples, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 
@@ -99,7 +98,8 @@ Markdown(tabulate(biological_samples, headers=["REAGENT or RESOURCE","SOURCE","I
 
 ```{python}
 chem_peptide_proteins = pd.read_csv('lab-materials/key-resources-table/03-chemicals-peptides-recombinant-proteins.csv')
-chem_peptide_proteins = chem_peptide_proteins.fillna('--')
+chem_peptide_proteins.sort_values(by=["Experiment", "REAGENT or RESOURCE"], inplace=True)
+chem_peptide_proteins = chem_peptide_proteins.fillna(' -- ')
 
 Markdown(tabulate(chem_peptide_proteins, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER", "Experiment"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 
@@ -108,10 +108,9 @@ Markdown(tabulate(chem_peptide_proteins, headers=["REAGENT or RESOURCE","SOURCE"
 ## Deposited Data
 
 ```{python}
-import pandas as pd
-
 deposited_data = pd.read_csv('lab-materials/key-resources-table/04-deposited-data.csv')
-deposited_data = deposited_data.fillna('--')
+deposited_data.sort_values(by=["Project", "Purposes"], inplace=True)
+deposited_data = deposited_data.fillna(' -- ')
 
 Markdown(tabulate(deposited_data, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 ```
@@ -122,9 +121,9 @@ Markdown(tabulate(deposited_data, headers=["REAGENT or RESOURCE","SOURCE","IDENT
 ```{python}
 import pandas as pd
 cell_lines = pd.read_csv('lab-materials/key-resources-table/05-exp-models-cell-lines.csv')
-cell_lines = cell_lines.fillna('--')
+cell_lines = cell_lines.fillna(' -- ')
 
-Markdown(tabulate(cell_lines, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
+Markdown(tabulate(cell_lines, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER", "Project", "Purpose"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 ```
 
 ## Experimental models: Organisms and Strains
@@ -132,7 +131,7 @@ Markdown(tabulate(cell_lines, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIE
 ```{python}
 import pandas as pd
 strains = pd.read_csv('lab-materials/key-resources-table/06-exp-models-organisms-strains.csv')
-strains = strains.fillna('--')
+strains = strains.fillna(' -- ')
 
 Markdown(tabulate(strains, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 ```
@@ -143,7 +142,7 @@ Markdown(tabulate(strains, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"]
 ```{python}
 import pandas as pd
 oligonucleotides = pd.read_csv('lab-materials/key-resources-table/07-oligonucleotides.csv')
-oligonucleotides = oligonucleotides.fillna('--')
+oligonucleotides = oligonucleotides.fillna(' -- ')
 
 Markdown(tabulate(oligonucleotides, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 ```
@@ -153,7 +152,7 @@ Markdown(tabulate(oligonucleotides, headers=["REAGENT or RESOURCE","SOURCE","IDE
 ```{python}
 import pandas as pd
 recombinant = pd.read_csv('lab-materials/key-resources-table/08-recombinant-DNA.csv')
-recombinant = recombinant.fillna('--')
+recombinant = recombinant.fillna(' -- ')
 
 Markdown(tabulate(recombinant, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 ```
@@ -163,7 +162,7 @@ Markdown(tabulate(recombinant, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFI
 ```{python}
 import pandas as pd
 software_algorithms = pd.read_csv('lab-materials/key-resources-table/09-software-algorithms.csv')
-software_algorithms = software_algorithms.fillna('')
+software_algorithms = software_algorithms.fillna(' -- ')
 
 Markdown(tabulate(software_algorithms, headers=["REAGENT or RESOURCE","SOURCE","IDENTIFIER"], numalign='left', stralign='left', showindex="never", tablefmt="grid"))
 ```
@@ -173,7 +172,8 @@ Markdown(tabulate(software_algorithms, headers=["REAGENT or RESOURCE","SOURCE","
 ```{python}
 import pandas as pd
 other = pd.read_csv('lab-materials/key-resources-table/10-other.csv')
-other = other.fillna('--')
+other.sort_values(by=["Experiment", "REAGENT or RESOURCE"], inplace=True)
+other = other.fillna(' -- ')
 
 # Convert floats to ints in a string column
 other = other.astype(str).replace('\.0', '', regex=True)
