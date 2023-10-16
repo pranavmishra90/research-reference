@@ -12,13 +12,13 @@ on:
       - synchronize
       - closed
   workflow_dispatch:
-  
+
 jobs:
   copy-site:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code without submodules
-      run: git clone --branch main --depth 1 --no-checkout https://github.com/${{ github.repository }}.git .
+      run: git clone --branch main --depth 1 --no-checkout https://github.com/pranavmishra90/research-reference .
     
     - name: Set up Git
       run: |
