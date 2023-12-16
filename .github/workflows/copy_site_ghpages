@@ -1,4 +1,4 @@
-name: Copy _site folder to gh-pages branch
+name: gh_pages
 
 on:
   push:
