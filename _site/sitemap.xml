@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>ref.drpranavmishra.com/protocols/recipes/working-stock/hydrochloric acid (1M).html</loc>
+    <lastmod>2024-03-11T19:56:45.896Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/protocols/recipes/solvents/formalin (10 percent).html</loc>
+    <lastmod>2024-03-11T19:58:13.672Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/protocols/recipes/buffers/tris-glycine-transfer-buffer.html</loc>
+    <lastmod>2024-03-11T19:58:13.672Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/protocols/recipes/buffers/tris-buffered-saline-Tween-20.html</loc>
+    <lastmod>2024-03-11T19:58:13.672Z</lastmod>
+  </url>
+  <url>
     <loc>ref.drpranavmishra.com/protocols/molecular-biology/western-blot.html</loc>
-    <lastmod>2023-10-12T23:33:36.416Z</lastmod>
+    <lastmod>2024-03-11T19:58:13.672Z</lastmod>
   </url>
   <url>
     <loc>ref.drpranavmishra.com/protocols/molecular-biology/PCR/RNA-isolation.html</loc>
-    <lastmod>2023-10-12T23:33:34.796Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/nextgen-analysis/lung-atlas-tutorial/index.html</loc>
-    <lastmod>2023-10-12T23:33:31.340Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/lab-materials/safe-disposal/index.html</loc>
-    <lastmod>2023-10-12T23:33:29.608Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/index.html</loc>
-    <lastmod>2023-10-12T23:33:23.484Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/data-analysis/statistics/anova.html</loc>
-    <lastmod>2023-10-12T23:33:21.624Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/Tutorial/templates/recipe-template.html</loc>
-    <lastmod>2023-10-12T23:33:19.924Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/Tutorial/tables.html</loc>
-    <lastmod>2023-10-12T23:33:18.920Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/about.html</loc>
-    <lastmod>2023-10-12T23:33:20.796Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/deploy/readme.html</loc>
-    <lastmod>2023-10-12T23:33:22.676Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/lab-materials/key-resources-table/key-resources.html</loc>
-    <lastmod>2023-10-12T23:33:28.796Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/lab-materials/safe-disposal/methanol.html</loc>
-    <lastmod>2023-10-12T23:33:30.348Z</lastmod>
-  </url>
-  <url>
-    <loc>ref.drpranavmishra.com/nextgen-analysis/platform/analysis-on-debian.html</loc>
-    <lastmod>2023-10-12T23:33:32.660Z</lastmod>
+    <lastmod>2024-02-11T04:36:17.384Z</lastmod>
   </url>
   <url>
     <loc>ref.drpranavmishra.com/protocols/molecular-biology/index.html</loc>
-    <lastmod>2023-10-12T23:33:35.624Z</lastmod>
+    <lastmod>2024-02-11T04:36:17.384Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/protocols/recipes/buffers/tris-buffered-saline-TBS.html</loc>
+    <lastmod>2024-03-11T19:58:13.672Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html</loc>
+    <lastmod>2024-03-11T19:58:13.672Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/protocols/recipes/index.html</loc>
+    <lastmod>2024-03-06T23:28:15.537Z</lastmod>
+  </url>
+  <url>
+    <loc>ref.drpranavmishra.com/protocols/recipes/solvents/pbs-phosphate-buffered-saline.html</loc>
+    <lastmod>2024-03-11T20:00:06.079Z</lastmod>
   </url>
 </urlset>

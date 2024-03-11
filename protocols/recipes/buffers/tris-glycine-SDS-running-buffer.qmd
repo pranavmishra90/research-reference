@@ -1,13 +1,18 @@
 ---
 title: "Tris-Glycine SDS Running Buffer"
-date: last-modified
+date: 2023-04-22
 date-format: full
 author:
-  - name: Pranav Kumar Mishra
+  - name:
+      given: Pranav Kumar
+      family: Mishra
+    affiliations:
+      - ref: rushsurg
+      - ref: rushortho
+    corresponding: true
     url: https://drpranavmishra.com
-    orcid: 0000-0001-5219-6269 
-    affiliation: Rush University
-    affiliation-url: https://rushu.rush.edu 
+    email: pranav_k_mishra@rush.edu
+    orcid: 0000-0001-5219-6269
 citation: true
 google-scholar: true
 ---

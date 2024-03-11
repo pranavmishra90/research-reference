@@ -66,3 +66,34 @@ csl: ./ama.csl
 citation: true
 google-scholar: true
 
+
+affiliations:
+  - id: rushortho
+    name: Dept of Orthopedic Surgery, Rush University
+    department: Orthopedic Surgery
+    city: Chicago
+    region: IL
+    country: USA
+    postal-code: 60564
+    affiliation-url: https://rushu.rush.edu
+    
+  - id: rushsurg
+    name: Dept of Surgery, Rush University
+    department: Surgery
+    address: 1735 W Harrison St, Ste 563
+    city: Chicago
+    region: IL
+    country: USA
+    postal-code: 60564
+    affiliation-url: https://rushu.rush.edu
+
+  - id: rushpeds
+    name: Dept of Pediatrics, Rush University
+    department: Pediatrics
+    address: 1735 W Harrison St, Ste 563
+    city: Chicago
+    region: IL
+    country: USA
+    postal-code: 60564
+    affiliation-url: https://rushu.rush.edu
+
