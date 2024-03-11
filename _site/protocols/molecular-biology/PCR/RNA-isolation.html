@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Pranav Kumar Mishra">
 
-<title>Research Reference – rna-isolation</title>
+<title>Research Reference - mRNA Isolation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -81,7 +48,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -90,6 +63,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -99,7 +73,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta name="citation_title" content="Protocol">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Research Reference - mRNA Isolation">
+<meta property="og:description" content="Isolating mRNA from surgical samples">
+<meta property="og:image" content="ref.drpranavmishra.com/protocols/molecular-biology/PCR/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:site_name" content="Research Reference">
+<meta name="citation_title" content="mRNA Isolation">
+<meta name="citation_author" content="Pranav Kumar Mishra">
+<meta name="citation_publication_date" content="2023-10-03">
+<meta name="citation_cover_date" content="2023-10-03">
+<meta name="citation_year" content="2023">
+<meta name="citation_online_date" content="2023-10-03">
 <meta name="citation_fulltext_html_url" content="ref.drpranavmishra.com/protocols/molecular-biology/PCR/RNA-isolation.html">
 <meta name="citation_language" content="en-US">
 <meta name="citation_reference" content="citation_title=Protocol for making a 4% formaldehyde solution in PBS. R&amp;amp;amp;d systems;,citation_abstract=Read our Protocol for Making a 4% Formaldehyde Solution in PBS.;,citation_author=R&amp;amp;D Systems;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://www.rndsystems.com/resources/protocols/protocol-making-4-formaldehyde-solution-pbs;,citation_language=en-US;">
@@ -135,12 +145,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <body class="nav-sidebar docked nav-fixed">
 
-
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Research Reference</span>
     </a>
@@ -152,39 +161,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" rel="" target="" aria-current="page">
- <span class="menu-text">About</span></a>
+    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/pranavmishra90/research-reference" rel="" target="">
- <span class="menu-text">GitHub</span></a>
+    <a class="nav-link" href="https://github.com/pranavmishra90/research-reference"> 
+<span class="menu-text">GitHub</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/index.html">Protocols</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/index.html">Molecular Biology</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/PCR/RNA-isolation.html">PCR</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/PCR/RNA-isolation.html">Parameters</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/index.html">Protocols</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/index.html">Molecular Biology</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/PCR/RNA-isolation.html">PCR</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/PCR/RNA-isolation.html">mRNA Isolation</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -353,7 +362,93 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../protocols/molecular-biology/PCR/RNA-isolation.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Parameters</span></a>
+ <span class="menu-text">mRNA Isolation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../protocols/recipes/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipes</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false">
+ <span class="menu-text">Buffers</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../protocols/recipes/buffers/tris-buffered-saline-TBS.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipe: Tris-Buffered Saline (TBS)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../protocols/recipes/buffers/tris-buffered-saline-Tween-20.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tris-Buffered Saline with Tween 20 (TBST)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../protocols/recipes/buffers/tris-glycine-SDS-running-buffer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tris-Glycine SDS Running Buffer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../protocols/recipes/buffers/tris-glycine-transfer-buffer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tris-Glycine Transfer Buffer</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false">
+ <span class="menu-text">Solvents</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../protocols/recipes/solvents/formalin (10 percent).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10% Formalin (4% Paraformaldehyde)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../protocols/recipes/solvents/pbs-phosphate-buffered-saline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phosphate Buffered Saline (PBS)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false">
+ <span class="menu-text">Working Stock</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../protocols/recipes/working-stock/hydrochloric acid (1M).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hydrochloric Acid (1M)</span></a>
   </div>
 </li>
       </ul>
@@ -364,13 +459,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="true">
  <span class="menu-text">Tutorial</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../Tutorial/tables.html" class="sidebar-item-text sidebar-link">
@@ -379,13 +474,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false">
  <span class="menu-text">Templates</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../Tutorial/templates/recipe-template.html" class="sidebar-item-text sidebar-link">
@@ -399,50 +494,69 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lyse-samples-and-separate-phases" id="toc-lyse-samples-and-separate-phases" class="nav-link active" data-scroll-target="#lyse-samples-and-separate-phases">Lyse samples and separate phases</a></li>
+  <li><a href="#protocol" id="toc-protocol" class="nav-link active" data-scroll-target="#protocol">Protocol</a>
+  <ul class="collapse">
+  <li><a href="#lyse-samples-and-separate-phases" id="toc-lyse-samples-and-separate-phases" class="nav-link" data-scroll-target="#lyse-samples-and-separate-phases">Lyse samples and separate phases</a></li>
   <li><a href="#rna-isolation" id="toc-rna-isolation" class="nav-link" data-scroll-target="#rna-isolation">RNA Isolation</a></li>
   <li><a href="#determine-the-rna-yield-nanodrop" id="toc-determine-the-rna-yield-nanodrop" class="nav-link" data-scroll-target="#determine-the-rna-yield-nanodrop">Determine the RNA Yield: Nanodrop</a></li>
   <li><a href="#conversion-to-cdna" id="toc-conversion-to-cdna" class="nav-link" data-scroll-target="#conversion-to-cdna">Conversion to cDNA</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pranavmishra90/research-reference/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/pranavmishra90/research-reference/edit/main/protocols/molecular-biology/PCR/RNA-isolation.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/pranavmishra90/research-reference/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/pranavmishra90/research-reference/edit/main/protocols/molecular-biology/PCR/RNA-isolation.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/index.html">Protocols</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/index.html">Molecular Biology</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/PCR/RNA-isolation.html">PCR</a></li><li class="breadcrumb-item"><a href="../../../protocols/molecular-biology/PCR/RNA-isolation.html">mRNA Isolation</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Protocol</h1>
+<h1 class="title">mRNA Isolation</h1>
+<p class="subtitle lead">Isolating mRNA from surgical samples</p>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://drpranavmishra.com">Pranav Kumar Mishra</a> <a href="https://orcid.org/0000-0001-5219-6269" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://rushu.rush.edu">
+            Rush University
+            </a>
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Oct 3, 2023</p>
+    </div>
+  </div>
   
     
   </div>
   
 
+
 </header>
 
-<div class="cell" data-execution_count="2">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Parameters</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a></span>
-<span id="cb1-3"><a href="#cb1-3"></a>target_total_rna_ng_ul <span class="op">=</span> <span class="dv">1500</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a>vol_total_reaction_ul <span class="op">=</span> <span class="dv">20</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>vol_superscript_ul <span class="op">=</span> <span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
+
+<section id="protocol" class="level2">
+<h2 class="anchored" data-anchor-id="protocol">Protocol</h2>
 <section id="lyse-samples-and-separate-phases" class="level3">
 <h3 class="anchored" data-anchor-id="lyse-samples-and-separate-phases">Lyse samples and separate phases</h3>
 <ol type="1">
@@ -484,218 +598,66 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Save the sample, giving it a name ##### RNA to USB CSV (##### is the 5 digit randomized study subject identification number)</li>
 <li>Paste the nanodrop readings into the corresponding CSV file / Excel file</li>
 </ol>
-<div class="cell" data-execution_count="3">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Initialize environment</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="im">from</span> IPython.display <span class="im">import</span> display, Markdown, Latex</span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="im">from</span> tabulate <span class="im">import</span> tabulate</span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="im">import</span> os, socket</span>
-<span id="cb2-7"><a href="#cb2-7"></a></span>
-<span id="cb2-8"><a href="#cb2-8"></a>pd.set_option(<span class="st">'display.precision'</span>, <span class="dv">2</span>)</span>
-<span id="cb2-9"><a href="#cb2-9"></a></span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="co"># Get the name of the computer, then save it to an environment variable</span></span>
-<span id="cb2-11"><a href="#cb2-11"></a>os.environ[<span class="st">'computer_name'</span>]<span class="op">=</span> socket.gethostname()</span>
-<span id="cb2-12"><a href="#cb2-12"></a></span>
-<span id="cb2-13"><a href="#cb2-13"></a><span class="cf">if</span> <span class="bu">len</span>(os.environ[<span class="st">'computer_name'</span>]) <span class="op">==</span> <span class="dv">12</span>:</span>
-<span id="cb2-14"><a href="#cb2-14"></a>    <span class="cf">if</span> os.path.exists(<span class="st">'./work'</span>):</span>
-<span id="cb2-15"><a href="#cb2-15"></a>        is_docker <span class="op">=</span> <span class="st">'True'</span></span>
-<span id="cb2-16"><a href="#cb2-16"></a>        os.environ[<span class="st">'is_docker'</span>]<span class="op">=</span>is_docker</span>
-<span id="cb2-17"><a href="#cb2-17"></a>        os.chdir(<span class="st">'/home/coder/work'</span>)</span>
-<span id="cb2-18"><a href="#cb2-18"></a>        os.environ[<span class="st">'repo_root'</span>]<span class="op">=</span>os.getcwd()</span>
-<span id="cb2-19"><a href="#cb2-19"></a></span>
-<span id="cb2-20"><a href="#cb2-20"></a><span class="cf">elif</span> os.environ[<span class="st">'computer_name'</span>]<span class="op">==</span><span class="st">"singulab"</span>:</span>
-<span id="cb2-21"><a href="#cb2-21"></a>    os.environ[<span class="st">'is_docker'</span>] <span class="op">=</span> <span class="st">'False'</span></span>
-<span id="cb2-22"><a href="#cb2-22"></a>    os.environ[<span class="st">'repo_root'</span>] <span class="op">=</span> <span class="st">"/home/pranav/work/pranavmishra90/research-reference"</span></span>
-<span id="cb2-23"><a href="#cb2-23"></a></span>
-<span id="cb2-24"><a href="#cb2-24"></a>os.chdir(os.environ[<span class="st">'repo_root'</span>])</span>
-<span id="cb2-25"><a href="#cb2-25"></a></span>
-<span id="cb2-26"><a href="#cb2-26"></a><span class="co"># Load the subject's nanodrop readings</span></span>
-<span id="cb2-27"><a href="#cb2-27"></a></span>
-<span id="cb2-28"><a href="#cb2-28"></a>subject_nanodrop <span class="op">=</span> pd.read_csv(<span class="ss">f'protocols/molecular-biology/PCR/demo_nanodrop.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
-<div class="cell" data-execution_count="4">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a>Markdown(tabulate(subject_nanodrop[[<span class="st">'Date'</span>, <span class="st">'Time'</span>, <span class="st">'Sample Number'</span>, <span class="st">'A230'</span>, <span class="st">'A260'</span>, <span class="st">'A280'</span>, <span class="st">'A320'</span>,</span>
-<span id="cb3-2"><a href="#cb3-2"></a>       <span class="st">'A260/A230'</span>, <span class="st">'A260/A280'</span>, <span class="st">'Concentration'</span>, <span class="st">'Sample Name'</span>]], headers<span class="op">=</span>[<span class="st">'Date'</span>, <span class="st">'Time'</span>, <span class="st">'Sample Number'</span>, <span class="st">'Sample Name'</span>, <span class="st">'A230'</span>, <span class="st">'A260'</span>, <span class="st">'A280'</span>, <span class="st">'A320'</span>, <span class="st">'A260/A230'</span>, <span class="st">'A260/A280'</span>, <span class="st">'Concentration'</span>],showindex<span class="op">=</span><span class="st">"never"</span>, numalign<span class="op">=</span><span class="st">'center'</span>, stralign<span class="op">=</span><span class="st">'center'</span>, tablefmt<span class="op">=</span><span class="st">"grid"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="3">
-<div id="tbl-nanodrop" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Table&nbsp;1: Select nanodrop readings</caption>
-<colgroup>
-<col style="width: 8%">
-<col style="width: 6%">
-<col style="width: 12%">
-<col style="width: 10%">
-<col style="width: 6%">
-<col style="width: 6%">
-<col style="width: 6%">
-<col style="width: 6%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Date</th>
-<th>Time</th>
-<th>Sample Number</th>
-<th>Sample Name</th>
-<th>A230</th>
-<th>A260</th>
-<th>A280</th>
-<th>A320</th>
-<th>A260/A230</th>
-<th>A260/A280</th>
-<th>Concentration</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>22/ 3/2023</td>
-<td>4:53:26</td>
-<td><pre><code>   1</code></pre></td>
-<td><pre><code>2.005</code></pre></td>
-<td>0.276</td>
-<td>0.167</td>
-<td>0.062</td>
-<td>0.11</td>
-<td>2.038</td>
-<td><pre><code>214</code></pre></td>
-<td>Demo-Sample-1</td>
-</tr>
-<tr class="even">
-<td>22/ 3/2023</td>
-<td>4:54:17</td>
-<td><pre><code>   2</code></pre></td>
-<td><pre><code>2.489</code></pre></td>
-<td>0.363</td>
-<td>0.218</td>
-<td>0.067</td>
-<td>0.122</td>
-<td>1.96</td>
-<td><pre><code>296</code></pre></td>
-<td>Demo-Sample-2</td>
-</tr>
-<tr class="odd">
-<td>22/ 3/2023</td>
-<td>4:54:59</td>
-<td><pre><code>   3</code></pre></td>
-<td><pre><code>2.351</code></pre></td>
-<td>0.351</td>
-<td>0.22</td>
-<td>0.06</td>
-<td>0.127</td>
-<td>1.819</td>
-<td><pre><code>291</code></pre></td>
-<td>Demo-Sample-3</td>
-</tr>
-</tbody>
-</table>
+<div id="fd7f3e26" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-error">
+<pre><code>KeyError: 'repo_root'</code></pre>
 </div>
 </div>
+<div id="tbl-nanodrop" class="cell quarto-float anchored" data-execution_count="4">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-nanodrop-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output cell-output-error">
+<pre><code>NameError: name 'subject_nanodrop' is not defined</code></pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-nanodrop-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Select nanodrop readings
+</figcaption>
+</figure>
 </div>
 </section>
 <section id="conversion-to-cdna" class="level3">
 <h3 class="anchored" data-anchor-id="conversion-to-cdna">Conversion to cDNA</h3>
-<div class="cell" data-execution_count="5">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1"></a>lowest_rna_concentration <span class="op">=</span> <span class="bu">min</span>(subject_nanodrop[<span class="st">'Concentration'</span>])</span>
-<span id="cb13-2"><a href="#cb13-2"></a></span>
-<span id="cb13-3"><a href="#cb13-3"></a>rna_to_be_used <span class="op">=</span> target_total_rna_ng_ul <span class="op">/</span> lowest_rna_concentration</span>
-<span id="cb13-4"><a href="#cb13-4"></a></span>
-<span id="cb13-5"><a href="#cb13-5"></a>cdna_conversion <span class="op">=</span> subject_nanodrop</span>
-<span id="cb13-6"><a href="#cb13-6"></a></span>
-<span id="cb13-7"><a href="#cb13-7"></a>cdna_conversion[<span class="st">'RNA_uL'</span>] <span class="op">=</span> target_total_rna_ng_ul <span class="op">/</span> cdna_conversion[<span class="st">'Concentration'</span>]</span>
-<span id="cb13-8"><a href="#cb13-8"></a></span>
-<span id="cb13-9"><a href="#cb13-9"></a>cdna_conversion[<span class="st">'VILO_uL'</span>] <span class="op">=</span> vol_superscript_ul</span>
-<span id="cb13-10"><a href="#cb13-10"></a></span>
-<span id="cb13-11"><a href="#cb13-11"></a>cdna_conversion[<span class="st">'Water_uL'</span>] <span class="op">=</span> vol_total_reaction_ul <span class="op">-</span> (cdna_conversion[<span class="st">'RNA_uL'</span>] <span class="op">+</span> cdna_conversion[<span class="st">'VILO_uL'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
+<div id="6e0d5242" class="cell" data-execution_count="5">
+<div class="cell-output cell-output-error">
+<pre><code>NameError: name 'subject_nanodrop' is not defined</code></pre>
 </div>
-<div class="cell" data-execution_count="6">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1"></a>display(Markdown(<span class="ss">f" Our target concentration of cDNA is </span><span class="sc">{</span>target_total_rna_ng_ul<span class="sc">}</span><span class="ss"> $</span><span class="ch">\\</span><span class="ss">frac</span><span class="ch">{{</span><span class="ss">ng</span><span class="ch">}}{{</span><span class="ss">\mu L</span><span class="ch">}}</span><span class="ss">$."</span>))</span>
-<span id="cb14-2"><a href="#cb14-2"></a></span>
-<span id="cb14-3"><a href="#cb14-3"></a>display(Markdown(<span class="ss">f"The least concentration of any sample is </span><span class="sc">{</span>lowest_rna_concentration<span class="sc">}</span><span class="ss"> $</span><span class="ch">\\</span><span class="ss">frac</span><span class="ch">{{</span><span class="ss">ng</span><span class="ch">}}{{</span><span class="ss">\mu L</span><span class="ch">}}</span><span class="ss">$. To obtain the target concentration, we will need to use </span><span class="sc">{</span><span class="bu">round</span>(rna_to_be_used, <span class="dv">2</span>)<span class="sc">}</span><span class="ss"> $</span><span class="ch">\\</span><span class="ss">mu L$ of the RNA previously isolated."</span>))</span>
-<span id="cb14-4"><a href="#cb14-4"></a></span>
-<span id="cb14-5"><a href="#cb14-5"></a>display(Markdown(<span class="ss">f"Our protocol will use  </span><span class="sc">{</span>vol_superscript_ul<span class="sc">}</span><span class="ss"> $</span><span class="ch">\\</span><span class="ss">mu L$ of Superscript IV VILO for each sample. The volume ($</span><span class="ch">\\</span><span class="ss">mu L$) of molecular grade water to be added is listed in the column 'Water_uL'."</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display">
+</div>
+<div id="e3a53e5c" class="cell" data-execution_count="6">
+<div class="cell-output cell-output-display cell-output-markdown">
 <p>Our target concentration of cDNA is 1500 <span class="math inline">\(\frac{ng}{\mu L}\)</span>.</p>
 </div>
-<div class="cell-output cell-output-display">
-<p>The least concentration of any sample is 214 <span class="math inline">\(\frac{ng}{\mu L}\)</span>. To obtain the target concentration, we will need to use 7.01 <span class="math inline">\(\mu L\)</span> of the RNA previously isolated.</p>
-</div>
-<div class="cell-output cell-output-display">
-<p>Our protocol will use 4 <span class="math inline">\(\mu L\)</span> of Superscript IV VILO for each sample. The volume (<span class="math inline">\(\mu L\)</span>) of molecular grade water to be added is listed in the column ‘Water_uL’.</p>
+<div class="cell-output cell-output-error">
+<pre><code>NameError: name 'lowest_rna_concentration' is not defined</code></pre>
 </div>
 </div>
-<div class="cell" data-execution_count="7">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1"></a><span class="co"># display(cdna_conversion[['Sample Number', 'Sample Name', 'RNA_uL', 'VILO_uL', 'Water_uL']].to_html(index=False))</span></span>
-<span id="cb15-2"><a href="#cb15-2"></a></span>
-<span id="cb15-3"><a href="#cb15-3"></a>Markdown(tabulate(cdna_conversion[[<span class="st">'Sample Number'</span>, <span class="st">'Sample Name'</span>, <span class="st">'RNA_uL'</span>, <span class="st">'VILO_uL'</span>, <span class="st">'Water_uL'</span>]], headers<span class="op">=</span>[<span class="st">'Sample Number'</span>, <span class="st">'Sample Name'</span>, <span class="st">'RNA (uL)'</span>, <span class="st">'VILO (uL)'</span>, <span class="st">'Water (uL)'</span>],showindex<span class="op">=</span><span class="st">"never"</span>, numalign<span class="op">=</span><span class="st">'center'</span>, stralign<span class="op">=</span><span class="st">'center'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="6">
-<div id="tbl-cdna-calculations" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Table&nbsp;2: Conversion to cDNA using Superscript VILO</caption>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Sample Number</th>
-<th style="text-align: center;">Sample Name</th>
-<th style="text-align: center;">RNA (uL)</th>
-<th style="text-align: center;">VILO (uL)</th>
-<th style="text-align: center;">Water (uL)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">Demo-Sample-1</td>
-<td style="text-align: center;">7.00935</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">8.99065</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Demo-Sample-2</td>
-<td style="text-align: center;">5.06757</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">10.9324</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">Demo-Sample-3</td>
-<td style="text-align: center;">5.15464</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">10.8454</td>
-</tr>
-</tbody>
-</table>
+<div id="tbl-cdna-calculations" class="cell quarto-float anchored" data-execution_count="7">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-cdna-calculations-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output cell-output-error">
+<pre><code>NameError: name 'cdna_conversion' is not defined</code></pre>
 </div>
 </div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-cdna-calculations-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Conversion to cDNA using Superscript VILO
+</figcaption>
+</figure>
 </div>
 
 
 </section>
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{untitled,
-  author = {},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{kumar mishra2023,
+  author = {Kumar Mishra, Pranav},
+  title = {mRNA {Isolation}},
+  date = {2023-10-03},
   url = {ref.drpranavmishra.com/protocols/molecular-biology/PCR/RNA-isolation.html},
   langid = {en-US}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-untitled" class="csl-entry quarto-appendix-citeas" role="listitem">
-<div class=""><a href="https://ref.drpranavmishra.com/protocols/molecular-biology/PCR/RNA-isolation.html">ref.drpranavmishra.com/protocols/molecular-biology/PCR/RNA-isolation.html</a></div>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-kumar mishra2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+<div class="">Kumar Mishra P. mRNA Isolation. Published
+October 3, 2023. <a href="https://ref.drpranavmishra.com/protocols/molecular-biology/PCR/RNA-isolation.html">ref.drpranavmishra.com/protocols/molecular-biology/PCR/RNA-isolation.html</a></div>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -738,6 +700,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -806,13 +795,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -891,10 +882,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -904,8 +894,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -918,6 +917,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -961,6 +1079,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -986,6 +1105,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1051,12 +1196,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Created by Pranav Kumar Mishra || License CC-BY-SA</div>
+    <div class="nav-footer-center">
+<p>Created by Pranav Kumar Mishra || License CC-BY-SA</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pranavmishra90/research-reference/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/pranavmishra90/research-reference/edit/main/protocols/molecular-biology/PCR/RNA-isolation.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
