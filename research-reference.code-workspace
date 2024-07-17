@@ -3,5 +3,10 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"conventionalCommits.scopes": [
+			"env"
+		]
+	}
 }

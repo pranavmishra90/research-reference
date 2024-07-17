@@ -1,23 +1,31 @@
 {
-  "image": "pranavmishra90/genomics-studio-base",
+  "image": "ghcr.io/pranavmishra90/facsimilab-full:latest",
+  "containerUser": "coder",
+  "mounts": [
+      "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/home/coder,type=bind,consistency=cached",
+      "source=${localWorkspaceFolder},target=/home/coder/work,type=bind,consistency=cached"
+  ],
+  "updateRemoteUserUID": true,
+  "forwardPorts": [3000, 3333, 9119],
+  "postCreateCommand": ["/bin/bash"],
 
   "customizations": {
-    "vscode": {
-      "extensions": [
-        "eamodio.gitlens",
-        "ms-toolsai.jupyter",
-        "ms-toolsai.vscode-jupyter-cell-tags",
-        "ms-toolsai.jupyter-renderers",
-        "ms-toolsai.vscode-jupyter-powertoys",
-        "ritwickdey.LiveServer",
-        "esbenp.prettier-vscode",
-        "quarto.quarto",
-        "WakaTime.vscode-wakatime",
-        "mechatroner.rainbow-csv",
-        "SimonSiefke.svg-preview",
-        "JannisX11.batch-rename-extension"
-      ]
-    }
-  },
-  "forwardPorts": [3000, 3333, 9119]
+      "vscode": {
+          "extensions": [
+              "quarto.quarto",
+              "eamodio.gitlens",
+              "ms-azuretools.vscode-docker",
+              "ms-python.debugpy",
+              "ms-python.python",
+              "ms-python.vscode-pylance",
+              "ms-toolsai.jupyter",
+              "ms-toolsai.jupyter-keymap",
+              "ms-toolsai.jupyter-renderers",
+              "ms-toolsai.vscode-jupyter-cell-tags",
+              "ms-toolsai.vscode-jupyter-slideshow",
+              "ritwickdey.LiveServer",
+              "ms-vsliveshare.vsliveshare"
+          ]
+      }
+  }
 }
