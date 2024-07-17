@@ -19,6 +19,7 @@ format:
     default-image-extension: svg
     embed-resources: false
 
+draft-mode: gone
 
 execute:
   freeze: false

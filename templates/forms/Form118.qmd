@@ -1,0 +1,108 @@
+---
+title: "Project Title"
+subtitle: "Form 118"
+draft: true
+date: last-modified
+date-format: full
+author:
+  - name:
+      given: Pranav Kumar
+      family: Mishra
+    affiliations:
+      - ref: rushsurg
+      - ref: rushortho
+    corresponding: true
+    url: https://drpranavmishra.com
+    email: pranav_k_mishra@rush.edu
+    orcid: 0000-0001-5219-6269
+    role: "Post Doctoral Research Fellow"
+format:
+  html: default
+  pdf: 
+    documentclass: scrartcl #scrreprt
+---
+
+::: {.content-hidden when-profile="production"}
+::: {.callout-note}
+## Overview
+
+The Rush University "Form 118" is an efficient process for the Institutional Review Board (IRB) to evaluate and determine if a study qualifies as "Non-Human Subjects Research" (NHSR). This form is completed with an online REDCap form, found at [118.rush.edu](https://118.rush.edu)
+:::
+:::
+
+## Study Information
+
+### Title of study
+
+\[Insert title here\]
+
+### Principle Investigator
+
+**Name**:
+
+**Degree(s)**:
+
+**Job Title**:
+
+**Secondary / Co-Investigator(s) Name**:
+
+**Department or School / College**:
+
+**Affiliation**: Medical staff, Faculty, Staff, Fellow, Resident, Student, None of the Above
+
+**Campus or Department Address**:
+
+**Contact Phone**:
+
+**Faculty Sponsor Contact Phone Number**[^1]:
+
+[^1]: This field is required if you are a student, fellow, or resident
+
+**Primary Contact Rush Email Address**:
+
+**Secondary Contact Email Address**[^2]:
+
+[^2]: This field is required if you are a student, fellow, or resident
+
+### **Category for non-human subjects research**:
+
+-   [ ] Research involving only the use/analysis of deceased individuals' information or specimens (cadaveric studies)
+
+-   [ ] Course-related activities designated specifically for educational or teaching purposes, where data is collected from and about human subjects as part of a class exercise or assignment but are not intended for use outside of the classroom (not intended to develop or contribute to generalizable knowledge).
+
+-   [ ] Case report(s) involving the observation of a patient or patients whose novel condition or response to treatment was guided by the care provider's judgment regarding the best interest of the individual and no comparison of data is taking place. Please note that Rush HIPAA policies must be followed[^3].
+
+-   [ ] Collection of data with the sole purpose to conduct a quality improvement/quality assurance project for internal use only. This also applies to students of Rush University who are employed at another medical center, when the work is part of their class requirements and the employer institution has certified the activities do not constitute human subjects research.
+
+-   [ ] Other research that is not human subjects or animal research, but does not fit the criteria above (e.g., publicly available de-identified data).
+
+[^3]: Case Reports: If an author develops a case report with no prior research intent, Rush University Medical Center IRB does not require review if the report does not meet the regulatory definition of research. In many instances, case reports do involve a human subject(s) by definition and may contribute to generalized knowledge by presentation or publication. A case report (3 or fewer patients) generally does not meet the definition of a systematic investigation. A case report describes an interesting treatment, presentation, or outcome. A critical component is that nothing was done to the patient(s) with prior "research" intent. Please note that Rush HIPAA policies must be followed. NOTE: The case report should not involve more than 3 patients. If it involves more than 3 patients, then you would need to submit an IRB application through the Rush Research Portal.
+
+**If you chose Other from the question immediately above, please explain**:
+
+::: callout-note
+Per Policy RA-IRB-118, activities that the Rush IRB may determine do not represent human subjects' research and do not require submission in the Rush Research Portal (RRP) include the following categories. Please select the category that applies to your project. If it is determined that your project does not fit any of these categories, you will be required to submit the project through the Rush Research Portal. Please see Rush RA-IRB-118 policy, 118 FAQs, and 118 guidance document which can all be found within the Rush Research Portal.
+:::
+
+## Items below must be completed:
+
+1.  A description of project/case study and an **abstract of the project including goals and methods**.
+
+2.  If the project involves the use/analysis of deceased individuals' information or specimens, a completed **"[HIPAA Use/Disclosure without Authorization](https://rrp.rush.edu/researchportal/sd/Doc/0/68S7HCIHKS8USBSHMR1R0LIG00/HIPAA%20Research%20Use--Disclosure%20Without%20Authorization7.2023.docx)" form**[^4]
+
+3.  **Material / Data Transfer Agreement** (when applicable)[^5]
+
+[^4]: **(1)** Explain where and how you plan to obtain the information/specimens. Discuss if your activity or investigation involves identifiable private information. If applicable, please address your access to secondary data by means listed below. **(2)** If the project involves the sharing of Rush specimens (material) or data with another institution, then a signed and fully executed Rush Material Transfer Agreement or a RUMC Data Transfer Agreement (Basic Science Data) must be submitted. **(3)** A Data Transfer Agreement (DTA) for basic science data is used when Rush researchers are transferring basic science data (i.e., no human subject data) to another institution. A DTA is a legal contract governing the transfer of non-human subject data or completely de-identified human subject data.
+
+[^5]: A Material Transfer Agreement (MTA) is required when Rush is transferring material to another institution. An MTA is a contract that governs the transfer of tangible research materials between two organizations when the recipient intends to use it for his or her own research purposes. The MTA defines the rights of the provider and the rights and obligations of the recipient with respect to the materials and any progeny, derivatives, or modifications. NOTE: Please contact Rush Office of Legal Affairs if you have any questions about the MTA/DUA.
+
+```{=html}
+<!-- -->
+```
+4.  **Will this project be conducted at Rush**: Yes / No
+
+5.  **COVID-19 Project**: Yes / No
+
+6.  If your study involves chart/database reviews, please upload a copy of your **data collection tool (DCT)** for this study[^6].
+
+[^6]: A data collection tool is a simple list of aggregate data points that will be retrieved from each chart/file/database.
